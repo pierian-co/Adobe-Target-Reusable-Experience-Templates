@@ -1,3 +1,4 @@
+//Collapsable Toastr with Close button
 var config = {
 	    "initialDelay":{
 			"time":100
