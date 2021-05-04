@@ -17,15 +17,15 @@ let config = {
         "title": {
             "text": "Heading Text",
             "colour": "black",
-			"fontFamily":"Vodafone"
+	    "fontFamily":"Vodafone"
         },
         "message": {
             "text": "Samsung Galaxy S10 mit dem Red S 10 GB",
             "fontSize": "20px",
             "colour": "#333",
-			"fontFamily":"Vodafone"
+	    "fontFamily":"Vodafone"
         },
-		"ctaCount": {
+	    "ctaCount": {
             "singleCTA": "none" //type "none" to show 2 buttons
         },
         "ctaLink1": {
