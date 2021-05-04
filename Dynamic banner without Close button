@@ -1,3 +1,4 @@
+//Dynamic banner without Close button
 let config = {
 	    "initialDelay":{
 			"time":100
