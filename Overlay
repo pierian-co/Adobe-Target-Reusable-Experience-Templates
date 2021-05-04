@@ -1,3 +1,4 @@
+//Overlay
 var config = {
     "overlayStyle": {
         "imgUrl": "https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg", // image url of overlay  https://cdn.pixabay.com/photo/2015/11/10/08/31/overlay-1036483__340.jpg
