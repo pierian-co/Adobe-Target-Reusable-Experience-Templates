@@ -1,3 +1,4 @@
+//Side Nudge
 var config = {
     "mainButton":{
 		"text":"Your offer",
