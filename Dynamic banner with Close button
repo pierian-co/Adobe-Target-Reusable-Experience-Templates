@@ -1,3 +1,4 @@
+ //Dynamic banner with Close button
  var config = {
 	    "initialDelay":{
 			"time":100
