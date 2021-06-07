@@ -320,16 +320,17 @@ maxwidth = "860px";
                 document.querySelector("#closebtn2").onclick = function() {
                     slideToggle(document.getElementById("mid"), 2000)
                 }
+                if(config.ctaCount.singleCTA ==  "none"){
                 if (config.ctaLink2.closeButton == "yes") {
                     document.querySelector("#closeb").setAttribute("href", "javascript:void(0)");
                     document.querySelector("#closeb").setAttribute("target", "_self");
                     document.querySelectorAll(".btn")[1].onclick = function() {
                         slideToggle(document.getElementById("mid"), 2000)
                     }
-                }
+                }}
                 let dd = document.querySelector(".dd-main");
                 document.querySelector("#mid").prepend(dd);
-                clearInterval(t)
+              clearInterval(t)
             }
         }, config.initialDelay.time)
     } catch (t) {}
