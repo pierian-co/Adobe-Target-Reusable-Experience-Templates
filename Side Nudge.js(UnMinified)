@@ -123,6 +123,7 @@ function closeNav() {
 	}
 }
 //closebutton cta
+if(config.ctaNo.singleCTA=="none"){
 if(config.ctaLink2.iscloseButton=="yes"){
 document.querySelector("#closeb").setAttribute("href","javascript:void(0)");
 document.querySelector("#closeb").setAttribute("target","_self");
@@ -135,7 +136,7 @@ document.querySelectorAll(".btn")[1].onclick=function(){
 	else{
 		document.querySelector(".psb").style.display = "none";
 	}
-	}}
+	}}}
 
 //Close button click
 document.querySelector("#closebtn1").onclick=function(){
