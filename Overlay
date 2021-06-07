@@ -286,6 +286,7 @@ var maxwidth = "5000px";
                         }
                         
                     }
+                     if(config.ctaNo.singleCTA=="none"){
 					 if (config.ctaLink2.closeButton=="yes"){
 						 document.querySelector("#closeb").setAttribute("href","javascript:void(0)");
 document.querySelector("#closeb").setAttribute("target","_self");
@@ -300,7 +301,7 @@ document.querySelector("#closeb").setAttribute("target","_self");
                             // $(".twoutemostsection").css("display", "none");
                         }
                         
-					 } }
+					 } }}
                     if (config.autoHide.activator == "yes" && config.autoHide.countDown == "") {
                         setTimeout(function() {
                            document.querySelector(overlayid).style.display="none";
