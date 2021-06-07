@@ -89,6 +89,7 @@ maxwidth = "860px";
     try {
         var t = setInterval(function() {
             if (0 == document.querySelectorAll(".psb").length) {
+                if(document.querySelectorAll(config.bannerPosition.selector).length>0){
                 if (function(t, e) {
                         var n = document.createElement("div");
                         n.className = "psb", n.id = "bnr1";
@@ -331,9 +332,12 @@ maxwidth = "860px";
                         slideToggle(document.getElementById("mid"), 2000)
                     }
                 }}
-                
-                clearInterval(t)
             }
+            else{
+                console.log("selector where we need to insert banner is not present. Please check the selector")
+            }       
+                clearInterval(t)
+        }
         }, config.initialDelay.time)
     } catch (t) {}
 }()
