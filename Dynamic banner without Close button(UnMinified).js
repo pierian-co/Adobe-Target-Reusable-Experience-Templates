@@ -1,9 +1,10 @@
-let config = {
+
+  let config = {
     "initialDelay":{
         "time":100
     },
     "bannerPosition": {
-        "selector": "#root > div:nth-child(2) > div > div",
+        "selector": "#root > div > div:nth-child(1) > div > div",
         "location": "before" //before/after
     },
     "background": {
@@ -79,7 +80,7 @@ var delay = setInterval(function() {
             d = (config.ctaLink2.href, document.querySelector(".offerbadge_out")),
             l = document.querySelector(".offerbadge"),
             f = document.querySelector(".inflex2");
-        d.insertAdjacentHTML("afterend", '<div class="offerbox_out"> <div class="fadecontent fade-in"><div class="offerbox_headline"><span class="s_headline" style="color:' + config.message.colour + '">' + o + '</span> </div><div class="offerbox_in"><div class="innerflex1"> <div class="benefits"> <div class="inner_benefits"> <i class="check_per"></i> <a href=""><span class="innerspan">' + t + '</span></a> </div><div class="inner_benefits"><i class="check_per"></i> <a href=""><span class="innerspan">' + i + '</span></a> </div><div class="inner_benefits"><i class="check_per"></i> <a href=""><span class="innerspan">' + n + '</span></a> </div></div></div><div class="innerflex2"> <a class="red-cta-link" href="' + s + '"><button type="button" class="red-cta">' + a + '</button></a> <a class="white-cta-link" href="' + config.ctaLink2.href + '"><button type="button" class="white-cta">' + r + "</button></a> </div></div></div></div>");
+        d.insertAdjacentHTML("afterend", '<div class="offerbox_out"> <div class="fadecontent fade-in"><div class="offerbox_headline"><span class="s_headline" style="color:' + config.message.colour + '">' + o + '</span> </div><div class="offerbox_in"><div class="innerflex1"> <div class="benefits"> <div class="inner_benefits"> <i class="check_per"></i> <a href='+config.subHeading.subHeading1Href+'><span class="innerspan">' + t + '</span></a> </div><div class="inner_benefits"><i class="check_per"></i> <a href='+config.subHeading.subHeading2Href+'><span class="innerspan">' + i + '</span></a> </div><div class="inner_benefits"><i class="check_per"></i> <a href='+config.subHeading.subHeading3Href+'><span class="innerspan">' + n + '</span></a> </div></div></div><div class="innerflex2"> <a class="red-cta-link" href="' + s + '"><button type="button" class="red-cta">' + a + '</button></a> <a class="white-cta-link" href="' + config.ctaLink2.href + '"><button type="button" class="white-cta">' + r + '</button></a> </div></div></div></div>');
         if (config.ctaCount.singleCTA != "none") {
             document.querySelector(".white-cta-link").style.display = "none";
         }
