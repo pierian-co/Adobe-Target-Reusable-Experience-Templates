@@ -56,7 +56,7 @@ var config_toastr_V1 = {
         "fontFamily": "VodafoneRegular"
     },
     "ctaLink2": {
-        "text": "close_toastr_V1 Offer",
+        "text": "Close Offer",
         "href": "",
         "fontSize": "18px",
         "backgroundColour": "white",
