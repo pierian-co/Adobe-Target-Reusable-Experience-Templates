@@ -17,7 +17,7 @@ var passed_JSON = {
 }
 
 
-
+showBanner();
 
 function showBanner() {
 
@@ -727,4 +727,3 @@ ObjectValues(passed_JSON);
 
 }
 
-showBanner();
