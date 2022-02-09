@@ -3,7 +3,7 @@
 
 ## Overlay
 
-![Share GoogleSheets with Google Service Account Editor Access](https://user-images.githubusercontent.com/71815964/104573412-c3f44180-564c-11eb-81ce-c528fa7eb422.png)
+![Overlay](https://user-images.githubusercontent.com/71815964/153300927-b76c7fa9-d9a6-4908-ab80-c61f3bc5092f.png)
 
 ## Side Nudge
 
