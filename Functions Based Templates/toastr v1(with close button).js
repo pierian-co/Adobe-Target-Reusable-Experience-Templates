@@ -16,7 +16,7 @@ var passed_JSON = {
 showBanner();
 
 function showBanner() {
-	var config_toastr_V1 = {
+	var config_toastr_v1 = {
 			"initialDelay": {
 				"time": 100
 			},
@@ -117,8 +117,8 @@ function showBanner() {
 			console.log(k + ":" + v);
 			let str = k;
 			let myArr = str.split(".");
-			config_toastr_V1[myArr[0]][myArr[1]] = v;
-			console.log(config_toastr_V1[myArr[0]][myArr[1]]);
+			config_toastr_v1[myArr[0]][myArr[1]] = v;
+			console.log(config_toastr_v1[myArr[0]][myArr[1]]);
 		}
 	};
 	ObjectValues(passed_JSON);
@@ -186,8 +186,8 @@ function showBanner() {
 							mid_toastr_V1.style.borderWidth = t.borderStyle.width;
 							mid_toastr_V1.style.borderStyle = t.borderStyle.style;
 							mid_toastr_V1.style.borderColor = t.borderStyle.colour;
-							if(config_toastr_V1.background.imageUrl != "") {
-								mid_toastr_V1.style.backgroundImage = "url('" + config_toastr_V1.background.imageUrl + "')"
+							if(config_toastr_v1.background.imageUrl != "") {
+								mid_toastr_V1.style.backgroundImage = "url('" + config_toastr_v1.background.imageUrl + "')"
 							} else {
 								mid_toastr_V1.style.backgroundColor = t.background.backgroundColour
 							}
@@ -276,14 +276,14 @@ function showBanner() {
 							E.id = "tm", E.style.bacgroundColor = "red", E.style.color = "white", E.style.fontSize = "20px", E.style.textAlign = "center";
 							var I = document.createElement("span");
 							I.id = "timer", E.appendChild(I), z(E, document.querySelector(i)), document.querySelector("body").insertAdjacentHTML("beforeend", "<style>#mid_toastr_V1{display: block;bottom: 0px;left: 0px;right: 0px;z-index: 57;position: fixed;}.mod-mph-flex-anchor {z-index: 56;}.dd-button { position: absolute; content: ''; width: 13px; height: 13px; border-top: 3px solid #444; border-right: 3px solid #444; -webkit-transform: rotate(135deg); transform: rotate(135deg); border-radius: 2px; left: 8px; top: 7px; border-color:white;}.dd-main { border: 2px solid #666;width: 34px;height: 34px;position: relative;border-radius: 100%;box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;border-color: white;margin: 0vh auto 0;margin-top: -33px;z-index: 2;background: #464343;transition: 0.5s ease;}.down { -moz-transform:rotate(135deg); -webkit-transform:rotate(135deg); transform:rotate(180deg);} .close_toastr_V1 {float:right;display:inline-block;padding:5px 10px; color:white;}.close_toastr_V1:hover {float:right;display:inline-block;color:#fff; cursor: pointer;}#bannerBtn1{ margin-left: 10px; padding: 0px; display: inline-block; background: none;} .top-text {display: inline-block; margin-right:10px;} @media only screen and (max-width: " + maxwidth + "){ #bannerBtn1{margin-left:0px; max-width:145px; width: 50%;    margin-top: 10px; margin-bottom: 10px;} .top-text{display:block;}}@media only screen and (max-width:1200px ){#lImgId{width:" + t.logoImage.mediumScreenLogoWidth + "; position: absolute; margin-left:0px; margin-top:0px;}}@media only screen and (max-width:814px ){#lImgId{width:" + t.logoImage.smallScreenLogoWidth + "; position: absolute;margin-left:0px; margin-top:0px;}}@media only screen and (min-width:1200px ){#lImgId{width:" + t.logoImage.largeScreenLogoWidth + "; position: absolute; margin-top:14px}}@media only screen and (max-width:600px ){.descriptionText_toastr_V1{font-size:" + t.message.fontSizeMobile + ";}}@media only screen and (min-width:601px ){.descriptionText_toastr_V1{font-size:" + t.message.fontSizeDesktop + ";}}@keyframes bounce {0%, 20%, 50%, 80%, 100% {transform: translateY(0);}40% {transform: translateY(-30px);}60% {transform: translateY(-15px);}}.bounce-in-bottom {-webkit-animation: bounce-in-bottom 1.1s both;animation: bounce-in-bottom 1.1s both;}}@-webkit-keyframes bounce-in-bottom {0% {-webkit-transform: translateY(500px);transform: translateY(500px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;opacity: 0;}38% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;opacity: 1;}55% {-webkit-transform: translateY(65px);transform: translateY(65px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}72% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}81% {-webkit-transform: translateY(28px);transform: translateY(28px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}90% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}95% {-webkit-transform: translateY(8px);transform: translateY(8px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}100% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}}@keyframes bounce-in-bottom {0% {-webkit-transform: translateY(500px);transform: translateY(500px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;opacity: 0;}38% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;opacity: 1;}55% {-webkit-transform: translateY(65px);transform: translateY(65px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}72% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}81% {-webkit-transform: translateY(28px);transform: translateY(28px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}90% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}95% {-webkit-transform: translateY(8px);transform: translateY(8px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}100% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}}.swing-in-top-fwd {-webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;}@-webkit-keyframes swing-in-top-fwd {0% {-webkit-transform: rotateX(-100deg);transform: rotateX(-100deg);-webkit-transform-origin: top;transform-origin: top;opacity: 0;}100% {-webkit-transform: rotateX(0deg);transform: rotateX(0deg);-webkit-transform-origin: top;transform-origin: top;opacity: 1;}}@keyframes swing-in-top-fwd {0% {-webkit-transform: rotateX(-100deg);transform: rotateX(-100deg);-webkit-transform-origin: top;transform-origin: top;opacity: 0;}100% {-webkit-transform: rotateX(0deg);transform: rotateX(0deg);-webkit-transform-origin: top;transform-origin: top;opacity: 1;}}.slide-in-top {-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}@-webkit-keyframes slide-in-top {0% {-webkit-transform: translateY(-1000px);transform: translateY(-1000px);opacity: 0;}100% {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}@keyframes slide-in-top {0% {-webkit-transform: translateY(-1000px);transform: translateY(-1000px);opacity: 0;}100% {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}.slider{position:absolute;width:100%;top:0;height:100%;overflow:hidden;transition:all 1s}.slider.close_toastr_V1{top:100%;height:0}</style>")
-						}(config_toastr_V1, "body"), "" == config_toastr_V1.subHeading.flag && (document.querySelector(".descriptionText_toastr_V1").style.paddingBottom = "30px"), "yes" == config_toastr_V1.autoHide.flag && "yes" == config_toastr_V1.autoHide.countDown) var e = 0,
+						}(config_toastr_v1, "body"), "" == config_toastr_v1.subHeading.flag && (document.querySelector(".descriptionText_toastr_V1").style.paddingBottom = "30px"), "yes" == config_toastr_v1.autoHide.flag && "yes" == config_toastr_v1.autoHide.countDown) var e = 0,
 						n = setInterval(function() {
-							++e === config_toastr_V1.autoHide.time && (slideToggle(document.getElementById("mid_toastr_V1"), 2000), clearInterval(n));
-							var t = config_toastr_V1.autoHide.time - e;
-							document.getElementById("timer").innerHTML = config_toastr_V1.autoHide.countDownText + " " + t + " seconds", document.getElementById("tm").style.backgroundColor = "black"
+							++e === config_toastr_v1.autoHide.time && (slideToggle(document.getElementById("mid_toastr_V1"), 2000), clearInterval(n));
+							var t = config_toastr_v1.autoHide.time - e;
+							document.getElementById("timer").innerHTML = config_toastr_v1.autoHide.countDownText + " " + t + " seconds", document.getElementById("tm").style.backgroundColor = "black"
 						}, 1e3);
-					if(config_toastr_V1.title.flag = "yes") {
-						document.querySelector(".psb_toastr_V1").insertAdjacentHTML('beforebegin', '<style>@media only screen and (max-width:600px ){#heading{font-size:' + config_toastr_V1.title.fontSizeMobile + ';}#lImgId1{width:30px;}}@media only screen and (min-width:601px ){#heading{font-size:' + config_toastr_V1.title.fontSizeDesktop + ';}#lImgId1{width:35px;}}</style><div id="mid1" style="overflow: hidden;z-index: 1010;display: block;"><img src="https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-ghana-14.png" align="left" id="lImgId1" style="position: relative;top: 3px;left: 2px;"><span class="close_toastr_V1" id="closebtn2"><img class="manImg" src="https://iili.io/2zu8Zl.md.png" style="width: 20px; height: 20px;"></span><h1 id="heading" style="text-align: center;color: ' + config_toastr_V1.title.colour + ';font-family: ' + config_toastr_V1.title.fontFamily + ';padding: 5px 0px 5px;margin: 0px;">' + config_toastr_V1.title.text + '</h1></div>')
+					if(config_toastr_v1.title.flag = "yes") {
+						document.querySelector(".psb_toastr_V1").insertAdjacentHTML('beforebegin', '<style>@media only screen and (max-width:600px ){#heading{font-size:' + config_toastr_v1.title.fontSizeMobile + ';}#lImgId1{width:30px;}}@media only screen and (min-width:601px ){#heading{font-size:' + config_toastr_v1.title.fontSizeDesktop + ';}#lImgId1{width:35px;}}</style><div id="mid1" style="overflow: hidden;z-index: 1010;display: block;"><img src="https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-ghana-14.png" align="left" id="lImgId1" style="position: relative;top: 3px;left: 2px;"><span class="close_toastr_V1" id="closebtn2"><img class="manImg" src="https://iili.io/2zu8Zl.md.png" style="width: 20px; height: 20px;"></span><h1 id="heading" style="text-align: center;color: ' + config_toastr_v1.title.colour + ';font-family: ' + config_toastr_v1.title.fontFamily + ';padding: 5px 0px 5px;margin: 0px;">' + config_toastr_v1.title.text + '</h1></div>')
 						let slideUp = (target, duration = 500) => {
 							target.style.transitionProperty = 'height, margin, padding';
 							target.style.transitionDuration = duration + 'ms';
@@ -352,8 +352,8 @@ function showBanner() {
 					document.querySelector("#closebtn2").onclick = function() {
 						slideToggle(document.getElementById("mid_toastr_V1"), 2000)
 					}
-					if(config_toastr_V1.ctaCount.singleCTA == "none") {
-						if(config_toastr_V1.ctaLink2.closeButton == "yes") {
+					if(config_toastr_v1.ctaCount.singleCTA == "none") {
+						if(config_toastr_v1.ctaLink2.closeButton == "yes") {
 							document.querySelector("#closeb_toastr_V1").setAttribute("href", "javascript:void(0)");
 							document.querySelector("#closeb_toastr_V1").setAttribute("target", "_self");
 							document.querySelectorAll(".btn")[1].onclick = function() {
@@ -365,7 +365,7 @@ function showBanner() {
 					document.querySelector("#mid_toastr_V1").prepend(dd);
 					clearInterval(t)
 				}
-			}, config_toastr_V1.initialDelay.time)
+			}, config_toastr_v1.initialDelay.time)
 		} catch(t) {}
 	}()
 }
