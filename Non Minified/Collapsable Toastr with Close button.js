@@ -32,14 +32,14 @@ var config_toastr_v1 = {
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "20px",
 		"colour": "white",
-		"fontFamily": "VodafoneRegular"
+		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"message": {
 		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "20px",
 		"colour": "white",
-		"fontFamily": "VodafoneRegular"
+		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"ctaCount": {
 		"singleCTA": "none" //type "none" to show 2 buttons
@@ -51,7 +51,7 @@ var config_toastr_v1 = {
 		"backgroundColour": "white",
 		"textColor": "black",
 		"borderRadius": "6px",
-		"fontFamily": "VodafoneRegular"
+		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"ctaLink2": {
 		"text": "Close Offer",
@@ -60,7 +60,7 @@ var config_toastr_v1 = {
 		"backgroundColour": "white",
 		"textColor": "red",
 		"borderRadius": "6px",
-		"fontFamily": "VodafoneRegular",
+		"fontFamily": "Arial, Helvetica, sans-serif",
 		"closeButton": "yes"
 	},
 	"subHeading": {
