@@ -40,7 +40,7 @@ var config_sideNudge = {
 		"backgroundColor": "white",
 		"textColor": "black",
 		"borderRadius": "0px",
-		"fontFamily": "VodafoneRegular"
+		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"ctaLink2": {
 		"text": "Close Offer",
@@ -49,7 +49,7 @@ var config_sideNudge = {
 		"backgroundColor": "white",
 		"textColor": "red",
 		"borderRadius": "0px",
-		"fontFamily": "VodafoneRegular",
+		"fontFamily": "Arial, Helvetica, sans-serif",
 		"iscloseButton": "yes"
 	},
 	"subHeading": {
