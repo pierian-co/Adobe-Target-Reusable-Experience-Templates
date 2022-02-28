@@ -51,7 +51,7 @@ var config_banner_v1 = {
 			"backgroundColour": "white",
 			"textColor": "black",
 			"borderRadius": "6px",
-			"fontFamily": "VodafoneRegular"
+			"fontFamily": "Arial, Helvetica, sans-serif"
 		},
 		"ctaLink2": {
 			"text": "Close Offer",
@@ -59,7 +59,7 @@ var config_banner_v1 = {
 			"fontSize": "18px",
 			"backgroundColour": "white",
 			"textColor": "red",
-			"fontFamily": "VodafoneRegular",
+			"fontFamily": "Arial, Helvetica, sans-serif",
 			"closeButton": "yes"
 		},
 		"subHeading": {
