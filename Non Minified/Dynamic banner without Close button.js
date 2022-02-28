@@ -17,13 +17,13 @@ let config_banner_v2 = {
 	"title": {
 		"text": "Heading Text",
 		"colour": "black",
-		"fontFamily": "Vodafone"
+		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"message": {
 		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",
 		"fontSize": "20px",
 		"colour": "#333",
-		"fontFamily": "Vodafone"
+		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"ctaCount": {
 		"singleCTA": "none" //type "none" to show 2 buttons
@@ -34,7 +34,7 @@ let config_banner_v2 = {
 		"fontSize": "16px",
 		"backgroundColour": "#e60000",
 		"textColour": "white",
-		"fontFamily": "Vodafone"
+		"fontFamily":"Arial, Helvetica, sans-serif"
 	},
 	"ctaLink2": {
 		"text": "Close Offer",
@@ -42,7 +42,7 @@ let config_banner_v2 = {
 		"fontSize": "16px",
 		"backgroundColour": "#fff",
 		"textColour": "black",
-		"fontFamily": "Vodafone",
+		"fontFamily": "Arial, Helvetica, sans-serif",
 		"closeButton": "yes"
 	},
 	"subHeading": {
@@ -54,7 +54,7 @@ let config_banner_v2 = {
 		"subHeading3Href": "",
 		"fontSize": "16px",
 		"textColour": "#000",
-		"fontFamily": "Vodafone"
+		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"logoImage": {
 		"flag": "yes",
