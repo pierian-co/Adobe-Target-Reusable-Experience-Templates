@@ -84,7 +84,7 @@ var config_banner_v1 = {
 		}
 	},
 	maxwidth = "860px";
-! function() {
+	! function() {
 	try {
 		var t = setInterval(function() {
 			if(0 == document.querySelectorAll(".psb_temp1").length) {
