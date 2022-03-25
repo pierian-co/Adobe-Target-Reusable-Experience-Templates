@@ -19,7 +19,6 @@ var config_toastr_v1 = {
 	"collapseAndExpandButton": {
 		"flag": "yes", // yes to activate
 		"imageUrl": "", //"https://i.imgur.com/KqHD37h.png",
-		"thinLine": "yes" // yes to activate thinline
 	},
 	"borderStyle": {
 		"width": "2px",
@@ -83,8 +82,7 @@ var config_toastr_v1 = {
 	},
 	"animation": {
 		"flag": "",
-		"animationType": "bounce", //fade/bounce/swing/slide
-		"occurence": "true"
+		"animationType": "bounce" //fade/bounce/swing/slide
 	}
 },
 maxwidth = "860px";

@@ -17,7 +17,6 @@ var config_overlay = {
 	"collapseButton": {
 		"activator": "", // yes to activate
 		"imageUrl": "https://i.imgur.com/KqHD37h.png",
-		"thinLine": "yes" // yes to activate thinline 
 	},
 	"borderStyle": {
 		"width": "5px",
