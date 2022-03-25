@@ -1,8 +1,8 @@
 //Overlay
 var config_overlay = {
 	"overlayStyle": {
-		"imgUrl": "https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg", // image url of overlay  https://cdn.pixabay.com/photo/2015/11/10/08/31/overlay-1036483__340.jpg
-		"backgroundColor": "#464343"
+		"imgUrl": "",
+		"backgroundColor": "red"
 	},
 	"autoHide": {
 		"activator": "", // yes to activate
@@ -73,8 +73,7 @@ var config_overlay = {
 	},
 	"logoImage": {
 		"activator": "yes",
-		//"url":"https://www.freepnglogos.com/uploads/vodafone-png-logo/free-vodafone-logos-20.png",
-		"url": "https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-ghana-14.png", //"https://media2.giphy.com/media/Jn3u29QTykjF2giZTZ/giphy.gif",//"https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-ghana-14.png",
+		"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w",
 		"largeScreenLogoWidth": "175px",
 		"mediumScreenLogoWidth": "175px",
 		"smallScreenLogoWidth": "175px"

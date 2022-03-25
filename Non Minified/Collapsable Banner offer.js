@@ -7,7 +7,7 @@ var config_banner_v1 = {
 			"location": "before" //before/after
 		},
 		"background": {
-			"imageUrl": "https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg", //"https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg", // image url of banner  https://cdn.pixabay.com/photo/2015/11/10/08/31/banner-1036483__340.jpg
+			"imageUrl": "",
 			"backgroundColour": "red"
 		},
 		"autoHide": {
@@ -75,7 +75,7 @@ var config_banner_v1 = {
 		},
 		"logoImage": {
 			"flag": "yes",
-			"url": "https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-ghana-14.png"
+			"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w"
 		},
 		"animation": {
 			"flag": "",

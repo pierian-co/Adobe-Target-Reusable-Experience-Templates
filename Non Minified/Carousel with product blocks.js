@@ -13,7 +13,7 @@ var config_carousal_v1 = {
 			"text": "Product 1"
 		},
 		"image": {
-			"imageUrl": "https://cdn.vodafone.co.uk/en/assets/images/desktop/Samsung_Galaxy_S21+_5G_phantom_black-full-product-front-600.png"
+			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
 		},
 		"amount": {
 			"text": "20000"
@@ -39,7 +39,7 @@ var config_carousal_v1 = {
 			"text": "Product 2"
 		},
 		"image": {
-			"imageUrl": "https://cdn.vodafone.co.uk/en/assets/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-full-product-front-600.png"
+			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
 		},
 		"amount": {
 			"text": "10000"
@@ -65,7 +65,7 @@ var config_carousal_v1 = {
 			"text": "Product 3"
 		},
 		"image": {
-			"imageUrl": "https://cdn.vodafone.co.uk/en/assets/images/desktop/Motorola_Moto_g5G_Plus_surfing_blue-full-product-front-600.png"
+			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
 		},
 		"amount": {
 			"text": "30000"

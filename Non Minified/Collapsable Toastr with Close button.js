@@ -3,8 +3,8 @@ var config_toastr_v1 = {
 		"time": 100
 	},
 	"background": {
-		"imageUrl": "https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg", //"https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg", // image url of banner  https://cdn.pixabay.com/photo/2015/11/10/08/31/banner-1036483__340.jpg
-		"backgroundColour": "grey"
+		"imageUrl": "", 
+		"backgroundColour": "red"
 	},
 	"autoHide": {
 		"flag": "", // yes to activate
@@ -76,7 +76,7 @@ var config_toastr_v1 = {
 	},
 	"logoImage": {
 		"flag": "",
-		"url": "https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-ghana-14.png",
+		"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w",
 		"largeScreenLogoWidth": "134px",
 		"mediumScreenLogoWidth": "70px",
 		"smallScreenLogoWidth": "57px"
@@ -84,6 +84,7 @@ var config_toastr_v1 = {
 	"animation": {
 		"flag": "",
 		"animationType": "bounce", //fade/bounce/swing/slide
+		"occurence": "true"
 	}
 },
 maxwidth = "860px";
@@ -248,7 +249,7 @@ try {
 					document.getElementById("timer").innerHTML = config_toastr_v1.autoHide.countDownText + " " + t + " seconds", document.getElementById("tm").style.backgroundColor = "black"
 				}, 1e3);
 			if(config_toastr_v1.title.flag == "yes") {
-				document.querySelector(".psb_toastr_V1").insertAdjacentHTML('beforebegin', '<style>@media only screen and (max-width:600px ){#heading{font-size:' + config_toastr_v1.title.fontSizeMobile + ';}#lImgId1{width:30px;}}@media only screen and (min-width:601px ){#heading{font-size:' + config_toastr_v1.title.fontSizeDesktop + ';}#lImgId1{width:35px;}}</style><div id="mid1" style="overflow: hidden;z-index: 1010;display: block;"><img src="https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-ghana-14.png" align="left" id="lImgId1" style="position: relative;top: 3px;left: 2px;"><span class="close_toastr_V1" id="closebtn2"><img class="manImg" src="https://iili.io/2zu8Zl.md.png" style="width: 20px; height: 20px;"></span><h1 id="heading" style="text-align: center;color: ' + config_toastr_v1.title.colour + ';font-family: ' + config_toastr_v1.title.fontFamily + ';padding: 5px 0px 5px;margin: 0px;">' + config_toastr_v1.title.text + '</h1></div>')
+				document.querySelector(".psb_toastr_V1").insertAdjacentHTML('beforebegin', '<style>@media only screen and (max-width:600px ){#heading{font-size:' + config_toastr_v1.title.fontSizeMobile + ';}#lImgId1{width:30px;}}@media only screen and (min-width:601px ){#heading{font-size:' + config_toastr_v1.title.fontSizeDesktop + ';}#lImgId1{width:35px;}}</style><div id="mid1" style="overflow: hidden;z-index: 1010;display: block;"><img src="https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w" align="left" id="lImgId1" style="position: relative;top: 3px;left: 2px;"><span class="close_toastr_V1" id="closebtn2"><img class="manImg" src="https://iili.io/2zu8Zl.md.png" style="width: 20px; height: 20px;"></span><h1 id="heading" style="text-align: center;color: ' + config_toastr_v1.title.colour + ';font-family: ' + config_toastr_v1.title.fontFamily + ';padding: 5px 0px 5px;margin: 0px;">' + config_toastr_v1.title.text + '</h1></div>')
 				let slideUp = (target, duration = 500) => {
 					target.style.transitionProperty = 'height, margin, padding';
 					target.style.transitionDuration = duration + 'ms';
