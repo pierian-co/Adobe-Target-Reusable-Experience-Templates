@@ -1,42 +1,42 @@
 var carousel_settings = {
-    headline: 'H3 Uberschrift',
-    slide1: {
-        href: '',
-        img: '',
-        headline: '',
-        price: '',
-        ctaText: 'Zu den Angeboten',
-        backgroundColor: '#eee'
+    'headline': 'H3 Uberschrift',
+    'slide1': {
+      'href': '',
+      'img': '',
+      'headline': '',
+      'price': '',
+      'ctaText': 'Zu den Angeboten',
+      'backgroundColor': '#eee'
     },
-    slide2: {
-        href: '',
-        img: '',
-        headline: '',
-        price: '',
-        ctaText: 'Zu den Angeboten',
-        backgroundColor: '#eee'
+    'slide2': {
+      'href': '',
+      'img': '',
+      'headline': '',
+      'price': '',
+      'ctaText': 'Zu den Angeboten',
+      'backgroundColor': '#eee'
     },
-    slide3: {
-        href: '',
-        img: '',
-        headline: '',
-        price: '',
-        ctaText: 'Zu den Angeboten',
-        backgroundColor: '#eee'
+    'slide3': {
+      'href': '',
+      'img': '',
+      'headline': '',
+      'price': '',
+      'ctaText': 'Zu den Angeboten',
+      'backgroundColor': '#eee'
     },
-    initSlider: {
-        carousel: '#carousel-one-by-one',
-        slide: '.slide',
-        oneByOne: true,
-        btnNext: '',
-        btnRight: '',
-        speed: '',
-        delay: '',
-        effect: '',
-        infinite: '',
-        autoplay: '',
-        autoplayDelay: '',
-        autoplayDirection: ''
+    'initSlider': {
+      'carousel': '#carousel-one-by-one',
+      'slide': '.slide',
+      'oneByOne': true,
+      'btnNext': '',
+      'btnRight': '',
+      'speed': '',
+      'delay': '',
+      'effect': '',
+      'infinite': '',
+      'autoplay': '',
+      'autoplayDelay': '',
+      'autoplayDirection': ''
     }
 }
 
