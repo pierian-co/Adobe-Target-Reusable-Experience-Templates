@@ -12,7 +12,6 @@ var carousel_settings = {
     'headline': '',
     'price': '',
     'ctaText': 'Zu den Angeboten',
-    'backgroundColor': '#eee',
     'label': true,
     'labelName': 'Loream Ipsum'
   },
@@ -22,7 +21,6 @@ var carousel_settings = {
     'headline': '',
     'price': '',
     'ctaText': 'Zu den Angeboten',
-    'backgroundColor': '#eee',
     'label': false,
     'labelName': 'Loream Ipsum'
   },
@@ -32,7 +30,6 @@ var carousel_settings = {
     'headline': '',
     'price': '',
     'ctaText': 'Zu den Angeboten',
-    'backgroundColor': '#eee',
     'label': false,
     'labelName': ''
   },
@@ -42,13 +39,13 @@ var carousel_settings = {
     'oneByOne': true,
     'btnNext': '',
     'btnRight': '',
-    'speed': '400',
-    'delay': '',
-    'effect': '',
-    'infinite': '',
-    'autoplay': '',
-    'autoplayDelay': '',
-    'autoplayDirection': '',
+    'speed': '400', // time in ms
+    'delay': '', // time in ms
+    'effect': '', // linear|ease-in|ease-out|ease-in-out
+    'infinite': '', // true|false
+    'autoplay': 'true', // true|false
+    'autoplayDelay': '400', // time in ms
+    'autoplayDirection': 'next', // next|prev
   }
 }
 
@@ -141,7 +138,7 @@ window.PureJSCarousel = function (settings) {
     _.slidesContainer = document.createElement("div");
     _.carousel.insertBefore(_.slidesContainer, _.slides[0]);
     _.slidesContainer.className += " purejscarousel-slides-container";
-    if (_.infinite === true) {
+    if (_.infinite === 'true') {
       _.currentXPos = -(_.slides[0].offsetWidth * _.slides.length);
       _.slidesContainer.style.transform = "translateX(" + _.currentXPos + "px)";
       _.slidesContainer.style.width =
@@ -674,3 +671,5 @@ var carouselOneByOne = new PureJSCarousel({
   autoplayDelay: carousel_settings.initSlider.autoplayDelay || undefined,
   autoplayDirection: carousel_settings.initSlider.autoplayDirection || undefined
 });
+
+console.log(carousel_settings.initSlider.infinite == 'true')
