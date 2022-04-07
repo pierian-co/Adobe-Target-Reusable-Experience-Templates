@@ -3,7 +3,8 @@
 
 ## Overlay
 
-![image](https://user-images.githubusercontent.com/101316657/162180080-e762cf92-104c-4c10-9b5f-9974c816b607.png)
+![image](https://user-images.githubusercontent.com/101316657/162231168-deca8f19-9415-4999-b85b-7f246a76bd35.png)
+
 [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md)
            
 ## Side Nudge
