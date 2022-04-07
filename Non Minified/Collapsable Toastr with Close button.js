@@ -27,14 +27,14 @@ var config_toastr_v1 = {
 	},
 	"title": {
 		"flag": "yes",
-		"text": "Heading Text",
+		"text": "Heading Text", // Char limit 30 char
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "20px",
 		"colour": "white",
 		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"message": {
-		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",
+		"text": "Samsung Galaxy S10 mit dem Red S 10 GB", // char limit 50 char
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "20px",
 		"colour": "white",
@@ -44,7 +44,7 @@ var config_toastr_v1 = {
 		"singleCTA": "none" //type "none" to show 2 buttons
 	},
 	"ctaLink1": {
-		"text": "Check Offer",
+		"text": "Check Offer", // char limit 20 char
 		"href": "",
 		"fontSize": "18px",
 		"backgroundColour": "white",
@@ -53,7 +53,7 @@ var config_toastr_v1 = {
 		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"ctaLink2": {
-		"text": "Close Offer",
+		"text": "Close Offer", // char limit 20 char
 		"href": "",
 		"fontSize": "18px",
 		"backgroundColour": "white",
@@ -64,11 +64,11 @@ var config_toastr_v1 = {
 	},
 	"subHeading": {
 		"flag": "yes",
-		"subHeading1Text": "Offer 1",
+		"subHeading1Text": "Offer 1", // char limit 20 char
 		"subHeading1Href": "",
-		"subHeading2Text": "Offer 2",
+		"subHeading2Text": "Offer 2", // char limit 20 char
 		"subHeading2Href": "",
-		"subHeading3Text": "Offer 3",
+		"subHeading3Text": "Offer 3", // char limit 20 char
 		"subHeading3Href": "",
 		"fontSize": "15px",
 		"textColor": "white"

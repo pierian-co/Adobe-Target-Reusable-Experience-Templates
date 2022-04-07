@@ -1,7 +1,7 @@
 //Side Nudge
 var config_sideNudge = {
 	"mainButton": {
-		"text": "Your offer",
+		"text": "Your offer",  // char limit 20
 		"backgroundColor": "#e60000",
 		"textColor": "white",
 		"left": "0px"
@@ -19,13 +19,13 @@ var config_sideNudge = {
 		"imageUrl": "https://iili.io/2zu8Zl.md.png"
 	},
 	"title": {
-		"text": "This is Heading Offer",
+		"text": "This is Heading Offer",  // char limit 30
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "24px",
 		"colour": "white"
 	},
 	"message": {
-		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",
+		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",  // char limit 40
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "20px",
 		"colour": "white"
@@ -34,7 +34,7 @@ var config_sideNudge = {
 		"singleCTA": "" //type "none" to show 2 buttons
 	},
 	"ctaLink1": {
-		"text": "Check Offer",
+		"text": "Check Offer", // char limit 20
 		"href": "",
 		"fontSize": "18px",
 		"backgroundColor": "white",
@@ -43,7 +43,7 @@ var config_sideNudge = {
 		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"ctaLink2": {
-		"text": "Close Offer",
+		"text": "Close Offer", // char limit 20
 		"href": "",
 		"fontSize": "18px",
 		"backgroundColor": "white",
@@ -54,11 +54,11 @@ var config_sideNudge = {
 	},
 	"subHeading": {
 		"flag": "yes",
-		"subHeading1Text": "Offer 1",
+		"subHeading1Text": "Offer 1", // char limit 20
 		"subHeading1Href": "",
-		"subHeading2Text": "Offer 2",
+		"subHeading2Text": "Offer 2", // char limit 20
 		"subHeading2Href": "",
-		"subHeading3Text": "Offer 3",
+		"subHeading3Text": "Offer 3", // char limit 20
 		"subHeading3Href": "",
 		"fontSize": "15px",
 		"textColor": "white"

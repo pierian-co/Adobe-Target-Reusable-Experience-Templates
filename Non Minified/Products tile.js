@@ -10,7 +10,7 @@ var config_carousal_v2 = {
     },
     "Product1":{
         "title":{
-            "text":"Product 1"
+            "text":"Product 1"  // char limit 20
         },
         "image":{
             "imageUrl":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
@@ -19,10 +19,10 @@ var config_carousal_v2 = {
             "text":"20000"
         },
         "description":{
-            "text":"Galaxy S21 Ultra 5G"
+            "text":"Galaxy S21 Ultra 5G" // char limit 30
         },
         "message":{
-            "text":"Ultra-fast 5G speeds"
+            "text":"Ultra-fast 5G speeds"  // char limit 40
         },
         "Cta":{
             "text":"Buy Now", //cta was not showing corrected
@@ -36,7 +36,7 @@ var config_carousal_v2 = {
     },
     "Product2":{
         "title":{
-            "text":"Product 2"
+            "text":"Product 2" // char limit 20
         },
         "image":{
             "imageUrl":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
@@ -45,10 +45,10 @@ var config_carousal_v2 = {
             "text":"10000"
         },
         "description":{
-            "text":"iPhone 12 Pro Max"
+            "text":"iPhone 12 Pro Max" // char limit 30
         },
         "message":{
-            "text":"Capture life's moments perfectly"
+            "text":"Capture life's moments perfectly" // char limit 40
         },
         "Cta":{
             "text":"Buy Now", //cta was not showing corrected
@@ -62,7 +62,7 @@ var config_carousal_v2 = {
     },
     "Product3":{
         "title":{
-            "text":"Product 3"
+            "text":"Product 3" // char limit 20
         },
         "image":{
             "imageUrl":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
@@ -71,10 +71,10 @@ var config_carousal_v2 = {
             "text":"30000"
         },
         "description":{
-            "text":"Moto g 5G Plus"
+            "text":"Moto g 5G Plus" // char limit 30
         },
         "message":{
-            "text":"Bionic chip and a pro camera"
+            "text":"Bionic chip and a pro camera" // char limit 40
         },
         "Cta":{
             "text":"Buy Now",  //cta was not showing corrected

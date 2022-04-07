@@ -19,13 +19,13 @@ var config_carousal_v1 = {
 			"text": "20000"
 		},
 		"description": {
-			"text": "Galaxy S21 Ultra 5G Galaxy S21"
+			"text": "Galaxy S21 Ultra 5G Galaxy S21" // Not more than 40 char
 		},
 		"message": {
-			"text": "Ultra-fast 5G speeds Ultra-fast 5G speed  Ultra-fast"
+			"text": "Ultra-fast 5G speeds Ultra-fast 5G speed  Ultra-fast" // Not more than 60 char
 		},
 		"Cta": {
-			"text": "Buy Now",
+			"text": "Buy Now", // Not more than 20 char
 			"url": "google.com"
 		},
 		"Offer": {
@@ -45,13 +45,13 @@ var config_carousal_v1 = {
 			"text": "10000"
 		},
 		"description": {
-			"text": "iPhone 12 Pro Max iPhone 12"
+			"text": "iPhone 12 Pro Max iPhone 12" // Not more than 40 char
 		},
 		"message": {
-			"text": "Capture life's moments perfectly Capture life's moments perfectly"
+			"text": "Capture life's moments perfectly Capture life's moments perfectly"  // Not more than 60 char
 		},
 		"Cta": {
-			"text": "Buy Now",
+			"text": "Buy Now", // Not more than 20 char
 			"url": ""
 		},
 		"Offer": {
@@ -71,13 +71,13 @@ var config_carousal_v1 = {
 			"text": "30000"
 		},
 		"description": {
-			"text": "Moto g 5G Plus Moto g 5G Plus"
+			"text": "Moto g 5G Plus Moto g 5G Plus" // Not more than 40 char
 		},
 		"message": {
-			"text": "Bionic chip and a pro camera Bionic chip and a pro camera"
+			"text": "Bionic chip and a pro camera Bionic chip and a pro camera" // Not more than 60 char
 		},
 		"Cta": {
-			"text": "Buy Now",
+			"text": "Buy Now", // Not more than 20 char
 			"url": ""
 		},
 		"Offer": {
@@ -107,73 +107,79 @@ var fun = setInterval(function() {
 		document.querySelector(".offerDivP3").style.backgroundColor = config_carousal_v1.Product3.Offer.backgroundColor;
 		document.querySelector(".offerDivP3").style.display = "block";
 	}
-	if(screen.width >= 601 && screen.width < 901) {
-		const delay = 3000; //ms
-		const slides = document.querySelector(".slides");
-		const slidesCount = slides.childElementCount;
-		const maxLeft = (1) * 100 * -1;
-		let current = 0;
+	if(window.innerWidth >= 601 && window.innerWidth < 901) {
 		document.querySelector(".prev-slide").style.opacity = 0;
 		document.querySelector(".next-slide").style.opacity = 1;
-
-		function changeSlide(next = true) {
-			if(next) {
-				current += current > -50 ? -50 : 0;
-			} else {
-				current = current < 0 ? current + 50 : 0;
-			}
-			slides.style.left = current + "%";
-			if(slides.style.left == "0%") {
-				document.querySelector(".prev-slide").style.opacity = 0;
-				document.querySelector(".next-slide").style.opacity = 1;
-			}
-			if(slides.style.left == "-50%") {
-				document.querySelector(".prev-slide").style.opacity = 1;
-				document.querySelector(".next-slide").style.opacity = 0;
-			}
-		}
-		document.querySelector(".next-slide").addEventListener("click", function() {
-			changeSlide();
-		});
-		document.querySelector(".prev-slide").addEventListener("click", function() {
-			changeSlide(false);
-		});
 	}
 	if(window.innerWidth < 900) {
-		const delay = 3000; //ms
-		const slides = document.querySelector(".slides");
-		const slidesCount = slides.childElementCount;
-		const maxLeft = (slidesCount - 1) * 100 * -1;
-		let current = 0;
 		document.querySelector(".prev-slide").style.opacity = 0;
 		document.querySelector(".next-slide").style.opacity = 1;
+	}
+	const slides = document.querySelector(".slides");
+	const slidesCountMob = slides.childElementCount;
+	const maxLeftMob = (slidesCountMob - 1) * 100 * -1;
+	let currentMob = 0;
+	const delayMob = 3000; //ms
 
-		function changeSlide(next = true) {
-			if(next) {
-				current += current > maxLeft ? -100 : current * -1;
+	const slidesCountTab = slides.childElementCount;
+	const maxLeftTab = (1) * 100 * -1;
+	let currentTab = 0;
+
+	function changeSlideTab(next = true) {
+		if(next) {
+			currentTab += currentTab > -50 ? -50 : 0;
+		} else {
+			currentTab = currentTab < 0 ? currentTab + 50 : 0;
+		}
+		slides.style.left = currentTab + "%";
+		if(slides.style.left == "0%") {
+			document.querySelector(".prev-slide").style.opacity = 0;
+			document.querySelector(".next-slide").style.opacity = 1;
+		}
+		if(slides.style.left == "-50%") {
+			document.querySelector(".prev-slide").style.opacity = 1;
+			document.querySelector(".next-slide").style.opacity = 0;
+		}
+	}
+	function changeSlideMob(next = true) {
+		if(next) {
+			currentMob += currentMob > maxLeftMob ? -100 : currentMob * -1;
+		} else {
+			currentMob = currentMob < 0 ? currentMob + 100 : maxLeftMob;
+		}
+		slides.style.left = currentMob + "%";
+		if(slides.style.left == "0%") {
+			document.querySelector(".prev-slide").style.opacity = 0;
+			document.querySelector(".next-slide").style.opacity = 1;
+		}
+		if(slides.style.left == "-100%") {
+			document.querySelector(".prev-slide").style.opacity = 1;
+			document.querySelector(".next-slide").style.opacity = 1;
+		}
+		if(slides.style.left == "-200%") {
+			document.querySelector(".prev-slide").style.opacity = 1;
+			document.querySelector(".next-slide").style.opacity = 0;
+		}
+	}
+	document.addEventListener('click', (e) => {
+		if(e.target.matches('.next-slide') || e.target.closest('.next-slide')) {
+			if(window.innerWidth >= 601 && window.innerWidth < 901) {
+				changeSlideTab();
 			} else {
-				current = current < 0 ? current + 100 : maxLeft;
-			}
-			slides.style.left = current + "%";
-			if(slides.style.left == "0%") {
-				document.querySelector(".prev-slide").style.opacity = 0;
-				document.querySelector(".next-slide").style.opacity = 1;
-			}
-			if(slides.style.left == "-100%") {
-				document.querySelector(".prev-slide").style.opacity = 1;
-				document.querySelector(".next-slide").style.opacity = 1;
-			}
-			if(slides.style.left == "-200%") {
-				document.querySelector(".prev-slide").style.opacity = 1;
-				document.querySelector(".next-slide").style.opacity = 0;
+				changeSlideMob();
 			}
 		}
-		document.querySelector(".next-slide").addEventListener("click", function() {
-			changeSlide();
-		});
-		document.querySelector(".prev-slide").addEventListener("click", function() {
-			changeSlide(false);
-		});
-	}
+	}, { capture: true })
+
+	document.addEventListener('click', (e) => {
+		if(e.target.matches('.prev-slide') || e.target.closest('.prev-slide')) {
+			if(window.innerWidth >= 601 && window.innerWidth < 901) {
+				changeSlideTab(false);
+			} else {
+				changeSlideMob(false);
+			}
+		}
+	}, { capture: true })
+
 	clearInterval(fun)
 }, config_carousal_v1.initialDelay.time);

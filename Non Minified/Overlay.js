@@ -24,14 +24,14 @@ var config_overlay = {
 		"color": "white"
 	},
 	"heading": {
-		"text": "This is Heading Offer",
+		"text": "This is Heading Offer",  // char limit 30
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "20px",
 		"color": "white",
 		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"message": {
-		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",
+		"text": "Samsung Galaxy S10 mit dem Red S 10 GB", // char limit 50
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "20px",
 		"color": "white",
@@ -41,7 +41,7 @@ var config_overlay = {
 		"singleCTA": "none" //type "none" to show 2 buttons
 	},
 	"ctaLink1": {
-		"text": "Check Offer",
+		"text": "Check Offer", // char limit 20
 		"href": "",
 		"fontSize": "18px",
 		"backgroundColor": "white",
@@ -50,7 +50,7 @@ var config_overlay = {
 		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"ctaLink2": {
-		"text": "Close Offer",
+		"text": "Close Offer", // char limit 20
 		"href": "",
 		"fontSize": "18px",
 		"backgroundColor": "white",
@@ -61,11 +61,11 @@ var config_overlay = {
 	},
 	"subHeading": {
 		"activator": "yes",
-		"subHeading1Text": "Offer 1",
+		"subHeading1Text": "Offer 1", // char limit 20
 		"subHeading1Href": "",
-		"subHeading2Text": "Offer 2",
+		"subHeading2Text": "Offer 2", // char limit 20
 		"subHeading2Href": "",
-		"subHeading3Text": "Offer 3",
+		"subHeading3Text": "Offer 3", // char limit 20
 		"subHeading3Href": "",
 		"fontSize": "15px",
 		"textColor": "white"
