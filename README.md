@@ -10,6 +10,7 @@
            
 ## Side Nudge
 
+![image](https://user-images.githubusercontent.com/101316657/162182285-2e95a970-d9fc-47be-bd59-de52d6962232.png)
 
 ## Dynamic banner
 
