@@ -37,19 +37,19 @@ var carousel_settings = {
     'carousel': '#carousel-one-by-one',
     'slide': '.slide',
     'oneByOne': true,
-    'btnNext': '',
-    'btnRight': '',
+    'btnNext': '.purejscarousel-btn-next',
+    'btnPrev': '.purejscarousel-btn-prev',
     'speed': '400', // time in ms
     'delay': '', // time in ms
-    'effect': '', // linear|ease-in|ease-out|ease-in-out
-    'infinite': '', // true|false
-    'autoplay': 'true', // true|false
-    'autoplayDelay': '400', // time in ms
+    'effect': 'ease-in-out', // linear|ease-in|ease-out|ease-in-out
+    'infinite': true, // true|false
+    'autoplay': false, // true|false
+    'autoplayDelay': '3000', // time in ms
     'autoplayDirection': 'next', // next|prev
   }
 }
 
-document.body.insertAdjacentHTML('beforeend', `<style>.pure-js-carousel { overflow: hidden;} .pure-js-carousel-list:before, .pure-js-carousel-list:after { content: ""; display: table;} .pure-js-carousel-list:after { clear: both;} .pure-js-carousel-slide { float: left;} *, *:after, *:before { box-sizing: border-box;} .carousel { margin: 0px auto; overflow: hidden; position: relative; padding-bottom: 5px; } .carousel:before, .carousel:after { content: ""; display: table;} .carousel:after { clear: both;} .slide { margin-top: 10px; background: #fff; border: 5px solid #fff; color: #fff; float: left; font-size: 20px; text-align: center;position: relative;} .slide>a { background: ${carousel_settings.slideBgColor}; padding: 15px 0px;} .pure-js-carousel-btn { background: transparent; border: 0; b ox-shadow: none; cursor: pointer; height: 20px; margin-top: -35px; position: absolute; top: 50%; width: 20px;} .pure-js-carousel-btn-next { border-bottom: 3px solid #000; border-right: 3px solid #000; right: 5px; -moz-transform: rotate(315deg); -webkit-transform: rotate(315deg); transform: rotate(315deg);} .pure-js-carousel-btn-prev { border-bottom: 3px solid #000; border-left: 3px solid #000; left: 5px; -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg);} .pure-js-carousel-dots {float: left; margin-top: 15px; text-align: center; width: 100%;} .pure-js-carousel-dot { display: inline-block; margin: 0 5px;} .pure-js-carousel-dot-btn { background: green; border-radius: 50%; height: 20px; width: 20px;} .active .pure-js-carousel-dot-btn { background: blue;} .purejscarousel-dot { padding: 4px; border-radius: 100%; margin: 0px 7px; border: 3px solid #333; background: #333; } .purejscarousel-dot.active { background: #fff; } .purejscarousel-dots-container { text-align:center; margin-bottom:20px;} .purejscarousel-btn { display:none;} .slide .product-label { position: absolute; box-shadow: 0 3px 0 -2px #333; background: #428600; color: #fff; padding: 0px 6px; font-size: 14px; font-weight: bold; line-height: 28px; left: -12px; top: -15px; height: 28px;} .slide .product-label:before { content: ""; position: absolute; bottom: -8px; left: 0; width: 0; height: 0; border-width: 4px 6px; border-style: solid; border-color: #333 #333 transparent transparent; } .slide .img-p img { width: 100.18px; height: 109px; margin: 0px auto;} .slide .product-heading { font-family: "Vodafone",Arial,sans-serif; font-size: 20px; line-height: 23px; letter-spacing: 0px; padding: 0px 18px 16px; font-weight: bold; color: #333333; min-height: 60px;} .slide p { display: block;} .slide h4 { margin: 0px 0px 19px !important;} .slide .product-price { font-family: "Vodafone",Arial,sans-serif; font-size: 40px; line-height: 50px; letter-spacing: 0px; padding: 0px 10px; font-weight: bold; color: #333333; } .slide .product-price .pre-price { font-size: 20px; line-height: 26px; font-weight: normal; font-family: "Vodafone",Arial,sans-serif; color: #333333;} .slide .product-btn { font-family: "Vodafone",Arial,sans-serif; font-size: 16px; line-height: 20px; letter-spacing: 0px; text-align: center; background: #ffffff; padding: 12px 15px; font-weight: bold; box-shadow: 0px 1px 3px rgb(0 0 0 / 60%) !important; text-decoration: none; border: 1px solid #f3f3f3; height: 46px; color: #333333; display: inline-block; } .slide-heading { margin-top: 36px; font-family: "Vodafone",Arial,sans-serif; font-size: 35px; font-weight: bold; line-height: 46px; letter-spacing: 0px; text-align: center; color: #333333;}  @media (max-width: 767px) { .carousel { padding-top: 10px; } .slide .product-label { box-shadow: 0 3px 0 -2px #333; top: -15px; left: -12px;} .slide .product-label:before {content: ""; position: absolute; bottom: -8px; left: 0; width: 0; height: 0; border-width: 4px 6px; border-style: solid; border-color: #333 #333 transparent transparent; } .slide { background: #fff; width: 100%; border: 10px solid #fff; margin-bottom:10px; } /*.carousel { width: 767px; }*/ /*.slide { max-width:360px } */ } @media (min-width: 768px) { .carousel { /*width: 1200px; */ } .slide .product-label { position: absolute !important; height: 28px !important; font-size: 16px !IMPORTANT; line-height: 28px !IMPORTANT;} .slide .product-label-img { margin-top: -28px !important;} .slide .img-p { margin-top: 38px !important;} .purejscarousel-dots-container { display: none; } .slide { width: 33.333%;} .purejscarousel-slides-container { width:100% !important; /* max-width:1200px; */ padding:5px;  margin:0px auto; } } @media (min-device-width: 720px) and (max-device-width: 768px) { .slide { max-width:340px } } @media (min-device-width: 660px) and (max-device-width: 719px) { .slide { max-width:310px } } @media (min-device-width: 600px) and (max-device-width: 659px) { .slide { max-width:280px } } @media (min-device-width: 520px) and (max-device-width: 599px) { .slide { max-width:480px } } @media (min-device-width: 460px) and (max-device-width: 519px) { .slide { max-width:420px } } @media (min-device-width: 400px) and (max-device-width: 459px) { .slide { max-width:360px } } @media (min-device-width: 375px) and (max-device-width: 399px) { .slide { max-width:300px } } @media (max-device-width: 374px) { .slide { max-width:760px !important; width:auto !important; }}  @media (min-width: 992px) { .slide>a:hover { background: ${carousel_settings.slideHoverBgColor}; } .slide>a:hover .product-btn { /*background: #d7d7d7; border: 1px solid #d7d7d7;}*/ }</style>`);
+document.body.insertAdjacentHTML('beforeend', `<style>.pure-js-carousel { overflow: hidden;} .pure-js-carousel-list:before, .pure-js-carousel-list:after { content: ""; display: table;} .pure-js-carousel-list:after { clear: both;} .pure-js-carousel-slide { float: left;} *, *:after, *:before { box-sizing: border-box;} .carousel { margin: 0px auto; overflow: hidden; position: relative; padding-bottom: 5px; } .carousel:before, .carousel:after { content: ""; display: table;} .carousel:after { clear: both;} .slide { margin-top: 10px; background: #fff; border: 5px solid #fff; color: #fff; float: left; font-size: 20px; text-align: center;position: relative;} .slide>a { background: ${carousel_settings.slideBgColor}; padding: 15px 0px;} .pure-js-carousel-btn { background: transparent; border: 0; box-shadow: none; cursor: pointer; height: 20px; margin-top: -35px; position: absolute; top: 50%; width: 20px;} .pure-js-carousel-btn-next { border-bottom: 3px solid #000; border-right: 3px solid #000; right: 5px; -moz-transform: rotate(315deg); -webkit-transform: rotate(315deg); transform: rotate(315deg);} .pure-js-carousel-btn-prev { border-bottom: 3px solid #000; border-left: 3px solid #000; left: 5px; -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg);} .pure-js-carousel-dots {float: left; margin-top: 15px; text-align: center; width: 100%;} .pure-js-carousel-dot { display: inline-block; margin: 0 5px;} .pure-js-carousel-dot-btn { background: green; border-radius: 50%; height: 20px; width: 20px;} .active .pure-js-carousel-dot-btn { background: blue;} .purejscarousel-dot { padding: 4px; border-radius: 100%; margin: 0px 7px; border: 3px solid #333; background: #333; } .purejscarousel-dot.active { background: #fff; } .purejscarousel-dots-container { text-align:center; margin-bottom:20px;} .slide .product-label { position: absolute; box-shadow: 0 3px 0 -2px #333; background: #428600; color: #fff; padding: 0px 6px; font-size: 14px; font-weight: bold; line-height: 28px; left: -12px; top: -15px; height: 28px;} .slide .product-label:before { content: ""; position: absolute; bottom: -8px; left: 0; width: 0; height: 0; border-width: 4px 6px; border-style: solid; border-color: #333 #333 transparent transparent; } .slide .img-p img { width: 100.18px; height: 109px; margin: 0px auto;} .slide .product-heading { font-family: "Vodafone",Arial,sans-serif; font-size: 20px; line-height: 23px; letter-spacing: 0px; padding: 0px 18px 16px; font-weight: bold; color: #333333; min-height: 60px;} .slide p { display: block;} .slide h4 { margin: 0px 0px 19px !important;} .slide .product-price { font-family: "Vodafone",Arial,sans-serif; font-size: 40px; line-height: 50px; letter-spacing: 0px; padding: 0px 10px; font-weight: bold; color: #333333; } .slide .product-price .pre-price { font-size: 20px; line-height: 26px; font-weight: normal; font-family: "Vodafone",Arial,sans-serif; color: #333333;} .slide .product-btn { font-family: "Vodafone",Arial,sans-serif; font-size: 16px; line-height: 20px; letter-spacing: 0px; text-align: center; background: #ffffff; padding: 12px 15px; font-weight: bold; box-shadow: 0px 1px 3px rgb(0 0 0 / 60%) !important; text-decoration: none; border: 1px solid #f3f3f3; height: 46px; color: #333333; display: inline-block; } .slide-heading { margin-top: 36px; font-family: "Vodafone",Arial,sans-serif; font-size: 35px; font-weight: bold; line-height: 46px; letter-spacing: 0px; text-align: center; color: #333333;}  @media (max-width: 767px) { .carousel { padding-top: 10px; } .slide .product-label { box-shadow: 0 3px 0 -2px #333; top: -15px; left: -12px;} .slide .product-label:before {content: ""; position: absolute; bottom: -8px; left: 0; width: 0; height: 0; border-width: 4px 6px; border-style: solid; border-color: #333 #333 transparent transparent; } .slide { background: #fff; width: 100%; border: 10px solid #fff; margin-bottom:10px; } /*.carousel { width: 767px; }*/ /*.slide { max-width:360px } */ } @media (min-width: 768px) { .carousel { /*width: 1200px; */ } .slide .product-label { position: absolute !important; height: 28px !important; font-size: 16px !IMPORTANT; line-height: 28px !IMPORTANT;} .slide .product-label-img { margin-top: -28px !important;} .slide .img-p { margin-top: 38px !important;} .purejscarousel-dots-container { display: none; } .slide { width: 33.333%;} .purejscarousel-slides-container { width:100% !important; /* max-width:1200px; */ padding:5px;  margin:0px auto; } } @media (min-width: 720px) and (max-width: 768px) { .slide { max-width:340px } } @media (min-width: 660px) and (max-width: 719px) { .slide { max-width:310px } } @media (min-width: 600px) and (max-width: 659px) { .slide { max-width:280px } } @media (min-width: 520px) and (max-width: 599px) { .slide { max-width:480px } } @media (min-width: 460px) and (max-width: 519px) { .slide { max-width:420px } } @media (min-width: 400px) and (max-width: 459px) { .slide { max-width:360px } } @media (min-width: 375px) and (max-width: 399px) { .slide { max-width:300px } } @media (max-width: 374px) { .slide { max-width:760px !important; width:auto !important; }}  @media (min-width: 992px) { .slide>a:hover { background: ${carousel_settings.slideHoverBgColor}; } .slide>a:hover .product-btn { /*background: #d7d7d7; border: 1px solid #d7d7d7;}*/ }</style>`);
 
 var sliderHTML = `
 <div class="carousel-wrapper">
@@ -282,7 +282,7 @@ window.PureJSCarousel = function (settings) {
       _.dotsContainer.appendChild(dot);
     }
 
-    _.maxIndex = dotsLength - 1;
+    _.maxIndex = Math.round(dotsLength) - 1;
 
     //create carousel btn-prev
     if (!_.btnPrev) {
@@ -290,6 +290,7 @@ window.PureJSCarousel = function (settings) {
       _.btnPrev.setAttribute("class", "");
       _.btnPrev.setAttribute("type", "button");
       _.btnPrev.setAttribute("data-is-native", 0);
+      _.btnPrev.innerHTML = '<';
       _.carousel.insertBefore(_.btnPrev, _.slides[0]);
     } else {
       _.btnPrev.setAttribute("data-is-native", 1);
@@ -318,6 +319,7 @@ window.PureJSCarousel = function (settings) {
       _.btnNext.setAttribute("class", "");
       _.btnNext.setAttribute("type", "button");
       _.btnNext.setAttribute("data-is-native", 0);
+      _.btnNext.innerHTML = '>';
       _.carousel.insertBefore(_.btnNext, _.slides[0]);
     } else {
       _.btnNext.setAttribute("data-is-native", 1);
@@ -336,6 +338,7 @@ window.PureJSCarousel = function (settings) {
         _.goToNextSlide();
       };
     }
+
     if (_.activeIndex === _.maxIndex) {
       _.btnNext.disabled = true;
     }
@@ -361,13 +364,8 @@ window.PureJSCarousel = function (settings) {
       }
     }
 
-    if (window.addEventListener) {
-      window.addEventListener("resize", windowResize);
-    } else if (window.attachEvent) {
-      window.attachEvent("onresize", windowResize);
-    } else {
-      window.onresize = windowResize;
-    }
+    window.removeEventListener('resize', windowResize);
+    window.addEventListener('resize', windowResize);
 
     _.autoplayTimer =
       _.autoplay === true
@@ -662,7 +660,7 @@ var carouselOneByOne = new PureJSCarousel({
   slide: carousel_settings.initSlider.slide || undefined,
   oneByOne: carousel_settings.initSlider.oneByOne || undefined,
   btnNext: carousel_settings.initSlider.btnNext || undefined,
-  btnRight: carousel_settings.initSlider.btnRight || undefined,
+  btnPrev: carousel_settings.initSlider.btnPrev || undefined,
   speed: carousel_settings.initSlider.speed || undefined,
   delay: carousel_settings.initSlider.delay || undefined,
   effect: carousel_settings.initSlider.effect || undefined,
@@ -671,5 +669,3 @@ var carouselOneByOne = new PureJSCarousel({
   autoplayDelay: carousel_settings.initSlider.autoplayDelay || undefined,
   autoplayDirection: carousel_settings.initSlider.autoplayDirection || undefined
 });
-
-console.log(carousel_settings.initSlider.infinite == 'true')
