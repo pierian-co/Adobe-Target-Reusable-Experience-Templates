@@ -25,7 +25,7 @@ let config_toastr_v2 = {
 		"singleCTA": "none" //type "none" to show 2 buttons
 	},
 	"ctaLink1": {
-		"text": "Check Offer", // char limit 20
+		"text": "Check Offer", // char limit 15
 		"href": "",
 		"fontSize": "16px",
 		"backgroundColour": "#e60000",
@@ -33,7 +33,7 @@ let config_toastr_v2 = {
 		"fontFamily": "Arial, Helvetica, sans-serif"
 	},
 	"ctaLink2": {
-		"text": "Close Offer", // char limit 20
+		"text": "Close Offer", // char limit 15
 		"href": "",
 		"fontSize": "16px",
 		"backgroundColour": "#fff",

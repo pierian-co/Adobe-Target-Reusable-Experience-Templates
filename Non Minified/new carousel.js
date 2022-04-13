@@ -42,7 +42,7 @@ var carousel_settings = {
     'speed': '400', // time in ms
     'delay': '', // time in ms
     'effect': 'ease-in-out', // linear|ease-in|ease-out|ease-in-out
-    'infinite': true, // true|false
+    'infinite': false, // true|false
     'autoplay': false, // true|false
     'autoplayDelay': '3000', // time in ms
     'autoplayDirection': 'next', // next|prev
@@ -184,6 +184,7 @@ window.PureJSCarousel = function (settings) {
           if (_.infinite === true) {
             direction === "next" ? _.goToNextSlide() : _.goToPrevSlide();
           } else {
+            console.log(direction, '>>>>', _.activeIndex)
             if (
               (direction === "next" && _.activeIndex < _.maxIndex) ||
               (direction === "prev" && _.activeIndex > 0)
@@ -191,15 +192,15 @@ window.PureJSCarousel = function (settings) {
               direction === "next" ? _.goToNextSlide() : _.goToPrevSlide();
             } else {
               if (_.slidesContainer.style.transition !== "undefined") {
-                _.slidesContainer.style.transition =
-                  "transform " +
-                  _.speed +
-                  "ms" +
-                  " " +
-                  _.effect +
-                  " " +
-                  _.delay +
-                  "ms";
+                // _.slidesContainer.style.transition =
+                //   "transform " +
+                //   _.speed +
+                //   "ms" +
+                //   " " +
+                //   _.effect +
+                //   " " +
+                //   _.delay +
+                //   "ms";
               }
               _.currentXPos = parseInt(this.getAttribute("data-start-margin"));
               _.slidesContainer.style.transform =
