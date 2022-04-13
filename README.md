@@ -25,6 +25,10 @@
 ![image](https://user-images.githubusercontent.com/101316657/163112581-b89f5ea7-8d70-4ed6-baa7-797c9744b42e.png)
 
 
+## 6. Collapsible toaster with close button
+![image](https://user-images.githubusercontent.com/101316657/163114457-c541f71c-355d-4a94-86bd-b32e8ef59ca0.png)
+
+## 7. Collapsible toaster without close button
 
 ## Overlay
 ![image](https://user-images.githubusercontent.com/101316657/162231168-deca8f19-9415-4999-b85b-7f246a76bd35.png)
