@@ -13,4 +13,4 @@ Following properties of the template can be customized as per individual require
 10. ctaLink1 and ctaLink2 - Quite a few values like text, href, fontSize, backgroundColor, textColor, borderRadius, fontFamily can be changed. 
 11. subHeading - These can be enabled or disabled. Text, colour and href can be changed for them. Three subheadings are available.
 12. logoImage- This can be activated or deactivated with customized logo and width of the image can be changed. 
-13. animation - subtle animations like fade, bounce, swing and slide can be activated, fade in time and fade out time can also be set.
+
