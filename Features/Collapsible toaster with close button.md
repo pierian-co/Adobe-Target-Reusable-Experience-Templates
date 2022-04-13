@@ -1,8 +1,9 @@
-# Collapsable Toastr with Close button
+# Collapsable Toaster with Close button
+Has a dedicated close button to close the template.
 Following properties of the template can be customized as per individual requirements.
 
-1. initialDelay - 
-2. background -
+1. initialDelay - used to delay the occurence of template in miliseconds
+2. background - background colour or image url can be added
 3. autohide - This property lets us enable or disable whether to auto hide the template after certain time period. A count down timer can also be enabled. 
 4. collapseAndExpandButton - This can be enabled or disabled with a customized image
 5. closeButton - Close button can be enabled or disabled. A customized image can be used as close button icon. 
