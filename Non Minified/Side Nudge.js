@@ -43,7 +43,7 @@ var config_sideNudge = {
 		"textColor": "black",
 		"borderRadius": "0px",
 		"fontFamily": "Arial, Helvetica, sans-serif"
-	},
+	}, 
 	"ctaLink2": {
 		"text": "Close Offer", // char limit 15
 		"href": "",
