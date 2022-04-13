@@ -44,7 +44,7 @@
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Collapsible%20toaster%20without%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Overlay
+## 8. Overlay
 ![image](https://user-images.githubusercontent.com/101316657/162231168-deca8f19-9415-4999-b85b-7f246a76bd35.png)
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md)
