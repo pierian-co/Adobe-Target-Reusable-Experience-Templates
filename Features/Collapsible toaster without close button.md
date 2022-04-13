@@ -1,4 +1,4 @@
-# Collapsable Toastr with Close button
+# Collapsable Toaster without Close button
 Following properties of the template can be customized as per individual requirements.
 
 1. initialDelay - used to delay the occurence of template in miliseconds
