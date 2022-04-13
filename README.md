@@ -29,19 +29,19 @@
 ## 5. Carousal v2
 ![image](https://user-images.githubusercontent.com/101316657/163112581-b89f5ea7-8d70-4ed6-baa7-797c9744b42e.png)
 
-### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v1.md)
+### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v2.md)
 
 
 ## 6. Collapsible toaster with close button
 ![image](https://user-images.githubusercontent.com/101316657/163114457-c541f71c-355d-4a94-86bd-b32e8ef59ca0.png)
 
-### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v1.md)
+### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Collapsible%20toaster%20with%20close%20button.md)
 
 
 ## 7. Collapsible toaster without close button
 ![image](https://user-images.githubusercontent.com/101316657/163122416-e763aa7d-8c1e-4888-84b8-32167f6a7d1b.png)
 
-### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v1.md)
+### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Collapsible%20toaster%20without%20close%20button.md)
 
 
 ## Overlay
