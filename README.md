@@ -4,8 +4,7 @@
 ## 1. Dynamic banner with close button
 ![image](https://user-images.githubusercontent.com/101316657/163108877-41f1f304-70e5-4640-b2b6-847cb1d61bee.png)
 
-
-
+More Details
 ## 2. Dynamic banner without close button
 ![image](https://user-images.githubusercontent.com/101316657/163110164-54213a74-88c3-43b1-bed1-d079ef19b452.png)
 
@@ -29,6 +28,7 @@
 ![image](https://user-images.githubusercontent.com/101316657/163114457-c541f71c-355d-4a94-86bd-b32e8ef59ca0.png)
 
 ## 7. Collapsible toaster without close button
+![image](https://user-images.githubusercontent.com/101316657/163122416-e763aa7d-8c1e-4888-84b8-32167f6a7d1b.png)
 
 ## Overlay
 ![image](https://user-images.githubusercontent.com/101316657/162231168-deca8f19-9415-4999-b85b-7f246a76bd35.png)
