@@ -1,5 +1,5 @@
 # Collapsable Toaster without Close button
-Following properties of the template can be customized as per individual requirements.
+The arrow can be used to hide or show the toaster. Following properties of the template can be customized as per individual requirements.
 
 1. initialDelay - used to delay the occurence of template in miliseconds
 2. background - background colour or image url can be added
