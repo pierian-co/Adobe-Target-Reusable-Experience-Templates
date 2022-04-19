@@ -78,7 +78,7 @@ var config_overlay = {
 		"smallScreenLogoWidth": "175px"
 	},
 	"animation": {
-		"activator": "yes",
+		"activator": "",
 		"animationType": "slide", //fade/bounce/swing/slide
 		"fadeInTime": 3000, //milisecond/"slow"/"fast" if selected "fade" in animationType
 		"fadeOutTime": 1000 //milisecond/"slow"/"fast" if selected "fade" in animationType
@@ -113,8 +113,6 @@ var maxwidth = "5000px";
 					overlay.style.left = "0px";
 					overlay.style.right = "0px";
 					overlay.style.zIndex = "57";
-					overlay.style.position = "fixed";
-					overlay.style.zIndex = "9999";
 					if(config_overlay.overlayStyle.imgUrl != "") {
 						overlay.style.backgroundImage = "url('" + config_overlay.overlayStyle.imgUrl + "')";
 					} else {
@@ -252,7 +250,7 @@ var maxwidth = "5000px";
 							overlay.style.display = "none";
 							document.querySelector("body").appendChild(overlay);
 							fadeIn(document.querySelector('.psb'), config_overlay.animation.fadeInTime)
-							// $(".psb").fadeIn(config_overlay.animation.fadeInTime);asdf
+							// $(".psb").fadeIn(config_overlay.animation.fadeInTime);
 						}
 						if(config_overlay.animation.animationType == "bounce") {
 							overlay.className += " bounce-in-bottom";
