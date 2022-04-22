@@ -1,4 +1,4 @@
-# Carousal without arrow buttons
+# Carousal vertical view
 Following properties of the template can be customized as per individual requirements.
 
 1. initialDelay- used to delay the occurence of template in miliseconds
