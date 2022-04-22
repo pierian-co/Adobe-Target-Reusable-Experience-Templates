@@ -73,7 +73,8 @@ var config_banner_v1 = {
 			"subHeading3Text": "Offer 3", // char limit 20 char
 			"subHeading3Href": "",
 			"fontSize": "15px",
-			"textColor": "white"
+			"textColor": "white",
+			"fontFamily": "inherit"
 		},
 		"logoImage": {
 			"flag": "yes",
@@ -115,7 +116,7 @@ var config_banner_v1 = {
 							var g = document.createElement("A");
 							g.setAttribute("href", t.subHeading.subHeading3Href), g.setAttribute("target", "_blank"), g.innerHTML = "  " + t.subHeading.subHeading3Text, g.style.color = t.subHeading.textColor;
 							var c = document.createElement("div");
-							c.appendChild(d), c.appendChild(p), c.appendChild(g), c.style.textAlign = "center", c.style.fontSize = t.subHeading.fontSize, c.style.padding = "0px 0px 30px", c.style.color = t.subHeading.textColor;
+							c.appendChild(d), c.appendChild(p), c.appendChild(g), c.style.textAlign = "center", c.style.fontSize = t.subHeading.fontSize, c.style.padding = "0px 0px 30px", c.style.color = t.subHeading.textColor, c.style.fontFamily = t.subHeading.fontFamily;
 							var y = document.createElement("span");
 							y.className = "close_temp1", y.id = "closebtn1_temp1";
 							y.id;
