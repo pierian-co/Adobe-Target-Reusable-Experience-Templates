@@ -19,14 +19,14 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 4. Carousal with arrow buttons
+## 4. Carousal horizontal slider
 ![image](https://user-images.githubusercontent.com/101316657/163112753-06461f78-311a-46e1-bee1-f9cb9f1950de.png)
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v1.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 5. Carousal without arrow buttons
+## 5. Carousal vertical view
 ![image](https://user-images.githubusercontent.com/101316657/163112581-b89f5ea7-8d70-4ed6-baa7-797c9744b42e.png)
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v2.md)
