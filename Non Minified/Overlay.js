@@ -14,10 +14,6 @@ var config_overlay = {
 		"activator": "yes", // yes to activate
 		"imageUrl": "https://iili.io/2zu8Zl.md.png"
 	},
-	"collapseButton": {
-		"activator": "", // yes to activate
-		"imageUrl": "https://i.imgur.com/KqHD37h.png",
-	},
 	"borderStyle": {
 		"width": "5px",
 		"style": "solid",
@@ -269,7 +265,7 @@ var maxwidth = "5000px";
 					} else {
 						document.querySelector(".mainoutercontainer").appendChild(overlay);
 					}
-					console.log(closeid);
+
 					document.querySelector(closeid).onclick = function() {
 						if(config_overlay.animation.activator == "yes") {
 							//$(".psb").fadeOut(config_overlay.animation.fadeOutTime);
