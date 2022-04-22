@@ -1,4 +1,4 @@
-# Carousal v1
+# Carousal with arrow buttons
 Arrows are present which help to navigate across product tiles. 
 Following properties of the template can be customized as per individual requirements.
 
