@@ -71,7 +71,8 @@ var config_toastr_v1 = {
 		"subHeading3Text": "Offer 3", // char limit 20 char
 		"subHeading3Href": "",
 		"fontSize": "15px",
-		"textColor": "white"
+		"textColor": "white",
+		"fontFamily": "inherit"
 	},
 	"logoImage": {
 		"flag": "",
@@ -82,7 +83,7 @@ var config_toastr_v1 = {
 	},
 	"animation": {
 		"flag": "",
-		"animationType": "bounce" //fade/bounce/swing/slide
+		"animationType": "bounce" //bounce/swing/slide
 	}
 },
 maxwidth = "860px";
@@ -114,7 +115,7 @@ try {
 					var g = document.createElement("A");
 					g.setAttribute("href", t.subHeading.subHeading3Href), g.setAttribute("target", "_blank"), g.innerHTML = "  " + t.subHeading.subHeading3Text, g.style.color = t.subHeading.textColor;
 					var b = document.createElement("div");
-					b.appendChild(c), b.appendChild(p), b.appendChild(g), b.style.textAlign = "center", b.style.fontSize = t.subHeading.fontSize, b.style.padding = "0px 0px 10px", b.style.color = t.subHeading.textColor;
+					b.appendChild(c), b.appendChild(p), b.appendChild(g), b.style.textAlign = "center", b.style.fontSize = t.subHeading.fontSize, b.style.padding = "0px 0px 10px", b.style.color = t.subHeading.textColor, b.style.fontFamily = t.subHeading.fontFamily;
 					var f = document.createElement("span");
 					f.className = "close_toastr_V1", f.id = "closebtn1_toastr_V1";
 					var u = "#" + f.id;

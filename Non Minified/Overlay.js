@@ -68,7 +68,8 @@ var config_overlay = {
 		"subHeading3Text": "Offer 3", // char limit 20
 		"subHeading3Href": "",
 		"fontSize": "15px",
-		"textColor": "white"
+		"textColor": "white",
+		"fontFamily": "inherit"
 	},
 	"logoImage": {
 		"activator": "yes",
@@ -79,8 +80,8 @@ var config_overlay = {
 	},
 	"animation": {
 		"activator": "",
-		"animationType": "slide", //fade/bounce/swing/slide
-		"fadeInTime": 3000, //milisecond/"slow"/"fast" if selected "fade" in animationType
+		"animationType": "fade", //fade/bounce/swing/slide
+		"fadeInTime": 1000, //milisecond/"slow"/"fast" if selected "fade" in animationType
 		"fadeOutTime": 1000 //milisecond/"slow"/"fast" if selected "fade" in animationType
 	}
 };
@@ -200,6 +201,7 @@ var maxwidth = "5000px";
 					lnk.style.fontSize = config_overlay.subHeading.fontSize;
 					lnk.style.padding = "0px 0px 15px";
 					lnk.style.color = config_overlay.subHeading.textColor;
+					lnk.style.fontFamily = config_overlay.subHeading.fontFamily;
 					var closeBtn = document.createElement("span");
 					closeBtn.className = "close";
 					closeBtn.id = "closebtn1";
@@ -248,21 +250,21 @@ var maxwidth = "5000px";
 					if(config_overlay.animation.activator == "yes") {
 						if(config_overlay.animation.animationType == "fade") {
 							overlay.style.display = "none";
-							document.querySelector("body").appendChild(overlay);
+							document.querySelector(".mainoutercontainer").appendChild(overlay);
 							fadeIn(document.querySelector('.psb'), config_overlay.animation.fadeInTime)
 							// $(".psb").fadeIn(config_overlay.animation.fadeInTime);
 						}
 						if(config_overlay.animation.animationType == "bounce") {
 							overlay.className += " bounce-in-bottom";
-							document.querySelector("body").appendChild(overlay);
+							document.querySelector(".mainoutercontainer").appendChild(overlay);
 						}
 						if(config_overlay.animation.animationType == "swing") {
 							overlay.className += " swing-in-top-fwd";
-							document.querySelector("body").appendChild(overlay);
+							document.querySelector(".mainoutercontainer").appendChild(overlay);
 						}
 						if(config_overlay.animation.animationType == "slide") {
 							overlay.className += " slide-in-top";
-							document.querySelector("body").appendChild(overlay);
+							document.querySelector(".mainoutercontainer").appendChild(overlay);
 						}
 					} else {
 						document.querySelector(".mainoutercontainer").appendChild(overlay);

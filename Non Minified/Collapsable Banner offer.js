@@ -81,7 +81,7 @@ var config_banner_v1 = {
 		},
 		"animation": {
 			"flag": "",
-			"animationType": "bounce", //fade/bounce/swing/slide
+			"animationType": "bounce", //bounce/swing/slide
 			"occurance": "first"
 		}
 	},
@@ -189,7 +189,7 @@ var config_banner_v1 = {
 							document.getElementById("timer_temp1").innerHTML = config_banner_v1.autoHide.countDownText + " " + t + " seconds", document.getElementById("tm_temp1").style.backgroundColor = "black"
 						}, 1e3);
 					if(config_banner_v1.title.flag = "yes") {
-						document.querySelector(".psb_temp1").insertAdjacentHTML("beforebegin", "<style>@media only screen and (max-width:600px ){#heading_temp1{font-size:" + config_banner_v1.title.fontSizeMobile + ";}#lImgId1_temp1{width:30px;}}@media only screen and (min-width:601px ){#heading_temp1{font-size:" + config_banner_v1.title.fontSizeDesktop + ';}#lImgId1_temp1{width:35px;}}</style><div id="mid1_temp1" style="overflow: hidden;z-index: 1010;display: block;"><img src=' + config_banner_v1.logoImage.url + ' align="left" id="lImgId1_temp1" style="position: relative;top: 3px;left: 2px;"><span class="close_temp1" id="closebtn2_temp1"><img class="manImg_temp1" src=' + config_banner_v1.closeButton.imageUrl + ' style="width: 20px; height: 20px;"></span><h1 id="heading_temp1" style="font-family: '+config_banner_v1.title.fontFamily+';text-align: center;color: ' + config_banner_v1.title.colour + ';padding: 5px 0px 5px;margin: 0px;">' + config_banner_v1.title.text + "</h1></div>"), "yes" != config_banner_v1.logoImage.flag && (document.querySelector("#lImgId1_temp1").style.display = "none");
+						document.querySelector(".psb_temp1").insertAdjacentHTML("beforebegin", "<style>@media only screen and (max-width:600px ){#heading_temp1{font-size:" + config_banner_v1.title.fontSizeMobile + ";}#lImgId1_temp1{width:30px;}}@media only screen and (min-width:601px ){#heading_temp1{font-size:" + config_banner_v1.title.fontSizeDesktop + ';}#lImgId1_temp1{width:35px;}}</style><div id="mid1_temp1" style="overflow: hidden;z-index: 1010;display: block; position: relative;"><img src=' + config_banner_v1.logoImage.url + ' align="left" id="lImgId1_temp1" style="position: absolute;top: 3px;left: 2px;"><span class="close_temp1" id="closebtn2_temp1"><img class="manImg_temp1" src=' + config_banner_v1.closeButton.imageUrl + ' style="width: 20px; height: 20px;"></span><h1 id="heading_temp1" style="font-family: '+config_banner_v1.title.fontFamily+';text-align: center;color: ' + config_banner_v1.title.colour + ';padding: 5px 0px 5px;margin: 0px;">' + config_banner_v1.title.text + "</h1></div>"), "yes" != config_banner_v1.logoImage.flag && (document.querySelector("#lImgId1_temp1").style.display = "none");
 						let t = (t, e = 500) => {
 								t.style.transitionProperty = "height, margin, padding", t.style.transitionDuration = e + "ms", t.style.boxSizing = "border-box", t.style.height = t.offsetHeight + "px", t.offsetHeight, t.style.overflow = "hidden", t.style.height = 0, t.style.paddingTop = 0, t.style.paddingBottom = 0, t.style.marginTop = 0, t.style.marginBottom = 0, window.setTimeout(() => {
 									t.style.display = "none", t.style.removeProperty("height"), t.style.removeProperty("padding-top"), t.style.removeProperty("padding-bottom"), t.style.removeProperty("margin-top"), t.style.removeProperty("margin-bottom"), t.style.removeProperty("overflow"), t.style.removeProperty("transition-duration"), t.style.removeProperty("transition-property")
