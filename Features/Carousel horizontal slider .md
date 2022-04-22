@@ -1,4 +1,5 @@
-# Carousal v2
+# Carousel horizontal slider
+Arrows are present which help to navigate across product tiles. 
 Following properties of the template can be customized as per individual requirements.
 
 1. initialDelay- used to delay the occurence of template in miliseconds
@@ -11,3 +12,5 @@ For each Product tile-
 3. amount, description and message can be added
 4. CTA text and url can be changed
 5. Offer flag which is small offer css on top of each product tile, can be turned on and off. Text and background colour can be provided to the offer.
+
+

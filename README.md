@@ -19,14 +19,14 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 4. Carousal v1
+## 4. Carousal horizontal slider
 ![image](https://user-images.githubusercontent.com/101316657/163112753-06461f78-311a-46e1-bee1-f9cb9f1950de.png)
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v1.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 5. Carousal v2
+## 5. Carousal vertical view
 ![image](https://user-images.githubusercontent.com/101316657/163112581-b89f5ea7-8d70-4ed6-baa7-797c9744b42e.png)
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v2.md)
@@ -45,7 +45,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 8. Overlay
-![image](https://user-images.githubusercontent.com/101316657/162231168-deca8f19-9415-4999-b85b-7f246a76bd35.png)
+![image](https://user-images.githubusercontent.com/101316657/164673981-b48dcb2e-5ad1-4cb5-ab01-6151c457f8a9.png)
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
