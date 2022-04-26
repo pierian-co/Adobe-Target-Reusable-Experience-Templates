@@ -61,7 +61,7 @@ Following properties of the template can be customized as per individual require
 
 ![image](https://user-images.githubusercontent.com/101316657/165224065-ece24371-af07-41c1-ac3e-8486a5e58aa1.png)
 
-14. animation - subtle animations like fade, bounce, swing and slide can be activated, fade in time and fade out time can also be set.
+14. animation - subtle animations like bounce, swing and slide can be activated.
 
 ![image](https://user-images.githubusercontent.com/101316657/165224083-942505df-f1df-42f0-99db-4a66f6e5c442.png)
 
