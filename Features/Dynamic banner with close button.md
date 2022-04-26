@@ -4,9 +4,9 @@
 
 <p>&nbsp;</p>
 
-Dynamic banner with close button as the name suggests, has a dedicated close button to close the banner. <p>&nbsp;</p>
-
+Dynamic banner with close button as the name suggests, has a dedicated close button to close the banner.
 Following properties of the template can be customized as per individual requirements.
+<p>&nbsp;</p>
 
 1. initialDelay - used to delay the occurence of template in miliseconds
 
