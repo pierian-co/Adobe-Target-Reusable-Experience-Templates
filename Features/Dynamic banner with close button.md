@@ -3,7 +3,9 @@ Has a dedicated close button to close the banner.
 Following properties of the template can be customized as per individual requirements.
 
 1. initialDelay - used to delay the occurence of template in miliseconds
-![image](https://user-images.githubusercontent.com/101316657/165223706-ff1dd938-035d-4553-9c04-fa0e1601b8ed.png)
+
+![image](https://user-images.githubusercontent.com/101316657/165224163-ef29e793-ea81-407d-a620-61d525d1cbda.png)
+
 
 3. bannerPosition - position of the banner can be specified as before or after the page
 
