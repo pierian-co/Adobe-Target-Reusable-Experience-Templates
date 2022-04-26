@@ -2,7 +2,7 @@
 
           
 ## 1. Dynamic banner with close button
-<img src="https://user-images.githubusercontent.com/101316657/165311387-51d67dd2-2244-4f4c-9587-56ebd252ff75.png" width="800" height="500">
+<img src="https://user-images.githubusercontent.com/101316657/165311387-51d67dd2-2244-4f4c-9587-56ebd252ff75.png" width="800" height="400">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Dynamic%20banner%20with%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
