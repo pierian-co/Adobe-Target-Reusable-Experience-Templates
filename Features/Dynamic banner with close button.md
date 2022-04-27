@@ -8,7 +8,7 @@
 Following properties of the template can be customized as per individual requirements.
 <p>&nbsp;</p>
 
-*initialDelay - First occurence of the template can be delayed by specifying the 'time' in miliseconds
+**initialDelay - First occurence of the template can be delayed by specifying the 'time' in miliseconds
 
 ![image](https://user-images.githubusercontent.com/101316657/165224163-ef29e793-ea81-407d-a620-61d525d1cbda.png)
 
