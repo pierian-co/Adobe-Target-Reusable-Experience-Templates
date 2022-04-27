@@ -8,16 +8,16 @@ Dynamic banner with close button, as the name suggests, has a dedicated close bu
 Following properties of the template can be customized as per individual requirements.
 <p>&nbsp;</p>
 
-1. initialDelay - used to delay the occurence of template in miliseconds
+1. initialDelay - First occurence of the template can be delayed by specifying the 'time' in miliseconds
 
 ![image](https://user-images.githubusercontent.com/101316657/165224163-ef29e793-ea81-407d-a620-61d525d1cbda.png)
 
 
-2. bannerPosition - position of the banner can be specified as before or after the page
+2. bannerPosition - Position of the banner can be set in the 'selector' field by passing css selector of any element on the page. Additionally, just specifying the location as before and after in the 'location' field would also position the banner on the top or bottom of the page.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223795-7f9f0c1d-59b8-4a12-ae03-09ab3ff9a770.png)
 
-3. background - background colour or image url can be added
+3. background - Background colour of the template can be changed by passing color in the 'backgroundColor' field. Colors can be either in rgb format, hexadecimal or  keyword. Alternatively, an image can also be placed in the background by passing its url in 'imageUrl' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223735-0fbee6e4-1368-4059-9967-7da004c26438.png)
 
