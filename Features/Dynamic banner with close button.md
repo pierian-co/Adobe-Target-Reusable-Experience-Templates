@@ -26,31 +26,31 @@ Following properties of the banner can be customized as per individual requireme
 ![image](https://user-images.githubusercontent.com/101316657/165223833-4dfb6790-3a3a-47bf-b7bf-54c2887a4719.png)
 
 
-5. closeButton - Close button to close the banner can be enabled or disabled by setting the value to 'yes' in the 'flag' field. An image can be used as close button icon by passing its url in 'imageUrl field'.
+**closeButton** - Close button to close the banner can be enabled or disabled by setting the value to 'yes' in the 'flag' field. An image can be used as close button icon by passing its url in 'imageUrl field'.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223867-12d81938-8eae-42bf-b0a5-c9a4563f2c61.png)
 
-6. collapseAndExpandButton - This button which will collapse and expand the banner can be enabled or disabled by setting the value to 'yes' in the 'flag' field. An image can be used as icon by passing its url in 'imageUrl field'.
+**collapseAndExpandButton** - This button which will collapse and expand the banner can be enabled or disabled by setting the value to 'yes' in the 'flag' field. An image can be used as icon by passing its url in 'imageUrl field'.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223890-323e6a7f-4454-4dfa-8c91-4e4d361b3aa9.png)
 
-7. borderStyle - The border of the banner can be customized by changing the color (rgb, hexadecimal or keyword) in 'color' field, border type (solid, dashed etc) in 'style' field and width (in pixels) by passing in values in 'width' field.
+**borderStyle** - The border of the banner can be customized by changing the color (rgb, hexadecimal or keyword) in 'color' field, border type (solid, dashed etc) in 'style' field and width (in pixels) by passing in values in 'width' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223930-d038f2c5-4c64-43f9-b922-dbe4113a9d0a.png)
 
-8. title- Text, colour and font size and font familiy of the title can be changed.
+**title**- Title text can be added in 'text' field with character limit of 30 characters. Font size of the title in pixels, for desktop and mobile can be specified in 'fontSizeDesktop' and 'fontSizeMobile' fields. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223947-c72162a6-08bd-4341-9039-841e122bd5cd.png)
 
-9. message - Text, colour and font size and font familiy of the message can be changed.
+**message** - Message text can be added in 'text' field with character limit of 50 characters. Font size of the title in pixels, for desktop and mobile can be specified in 'fontSizeDesktop' and 'fontSizeMobile' fields. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223975-1d5ca4b7-7736-4f1f-81cd-4d1262f1b36f.png)
 
-10. ctaNo - Number of CTAs can be changed either to one or two. 
+**ctaNo** - Number of CTAs can be set to either one or two depending on the value passed in 'singleCTA' field. Passing 'none' would show two buttons and leaving it as blank will show one button.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223996-b5210148-c8b8-4732-b7d5-a0cd5c6075f5.png)
 
-11. ctaLink1 and ctaLink2 - Quite a few values like text, href, fontSize, backgroundColor, textColor, borderRadius, fontFamily can be changed. 
+**ctaLink1 and ctaLink2** - Quite a few values like text, href, fontSize, backgroundColor, textColor, borderRadius, fontFamily can be changed. 
 
 ![image](https://user-images.githubusercontent.com/101316657/165224014-9da81f33-6a8b-4320-bc3b-9a18966bf3f9.png)
 
