@@ -26,11 +26,11 @@ Following properties of the banner can be customized as per individual requireme
 ![image](https://user-images.githubusercontent.com/101316657/165223833-4dfb6790-3a3a-47bf-b7bf-54c2887a4719.png)
 
 
-**closeButton** - Close button to close the banner can be enabled or disabled by setting the value to 'yes' in the 'flag' field. An image can be used as close button icon by passing its url in 'imageUrl field'.
+**closeButton** - Close button to close the banner can be enabled by setting the value to 'yes' in the 'flag' field and leaving it as blank to disable. An image can be used as close button icon by passing its url in 'imageUrl field'.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223867-12d81938-8eae-42bf-b0a5-c9a4563f2c61.png)
 
-**collapseAndExpandButton** - This button which will collapse and expand the banner can be enabled or disabled by setting the value to 'yes' in the 'flag' field. An image can be used as icon by passing its url in 'imageUrl field'.
+**collapseAndExpandButton** - This button which will collapse and expand the banner can be enabled by setting the value to 'yes' in the 'flag' field and leaving it as blank to disable. An image can be used as icon by passing its url in 'imageUrl field'.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223890-323e6a7f-4454-4dfa-8c91-4e4d361b3aa9.png)
 
@@ -54,15 +54,15 @@ Following properties of the banner can be customized as per individual requireme
 
 ![image](https://user-images.githubusercontent.com/101316657/165224014-9da81f33-6a8b-4320-bc3b-9a18966bf3f9.png)
 
-**subHeading** - Three subheadings are available which can be enabled by setting the value of 'flag' field to yes. CTA text can be added in 'subHeading1Text' field with character limit of 20 characters. The link to navigate when user clicks on the subheading can be provided in 'subHeading1Href' field. Similar for other subHeadings. Font size in pixels can be set in 'fontSize' field. Text color can be set in 'textColor' field and font family can be set in 'fontFamily' field.
+**subHeading** - Three subheadings are available which can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. CTA text can be added in 'subHeading1Text' field with character limit of 20 characters. The link to navigate when user clicks on the subheading can be provided in 'subHeading1Href' field. Similar for other subHeadings. Font size in pixels can be set in 'fontSize' field. Text color can be set in 'textColor' field and font family can be set in 'fontFamily' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165224039-ec87b3a8-a193-4232-8186-4d2ac4501f26.png)
 
-**logoImage** - This can be enabled by setting the value of 'flag' field to yes. Image url can be passed in 'url' field.
+**logoImage** - This can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. Image url can be passed in 'url' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165224065-ece24371-af07-41c1-ac3e-8486a5e58aa1.png)
 
-**animation** - This can be enabled by setting the value of 'flag' field to yes. Subtle animations like bounce, swing and slide can be set 'animationType'.
+**animation** - This can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. Subtle animations like bounce, swing and slide can be set 'animationType'.
 
 ![image](https://user-images.githubusercontent.com/101316657/165224083-942505df-f1df-42f0-99db-4a66f6e5c442.png)
 
