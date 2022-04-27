@@ -54,7 +54,7 @@ Following properties of the banner can be customized as per individual requireme
 
 ![image](https://user-images.githubusercontent.com/101316657/165224014-9da81f33-6a8b-4320-bc3b-9a18966bf3f9.png)
 
-**subHeading** - Three subheadings are available which can be enabled by setting the value of 'flag' field to yes. CTA text can be added in 'subHeading1Text' field with character limit of 20 characters. The link to navigate when user clicks on the subheading can be provided in 'subHeading1Href' field. Font size in pixels can be set in 'fontSize' field. Text color can be set in 'textColor' field and font family can be set in 'fontFamily' field.
+**subHeading** - Three subheadings are available which can be enabled by setting the value of 'flag' field to yes. CTA text can be added in 'subHeading1Text' field with character limit of 20 characters. The link to navigate when user clicks on the subheading can be provided in 'subHeading1Href' field. Similar for other subHeadings. Font size in pixels can be set in 'fontSize' field. Text color can be set in 'textColor' field and font family can be set in 'fontFamily' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165224039-ec87b3a8-a193-4232-8186-4d2ac4501f26.png)
 
