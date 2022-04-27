@@ -10,7 +10,7 @@ Following properties of the template can be customized as per individual require
 
 1. initialDelay - First occurence of the template can be delayed by specifying the 'time' in miliseconds
 
-![image](https://user-images.githubusercontent.com/101316657/165224163-ef29e793-ea81-407d-a620-61d525d1cbda.png)
+=> ![image](https://user-images.githubusercontent.com/101316657/165224163-ef29e793-ea81-407d-a620-61d525d1cbda.png)
 
 
 2. bannerPosition - Position of the banner can be set in the 'selector' field by passing css selector of any element on the page. Additionally, just specifying the location as before and after in the 'location' field would also position the banner on the top or bottom of the page.
