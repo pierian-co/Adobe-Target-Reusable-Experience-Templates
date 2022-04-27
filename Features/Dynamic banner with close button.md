@@ -62,7 +62,7 @@ Following properties of the banner can be customized as per individual requireme
 
 ![image](https://user-images.githubusercontent.com/101316657/165224065-ece24371-af07-41c1-ac3e-8486a5e58aa1.png)
 
-**animation** - This can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. Subtle animations like bounce, swing and slide can be set 'animationType'.
+**animation** - This can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. Subtle animations like bounce, swing and slide can be set 'animationType' which will animate the banner to make it bounce, swing  or slide from top.
 
 ![image](https://user-images.githubusercontent.com/101316657/165224083-942505df-f1df-42f0-99db-4a66f6e5c442.png)
 
