@@ -8,12 +8,12 @@
 Following properties of the banner can be customized as per individual requirements**
 <p>&nbsp;</p>
 
-**initialDelay** - First occurence of the template can be delayed by specifying the 'time' in miliseconds
+**initialDelay** - First occurence of the template can be delayed by specifying the time in miliseconds in the 'time' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165224163-ef29e793-ea81-407d-a620-61d525d1cbda.png)
 
 
-**bannerPosition** - Position of the banner can be set in the 'selector' field by passing css selector of any element on the page. Additionally, just specifying the location as before and after in the 'location' field would also position the banner on the top or bottom of the page.
+**bannerPosition** - Position of the banner can be set in the 'selector' field by passing css selector of any element on the page. Additionally, specifying the location as before and after in the 'location' field would also position the banner before or after that element.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223795-7f9f0c1d-59b8-4a12-ae03-09ab3ff9a770.png)
 
