@@ -21,19 +21,20 @@ Following properties of the banner can be customized as per individual requireme
 
 ![image](https://user-images.githubusercontent.com/101316657/165223735-0fbee6e4-1368-4059-9967-7da004c26438.png)
 
-4. autohide - This property lets us enable or disable whether to auto hide the template after certain time period. A count down timer can also be enabled. 
+**autohide** - This property lets us enable or disable whether to auto hide the template after certain time period. This can be done by passing in "yes" in the 'flag' field to enable and leaving it as blank to disable. 'countDown' can be set to "yes" and text can be added in the 'countDownText' field, as can be seen in above image. The time can be set in seconds in 'time' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223833-4dfb6790-3a3a-47bf-b7bf-54c2887a4719.png)
 
-5. collapseAndExpandButton - This can be enabled or disabled with a customized image
 
-![image](https://user-images.githubusercontent.com/101316657/165223890-323e6a7f-4454-4dfa-8c91-4e4d361b3aa9.png)
-
-6. closeButton - Close button can be enabled or disabled. A customized image can be used as close button icon. 
+5. closeButton - Close button to close the banner can be enabled or disabled by setting the value to 'yes' in the 'flag' field. An image can be used as close button icon by passing its url in 'imageUrl field'.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223867-12d81938-8eae-42bf-b0a5-c9a4563f2c61.png)
 
-7. borderStyle - The border of the template can be changed based on colour, border type and width. 
+6. collapseAndExpandButton - This button which will collapse and expand the banner can be enabled or disabled by setting the value to 'yes' in the 'flag' field. An image can be used as icon by passing its url in 'imageUrl field'.
+
+![image](https://user-images.githubusercontent.com/101316657/165223890-323e6a7f-4454-4dfa-8c91-4e4d361b3aa9.png)
+
+7. borderStyle - The border of the banner can be customized by changing the color (rgb, hexadecimal or keyword) in 'color' field, border type (solid, dashed etc) in 'style' field and width (in pixels) by passing in values in 'width' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223930-d038f2c5-4c64-43f9-b922-dbe4113a9d0a.png)
 
