@@ -50,7 +50,7 @@ Following properties of the banner can be customized as per individual requireme
 
 ![image](https://user-images.githubusercontent.com/101316657/165223996-b5210148-c8b8-4732-b7d5-a0cd5c6075f5.png)
 
-**ctaLink1 and ctaLink2** - Quite a few values like text, href, fontSize, backgroundColor, textColor, borderRadius, fontFamily can be changed. 
+**ctaLink1 and ctaLink2** - CTA text can be added in 'text' field with character limit of 20 characters. The link to navigate when user clicks on CTA can be provided in 'href' field. Font size in pixels can be set in 'fontSize' field. Background color can be set in 'backgroundColor' field. Text color can be set in 'textColor' field. Border radius, ie the extend of curve in CTA's edges can be set in 'borderRadius' field and font family can be set in 'fontFamily' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165224014-9da81f33-6a8b-4320-bc3b-9a18966bf3f9.png)
 
