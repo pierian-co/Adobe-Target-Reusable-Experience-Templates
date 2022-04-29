@@ -24,13 +24,12 @@
 ![image](https://user-images.githubusercontent.com/101316657/165886468-56978a98-9521-449f-8be8-9b5e24df8417.png)
 
 
-**title**- Title text can be added in 'text' field with character limit of 30 characters. Font size of the title in pixels, for desktop and mobile can be specified in 'fontSizeDesktop' and 'fontSizeMobile' fields. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
+**title**- Title text can be added in 'text' field with character limit of 30 characters. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
+![image](https://user-images.githubusercontent.com/101316657/165886725-bc17c407-777a-4cde-86e9-4673ba12520a.png)
 
-![image](https://user-images.githubusercontent.com/101316657/165223947-c72162a6-08bd-4341-9039-841e122bd5cd.png)
 
-**message** - Message text can be added in 'text' field with character limit of 50 characters. Font size of the title in pixels, for desktop and mobile can be specified in 'fontSizeDesktop' and 'fontSizeMobile' fields. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
-
-![image](https://user-images.githubusercontent.com/101316657/165223975-1d5ca4b7-7736-4f1f-81cd-4d1262f1b36f.png)
+**message** - Message text can be added in 'text' field with character limit of 50 characters. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
+![image](https://user-images.githubusercontent.com/101316657/165886742-f0a289cb-5d23-46f0-aaa9-b3e3523d4d36.png)
 
 **ctaNo** - Number of CTAs can be set to either one or two depending on the value passed in 'singleCTA' field. Passing 'none' would show two buttons and leaving it as blank will show one button.
 
