@@ -8,14 +8,17 @@
 <p>&nbsp;</p>
 
 **mainButton** - Text can be added in the main button of side nudge by passing the string in 'text' field with character limit of 20. Background color in rgb, hexadecimal and keyword can be set in 'backgroundColor' field. Text color can be set in 'textColor' field. Margin from left can be specified in pixels in 'left' field.
+
 ![image](https://user-images.githubusercontent.com/101316657/165905644-8b920d7f-4891-42ac-ae4f-1ad5b161e531.png)
 
 
 **mainButtonImage** - Image for main button can be enabled by passing 'yes' in the 'flag' field and disabled by keeping it blacnk. An image can be set for main button of side nudge by passing image URL in the 'imageURL' field. 
+
 ![image](https://user-images.githubusercontent.com/101316657/165905679-94736119-5a04-4b64-a317-145c4ba27b07.png)
 
 
 **SideBannerStyle** - Background image of the side nudge can be changed by passing in image url in the 'backgroundImage' field. Or color can be added by passing in color value in the 'backgroundColor' field.
+
 ![image](https://user-images.githubusercontent.com/101316657/165905725-650028d8-7a90-42e9-9344-8b017199b42c.png)
 
 
