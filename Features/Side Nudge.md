@@ -14,7 +14,7 @@
 
 **mainButtonImage** - Image for main button can be enabled by passing 'yes' in the 'flag' field and disabled by keeping it blacnk. An image can be set for main button of side nudge by passing image URL in the 'imageURL' field. 
 
-![image](https://user-images.githubusercontent.com/101316657/165905679-94736119-5a04-4b64-a317-145c4ba27b07.png)
+![image](https://user-images.githubusercontent.com/101316657/165905908-15d3480a-8a9e-4aed-a55f-596ad78ac91f.png)
 
 
 **SideBannerStyle** - Background image of the side nudge can be changed by passing in image url in the 'backgroundImage' field. Or color can be added by passing in color value in the 'backgroundColor' field.
