@@ -20,22 +20,9 @@
 
 ![image](https://user-images.githubusercontent.com/101316657/165223735-0fbee6e4-1368-4059-9967-7da004c26438.png)
 
-**autohide** - This property lets us enable or disable whether to auto hide the template after certain time period. This can be done by passing in "yes" in the 'flag' field to enable and leaving it as blank to disable. 'countDown' can be set to "yes" and text can be added in the 'countDownText' field, as can be seen in above image. The time can be set in seconds in 'time' field.
+**autohide** - This property lets us enable or disable whether to auto hide the template after certain time period. This can be done by passing in "yes" in the 'flag' field to enable and leaving it as blank to disable. 
+![image](https://user-images.githubusercontent.com/101316657/165886468-56978a98-9521-449f-8be8-9b5e24df8417.png)
 
-![image](https://user-images.githubusercontent.com/101316657/165223833-4dfb6790-3a3a-47bf-b7bf-54c2887a4719.png)
-
-
-**closeButton** - Close button to close the banner can be enabled by setting the value to 'yes' in the 'flag' field and leaving it as blank to disable. An image can be used as close button icon by passing its url in 'imageUrl field'.
-
-![image](https://user-images.githubusercontent.com/101316657/165223867-12d81938-8eae-42bf-b0a5-c9a4563f2c61.png)
-
-**collapseAndExpandButton** - This button which will collapse and expand the banner can be enabled by setting the value to 'yes' in the 'flag' field and leaving it as blank to disable. An image can be used as icon by passing its url in 'imageUrl field'.
-
-![image](https://user-images.githubusercontent.com/101316657/165223890-323e6a7f-4454-4dfa-8c91-4e4d361b3aa9.png)
-
-**borderStyle** - The border of the banner can be customized by changing the color (rgb, hexadecimal or keyword) in 'color' field, border type (solid, dashed etc) in 'style' field and width (in pixels) by passing in values in 'width' field.
-
-![image](https://user-images.githubusercontent.com/101316657/165223930-d038f2c5-4c64-43f9-b922-dbe4113a9d0a.png)
 
 **title**- Title text can be added in 'text' field with character limit of 30 characters. Font size of the title in pixels, for desktop and mobile can be specified in 'fontSizeDesktop' and 'fontSizeMobile' fields. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
 
@@ -57,11 +44,9 @@
 
 ![image](https://user-images.githubusercontent.com/101316657/165224039-ec87b3a8-a193-4232-8186-4d2ac4501f26.png)
 
-**logoImage** - This can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. Image url can be passed in 'url' field.
+**logoImage** - This can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. Image url can be passed in 'url' field. Logo width can be set in pixels in 'width' field.
 
-![image](https://user-images.githubusercontent.com/101316657/165224065-ece24371-af07-41c1-ac3e-8486a5e58aa1.png)
+![image](https://user-images.githubusercontent.com/101316657/165886560-1799e18b-5c1f-460e-b548-9815f265c8d0.png)
 
-**animation** - This can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. Subtle animations like bounce, swing and slide can be set 'animationType' which will animate the banner to make it bounce, swing  or slide from top.
 
-![image](https://user-images.githubusercontent.com/101316657/165224083-942505df-f1df-42f0-99db-4a66f6e5c442.png)
 
