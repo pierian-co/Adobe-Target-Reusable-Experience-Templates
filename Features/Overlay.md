@@ -3,7 +3,9 @@
 <img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 <p>&nbsp;</p>
+
 **Following properties of the Overlay can be customized as per individual requirements**
+
 <p>&nbsp;</p>
 
 **overlayStyle** - Background image of the overlay can be changed by passing image URL in the 'imgUrl' field. Background color of the overlay can be changed by passing the color value (rgb, hexadecimal or keyword) in the 'backgroundColor' field.
