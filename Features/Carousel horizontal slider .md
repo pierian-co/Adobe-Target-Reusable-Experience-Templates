@@ -1,6 +1,13 @@
 # Carousel horizontal slider
-Arrows are present which help to navigate across product tiles. 
-Following properties of the template can be customized as per individual requirements.
+<pre>                                   Desktop View                                                            Mobile View             </pre>
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
+
+<p>&nbsp;</p>
+
+**In Carousel horizontal slider, Arrows are present which help to navigate across product tiles in mobile view.
+Following properties of the toaster can be customized as per individual requirements**
+
+<p>&nbsp;</p>
 
 1. initialDelay- used to delay the occurence of template in miliseconds
 2. bannerPosition - selector can be specified where template needs to be placed
