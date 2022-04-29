@@ -13,12 +13,14 @@
 
 **autohide** - This property lets us enable or disable whether to auto hide the template after certain time period. This can be done by passing in "yes" in the 'activator' field to enable and leaving it as blank to disable. 'countDown' can be set to "yes" and text can be added in the 'countDownText' field, as can be seen in above image. The time can be set in seconds in 'time' field.
 
-![image](https://user-images.githubusercontent.com/101316657/165223833-4dfb6790-3a3a-47bf-b7bf-54c2887a4719.png)
+![image](https://user-images.githubusercontent.com/101316657/165917863-c673581c-be3b-45e3-af2c-986abd9aef5b.png)
+
 
 
 **closeButton** - Close button to close the banner can be enabled by setting the value to 'yes' in the 'activator' field and leaving it as blank to disable. An image can be used as close button icon by passing its url in 'imageUrl field'.
 
-![image](https://user-images.githubusercontent.com/101316657/165223867-12d81938-8eae-42bf-b0a5-c9a4563f2c61.png)
+![image](https://user-images.githubusercontent.com/101316657/165917901-80cfb0b2-5bf4-46ae-80fc-495c56a108f4.png)
+
 
 **borderStyle** - The border of the banner can be customized by changing the color (rgb, hexadecimal or keyword) in 'color' field, border type (solid, dashed etc) in 'style' field and width (in pixels) by passing in values in 'width' field.
 
@@ -42,12 +44,14 @@
 
 **subHeading** - Three subheadings are available which can be enabled by setting the value of 'activator' field to yes and leaving it as blank to disable. CTA text can be added in 'subHeading1Text' field with character limit of 20 characters. The link to navigate when user clicks on the subheading can be provided in 'subHeading1Href' field. Similar for other subHeadings. Font size in pixels can be set in 'fontSize' field. Text color can be set in 'textColor' field and font family can be set in 'fontFamily' field.
 
-![image](https://user-images.githubusercontent.com/101316657/165224039-ec87b3a8-a193-4232-8186-4d2ac4501f26.png)
+![image](https://user-images.githubusercontent.com/101316657/165918041-16425556-fc5b-4666-bf8c-8b1cf01efffa.png)
 
 **logoImage** - This can be enabled by setting the value of 'activator' field to yes and leaving it as blank to disable. Image url can be passed in 'url' field. Width of the logo can be specified for large screen, medium screen and small screen in pixels by passing the values in 'largeScreenLogoWidth', 'mediumScreenLogoWidth' and 'smallScreenLogoWidth' respectively.
 
-![image](https://user-images.githubusercontent.com/101316657/165224065-ece24371-af07-41c1-ac3e-8486a5e58aa1.png)
+![image](https://user-images.githubusercontent.com/101316657/165918108-4ced8bfe-61ee-4b9f-853c-c4160070a4c7.png)
+
 
 **animation** - This can be enabled by setting the value of 'activator' field to yes and leaving it as blank to disable. Subtle animations like bounce, fade, swing and slide can be set 'animationType' which will animate the banner to make it bounce, fade, swing  or slide from top. Additionally, fade in and fade out time for fade animation can be set in 'fadeInTime' and 'fadeOutTime' fields by passing values in miliseconds, or simply specifying as 'slow' or 'fast'.
 
-![image](https://user-images.githubusercontent.com/101316657/165224083-942505df-f1df-42f0-99db-4a66f6e5c442.png)
+![image](https://user-images.githubusercontent.com/101316657/165918154-9d740a67-ca65-4c74-99a2-c4119360d88a.png)
+
