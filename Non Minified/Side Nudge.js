@@ -11,7 +11,7 @@ var config_sideNudge = {
 		"imageURL": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w"
 	},
 	"SideBannerStyle": {
-		"backgroundImage": "", // image url of overlay  
+		"backgroundImage": "", // image url of side nudge  
 		"backgroundColor": "red" //"#464343"
 	},
 	"closeButton": {
