@@ -10,7 +10,9 @@ Following properties of the carousel can be customized as per individual require
 <p>&nbsp;</p>
 
 **initialDelay**- used to delay the occurence of template in miliseconds by passing in value in 'time' field.
+
 ![image](https://user-images.githubusercontent.com/101316657/166135677-bdf8e0e2-3942-48e5-b414-2f4c2ba6b234.png)
+
 
 **bannerPosition** - Position of the carousel can be set in the 'selector' field by passing css selector of any element on the page.
 ![image](https://user-images.githubusercontent.com/101316657/166135977-feeac5be-9e09-4743-9a0d-97fa8c7e68a3.png)
