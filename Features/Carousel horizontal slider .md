@@ -26,13 +26,21 @@ Following properties of the carousel can be customized as per individual require
 ![image](https://user-images.githubusercontent.com/101316657/166136067-8ca84c31-f67e-4046-9608-f16f7a61eacf.png)
 
 For each Product tile- 
+
 **title** - Text of the title can be changed by passing string in 'text' field.
+
 **image** - Image of the product can be changed by passing in image url in the 'imageUrl' field.
+
 **amount** - Amount of the product can be specified in the 'text' field.
+
 **description** - Description of the product can be added in the 'text' field.
+
 **message** - A short message accompanying the product can be added in the 'text' field.
+
 **Cta** - Text of the CTA can be changed by passing value in 'text' field. URL can be provided in the 'url' field where one would be land on clicking the button. Font family can be provided in the 'fontFamily' field.
+
 **Offer** This is a small rectangular panel on top of each product tile which can be enabled by passing value as 'yes' in the 'flag' field.. Text and background colour can be provided in the 'text' and 'backgroundColor' field. Font family can be provided in the 'fontFamily' field.
+
 
 ![image](https://user-images.githubusercontent.com/101316657/166139410-61195a14-1eca-4ebd-8a37-52977989e432.png)
 
