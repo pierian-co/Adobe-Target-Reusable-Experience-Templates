@@ -52,5 +52,6 @@
 
 **animation** - This can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. Enabling it will cause a subtle slide animation from left side when the side nudge is clicked.
 
-![image](https://user-images.githubusercontent.com/101316657/165224083-942505df-f1df-42f0-99db-4a66f6e5c442.png)
+![image](https://user-images.githubusercontent.com/101316657/166135529-a7304717-6d53-4090-95ec-3dc750a35c93.png)
+
 
