@@ -1,6 +1,6 @@
 # Dynamic banner with close button
 <pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="https://user-images.githubusercontent.com/101316657/165522908-72447ab9-f9f5-4411-b851-15f4a6c1a742.png" width="700" height="420">..............<img src="https://user-images.githubusercontent.com/101316657/165523041-cafbbe11-1677-4b38-ab1e-5df9eabb3851.png" width="250" height="420">
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 <p>&nbsp;</p>
 
