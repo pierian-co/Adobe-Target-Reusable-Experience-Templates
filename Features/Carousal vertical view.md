@@ -27,7 +27,7 @@ Following properties of the carousel can be customized as per individual require
 
 For each Product tile- 
 
-**title** - Text of the title can be changed by passing string in 'text' field.
+**title** - Text of the title can be changed by passing string value in the 'text' field.
 
 **image** - Image of the product can be changed by passing in image url in the 'imageUrl' field.
 
