@@ -39,7 +39,7 @@ For each Product tile-
 
 **Cta** - Text of the CTA can be changed by passing value in 'text' field. URL can be provided in the 'url' field where one would be land on clicking the button. Font family can be provided in the 'fontFamily' field.
 
-**Offer** This is a small rectangular panel on top of each product tile which can be enabled by passing value as 'yes' in the 'flag' field.. Text and background colour can be provided in the 'text' and 'backgroundColor' field. Font family can be provided in the 'fontFamily' field.
+**Offer** - This is a small rectangular panel on top of each product tile which can be enabled by passing value as 'yes' in the 'flag' field.. Text and background colour can be provided in the 'text' and 'backgroundColor' field. Font family can be provided in the 'fontFamily' field.
 
 
 ![image](https://user-images.githubusercontent.com/101316657/166139410-61195a14-1eca-4ebd-8a37-52977989e432.png)
