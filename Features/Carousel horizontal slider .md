@@ -19,6 +19,7 @@ Following properties of the carousel can be customized as per individual require
 
 
 **background** - Background colour of the template can be changed by passing color in the 'backgroundColor' field. Colors can be either in rgb format, hexadecimal or keyword.
+
 ![image](https://user-images.githubusercontent.com/101316657/166135993-fcfcceaa-e981-4424-bbbb-f00574aa7811.png)
 
 **fontFamily** - Font family of title, description, message and title for all product tiles can be changed by passing the value in fontFamily field.
