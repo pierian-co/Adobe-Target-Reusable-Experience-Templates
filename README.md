@@ -3,6 +3,7 @@
           
 ## 1. Dynamic banner with close button
 <img src="" width="700" height="420">
+
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Dynamic%20banner%20with%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 2. Dynamic banner without close button
@@ -20,6 +21,7 @@
 
 ## 4. Carousal horizontal slider
 <img src="" width="700" height="420">
+
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v1.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -32,6 +34,7 @@
 
 ## 6. Collapsible toaster with close button
 <img src="" width="700" height="420">
+
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Collapsible%20toaster%20with%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -43,5 +46,6 @@
 
 ## 8. Overlay
 <img src="" width="700" height="420">
+
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
