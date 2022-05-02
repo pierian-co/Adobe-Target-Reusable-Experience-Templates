@@ -4,8 +4,12 @@
 
 <p>&nbsp;</p>
 
-**In Carousel vertical view, 3 product tiles are present.
-Following properties of the carousel can be customized as per individual requirements**
+**In Carousel vertical view, 3 product tiles are present.**
+
+Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Carousal%20vertical%20view.js
+
+
+Following properties of the carousel can be customized as per individual requirements
 
 <p>&nbsp;</p>
 
