@@ -2,8 +2,8 @@
 
           
 ## 1. Dynamic banner with close button
-<pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="" width="700" height="420">..............<img src="" width="250" height="420">
+<pre>                           Desktop View                                                            Mobile View             </pre>
+<img src="" width="500" height="300">..............<img src="" width="150" height="300">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Dynamic%20banner%20with%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
