@@ -6,7 +6,7 @@
 
 **Collapsible toaster with close button, as the name suggests, has a dedicated close button to close the toaster**
 
-Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Dynamic%20banner%20without%20Close%20button.js
+Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Collapsable%20Toastr%20with%20Close%20button.js
 
 Following properties of the toaster can be customized as per individual requirements.
 <p>&nbsp;</p>
