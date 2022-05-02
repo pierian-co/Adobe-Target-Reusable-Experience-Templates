@@ -3,8 +3,9 @@
 <img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 <p>&nbsp;</p>
-
-**Following properties of the side nudge can be customized as per individual requirements.**
+Link to the Non Minified Code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Side%20Nudge.js
+<p>&nbsp;</p>
+Following properties of the side nudge can be customized as per individual requirements
 <p>&nbsp;</p>
 
 **mainButton** - Text can be added in the main button of side nudge by passing the string in 'text' field with character limit of 20. Background color in rgb, hexadecimal and keyword can be set in 'backgroundColor' field. Text color can be set in 'textColor' field. Margin from left can be specified in pixels in 'left' field.
