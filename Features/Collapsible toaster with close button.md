@@ -4,8 +4,11 @@
 
 <p>&nbsp;</p>
 
-**Collapsible toaster with close button, as the name suggests, has a dedicated close button to close the toaster.
-Following properties of the toaster can be customized as per individual requirements**
+**Collapsible toaster with close button, as the name suggests, has a dedicated close button to close the toaster**
+
+Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Dynamic%20banner%20without%20Close%20button.js
+
+Following properties of the toaster can be customized as per individual requirements.
 <p>&nbsp;</p>
 
 **initialDelay** - First occurence of the template can be delayed by specifying the time in miliseconds in the 'time' field.
