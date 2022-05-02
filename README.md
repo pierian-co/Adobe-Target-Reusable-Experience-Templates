@@ -8,45 +8,52 @@
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Dynamic%20banner%20with%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 2. Dynamic banner without close button
-![image](https://user-images.githubusercontent.com/101316657/163110164-54213a74-88c3-43b1-bed1-d079ef19b452.png)
+<pre>                                   Desktop View                                                            Mobile View             </pre>
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Dynamic%20banner%20without%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 3. Side Nudge
-![image](https://user-images.githubusercontent.com/101316657/163102873-a35cd23a-928f-4b3b-95a6-50c9d954184a.png)
+<pre>                                   Desktop View                                                            Mobile View             </pre>
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Side%20Nudge.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## 4. Carousal horizontal slider
-![image](https://user-images.githubusercontent.com/101316657/163112753-06461f78-311a-46e1-bee1-f9cb9f1950de.png)
+<pre>                                   Desktop View                                                            Mobile View             </pre>
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v1.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## 5. Carousal vertical view
-![image](https://user-images.githubusercontent.com/101316657/163112581-b89f5ea7-8d70-4ed6-baa7-797c9744b42e.png)
+<pre>                                   Desktop View                                                            Mobile View             </pre>
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v2.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 6. Collapsible toaster with close button
-![image](https://user-images.githubusercontent.com/101316657/163114457-c541f71c-355d-4a94-86bd-b32e8ef59ca0.png)
+<pre>                                   Desktop View                                                            Mobile View             </pre>
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Collapsible%20toaster%20with%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 7. Collapsible toaster without close button
-![image](https://user-images.githubusercontent.com/101316657/163122416-e763aa7d-8c1e-4888-84b8-32167f6a7d1b.png)
+<pre>                                   Desktop View                                                            Mobile View             </pre>
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Collapsible%20toaster%20without%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 8. Overlay
-![image](https://user-images.githubusercontent.com/101316657/164673981-b48dcb2e-5ad1-4cb5-ab01-6151c457f8a9.png)
+<pre>                                   Desktop View                                                            Mobile View             </pre>
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
