@@ -5,6 +5,7 @@
 <p>&nbsp;</p>
 
 **Dynamic banner with close button, as the name suggests, has a dedicated close button to close the banner.
+Link to the Non minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Dynamic%20banner%20with%20close%20button.js
 Following properties of the banner can be customized as per individual requirements**
 <p>&nbsp;</p>
 
