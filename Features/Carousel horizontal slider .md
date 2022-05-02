@@ -7,7 +7,7 @@
 **In Carousel horizontal slider, 3 product tiles are present and arrows help to navigate across each tile in mobile view**
 
 Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Carousal%20horizontal%20slider.js
-<p>&nbsp;</p>
+
 Following properties of the carousel can be customized as per individual requirements
 
 <p>&nbsp;</p>
