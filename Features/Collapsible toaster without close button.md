@@ -3,6 +3,7 @@
 <img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 <p>&nbsp;</p>
+Link to the Non Minified Code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Collapsable%20Toastr%20without%20Close%20button.js
 
 **Following properties of the toaster can be customized as per individual requirements**
 <p>&nbsp;</p>
