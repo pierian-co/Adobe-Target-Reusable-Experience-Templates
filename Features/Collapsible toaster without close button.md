@@ -5,7 +5,7 @@
 <p>&nbsp;</p>
 Link to the Non Minified Code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Collapsable%20Toastr%20without%20Close%20button.js
 <p>&nbsp;</p>
-**Following properties of the toaster can be customized as per individual requirements**
+Following properties of the toaster can be customized as per individual requirements
 <p>&nbsp;</p>
 
 **initialDelay** - First occurence of the template can be delayed by specifying the time in miliseconds in the 'time' field.
