@@ -1,16 +1,53 @@
 # Dynamic banner without close button
-Following properties of the template can be customized as per individual requirements. The arrow can be used to hide or show the banner. 
+<pre>                                   Desktop View                                                            Mobile View             </pre>
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
-1. initialDelay - used to delay the occurence of template in miliseconds
-2. background - background colour or image url can be added
-3. autohide - This property lets us enable or disable whether to auto hide the template after certain time period. A count down timer can also be enabled. 
-4. collapseAndExpandButton - This can be enabled or disabled with a customized image
-5. closeButton - Close button can be enabled or disabled. A customized image can be used as close button icon. 
-6. borderStyle - The border of the template can be changed based on colour, border type and width. 
-7. title- Text, colour and font size and font familiy of the title can be changed.
-8. message - Text, colour and font size and font familiy of the message can be changed.
-9. ctaNo - Number of CTAs can be changed either to one or two. 
-10. ctaLink1 and ctaLink2 - Quite a few values like text, href, fontSize, backgroundColor, textColor, borderRadius, fontFamily can be changed. 
-11. subHeading - These can be enabled or disabled. Text, colour and href can be changed for them. Three subheadings are available.
-12. logoImage- This can be activated or deactivated with customized logo and width of the image can be changed. 
+<p>&nbsp;</p>
+
+Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Dynamic%20banner%20without%20Close%20button.js
+
+**Following properties of the banner can be customized as per individual requirements**
+<p>&nbsp;</p>
+
+**initialDelay** - First occurence of the template can be delayed by specifying the time in miliseconds in the 'time' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165224163-ef29e793-ea81-407d-a620-61d525d1cbda.png)
+
+
+**bannerPosition** - Position of the banner can be set in the 'selector' field by passing css selector of any element on the page. Additionally, specifying the location as before and after in the 'location' field would also position the banner before or after that element.
+
+![image](https://user-images.githubusercontent.com/101316657/165223795-7f9f0c1d-59b8-4a12-ae03-09ab3ff9a770.png)
+
+**background** - Background colour of the template can be changed by passing color in the 'backgroundColor' field. Colors can be either in rgb format, hexadecimal or  keyword. Alternatively, an image can also be placed in the background by passing its url in 'imageUrl' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165223735-0fbee6e4-1368-4059-9967-7da004c26438.png)
+
+**autohide** - This property lets us enable or disable whether to auto hide the template after certain time period. This can be done by passing in "yes" in the 'flag' field to enable and leaving it as blank to disable. 
+![image](https://user-images.githubusercontent.com/101316657/165886468-56978a98-9521-449f-8be8-9b5e24df8417.png)
+
+
+**title**- Title text can be added in 'text' field with character limit of 30 characters. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
+![image](https://user-images.githubusercontent.com/101316657/165886725-bc17c407-777a-4cde-86e9-4673ba12520a.png)
+
+
+**message** - Message text can be added in 'text' field with character limit of 50 characters. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
+![image](https://user-images.githubusercontent.com/101316657/165886742-f0a289cb-5d23-46f0-aaa9-b3e3523d4d36.png)
+
+**ctaNo** - Number of CTAs can be set to either one or two depending on the value passed in 'singleCTA' field. Passing 'none' would show two buttons and leaving it as blank will show one button.
+
+![image](https://user-images.githubusercontent.com/101316657/165223996-b5210148-c8b8-4732-b7d5-a0cd5c6075f5.png)
+
+**ctaLink1 and ctaLink2** - CTA text can be added in 'text' field with character limit of 20 characters. The link to navigate when user clicks on CTA can be provided in 'href' field. Font size in pixels can be set in 'fontSize' field. Background color can be set in 'backgroundColor' field. Text color can be set in 'textColor' field. Border radius, ie the extend of curve in CTA's edges can be set in 'borderRadius' field and font family can be set in 'fontFamily' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165224014-9da81f33-6a8b-4320-bc3b-9a18966bf3f9.png)
+
+**subHeading** - Three subheadings are available which can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. CTA text can be added in 'subHeading1Text' field with character limit of 20 characters. The link to navigate when user clicks on the subheading can be provided in 'subHeading1Href' field. Similar for other subHeadings. Font size in pixels can be set in 'fontSize' field. Text color can be set in 'textColor' field and font family can be set in 'fontFamily' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165224039-ec87b3a8-a193-4232-8186-4d2ac4501f26.png)
+
+**logoImage** - This can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. Image url can be passed in 'url' field. Logo width can be set in pixels in 'width' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165886560-1799e18b-5c1f-460e-b548-9815f265c8d0.png)
+
+
 

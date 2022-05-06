@@ -1,16 +1,59 @@
-# Collapsable Toaster without Close button
-Following properties of the template can be customized as per individual requirements. The arrow can be used to hide or show the toaster. 
+# Collapsible toaster without close button
+<pre>                                   Desktop View                                                            Mobile View             </pre>
+<img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
-1. initialDelay - used to delay the occurence of template in miliseconds
-2. background - background colour or image url can be added
-3. autohide - This property lets us enable or disable whether to auto hide the template after certain time period. A count down timer can also be enabled. 
-4. collapseAndExpandButton - This can be enabled or disabled with a customized image
-5. closeButton - Close button can be enabled or disabled. A customized image can be used as close button icon. 
-6. borderStyle - The border of the template can be changed based on colour, border type and width. 
-7. title- Text, colour and font size and font familiy of the title can be changed.
-8. message - Text, colour and font size and font familiy of the message can be changed.
-9. ctaNo - Number of CTAs can be changed either to one or two. 
-10. ctaLink1 and ctaLink2 - Quite a few values like text, href, fontSize, backgroundColor, textColor, borderRadius, fontFamily can be changed. 
-11. subHeading - These can be enabled or disabled. Text, colour and href can be changed for them. Three subheadings are available.
-12. logoImage- This can be activated or deactivated with customized logo and width of the image can be changed. 
+<p>&nbsp;</p>
+Link to the Non Minified Code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Collapsable%20Toastr%20without%20Close%20button.js
+<p>&nbsp;</p>
+Following properties of the toaster can be customized as per individual requirements
+<p>&nbsp;</p>
+
+**initialDelay** - First occurence of the template can be delayed by specifying the time in miliseconds in the 'time' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165224163-ef29e793-ea81-407d-a620-61d525d1cbda.png)
+
+**background** - Background colour of the template can be changed by passing color in the 'backgroundColor' field. Colors can be either in rgb format, hexadecimal or  keyword. Alternatively, an image can also be placed in the background by passing its url in 'imageUrl' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165223735-0fbee6e4-1368-4059-9967-7da004c26438.png)
+
+**autohide** - This property lets us enable or disable whether to auto hide the template after certain time period. This can be done by passing in "yes" in the 'flag' field to enable and leaving it as blank to disable. 'countDown' can be set to "yes" and text can be added in the 'countDownText' field, as can be seen in above image. The time can be set in seconds in 'time' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165223833-4dfb6790-3a3a-47bf-b7bf-54c2887a4719.png)
+
+
+**closeButton** - Close button to close the toaster can be enabled by setting the value to 'yes' in the 'flag' field and leaving it as blank to disable. An image can be used as close button icon by passing its url in 'imageUrl field'.
+
+![image](https://user-images.githubusercontent.com/101316657/165223867-12d81938-8eae-42bf-b0a5-c9a4563f2c61.png)
+
+**collapseAndExpandButton** - This button which will collapse and expand the toaster can be enabled by setting the value to 'yes' in the 'flag' field and leaving it as blank to disable. An image can be used as icon by passing its url in 'imageUrl field'.
+
+![image](https://user-images.githubusercontent.com/101316657/165223890-323e6a7f-4454-4dfa-8c91-4e4d361b3aa9.png)
+
+**borderStyle** - The border of the toaster can be customized by changing the color (rgb, hexadecimal or keyword) in 'color' field, border type (solid, dashed etc) in 'style' field and width (in pixels) by passing in values in 'width' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165223930-d038f2c5-4c64-43f9-b922-dbe4113a9d0a.png)
+
+**title**- Title text can be added in 'text' field with character limit of 30 characters. Font size of the title in pixels, for desktop and mobile can be specified in 'fontSizeDesktop' and 'fontSizeMobile' fields. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165223947-c72162a6-08bd-4341-9039-841e122bd5cd.png)
+
+**message** - Message text can be added in 'text' field with character limit of 50 characters. Font size of the title in pixels, for desktop and mobile can be specified in 'fontSizeDesktop' and 'fontSizeMobile' fields. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165223975-1d5ca4b7-7736-4f1f-81cd-4d1262f1b36f.png)
+
+**ctaNo** - Number of CTAs can be set to either one or two depending on the value passed in 'singleCTA' field. Passing 'none' would show two buttons and leaving it as blank will show one button.
+
+![image](https://user-images.githubusercontent.com/101316657/165223996-b5210148-c8b8-4732-b7d5-a0cd5c6075f5.png)
+
+**ctaLink1 and ctaLink2** - CTA text can be added in 'text' field with character limit of 20 characters. The link to navigate when user clicks on CTA can be provided in 'href' field. Font size in pixels can be set in 'fontSize' field. Background color can be set in 'backgroundColor' field. Text color can be set in 'textColor' field. Border radius, ie the extend of curve in CTA's edges can be set in 'borderRadius' field and font family can be set in 'fontFamily' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165224014-9da81f33-6a8b-4320-bc3b-9a18966bf3f9.png)
+
+**subHeading** - Three subheadings are available which can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. CTA text can be added in 'subHeading1Text' field with character limit of 20 characters. The link to navigate when user clicks on the subheading can be provided in 'subHeading1Href' field. Similar for other subHeadings. Font size in pixels can be set in 'fontSize' field. Text color can be set in 'textColor' field and font family can be set in 'fontFamily' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165224039-ec87b3a8-a193-4232-8186-4d2ac4501f26.png)
+
+**logoImage** - This can be enabled by setting the value of 'flag' field to yes and leaving it as blank to disable. Image url can be passed in 'url' field.
+
+![image](https://user-images.githubusercontent.com/101316657/165224065-ece24371-af07-41c1-ac3e-8486a5e58aa1.png)
 
