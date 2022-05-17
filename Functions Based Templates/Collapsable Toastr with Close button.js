@@ -17,95 +17,94 @@ showBanner();
 
 function showBanner() {
 	var config_toastr_v1 = {
-			"initialDelay": {
-				"time": 100
-			},
-			"background": {
-				"imageUrl": "https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg", //"https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg", // image url of banner  https://cdn.pixabay.com/photo/2015/11/10/08/31/banner-1036483__340.jpg
-				"backgroundColour": "grey"
-			},
-			"autoHide": {
-				"flag": "", // yes to activate
-				"countDown": "yes", // yes to activate countdown part with autohide
-				"countDownText": "Ends in",
-				"time": 5
-			},
-			"closeButton": {
-				"flag": "", // yes to activate
-				"imageUrl": "https://iili.io/2zu8Zl.md.png"
-			},
-			"collapseAndExpandButton": {
-				"flag": "yes", // yes to activate
-				"imageUrl": "", //"https://i.imgur.com/KqHD37h.png",
-				"thinLine": "yes" // yes to activate thinline
-			},
-			"borderStyle": {
-				"width": "2px",
-				"style": "solid",
-				"colour": "white"
-			},
-			"title": {
-				"flag": "yes",
-				"text": "Heading Text",
-				"fontSizeDesktop": "25px",
-				"fontSizeMobile": "20px",
-				"colour": "white",
-				"fontFamily": "VodafoneRegular"
-			},
-			"message": {
-				"text": "Samsung Galaxy S10 mit dem Red S 10 GB",
-				"fontSizeDesktop": "25px",
-				"fontSizeMobile": "20px",
-				"colour": "white",
-				"fontFamily": "VodafoneRegular"
-			},
-			"ctaCount": {
-				"singleCTA": "none" //type "none" to show 2 buttons
-			},
-			"ctaLink1": {
-				"text": "Check Offer",
-				"href": "",
-				"fontSize": "18px",
-				"backgroundColour": "white",
-				"textColor": "black",
-				"borderRadius": "6px",
-				"fontFamily": "VodafoneRegular"
-			},
-			"ctaLink2": {
-				"text": "Close Offer",
-				"href": "",
-				"fontSize": "18px",
-				"backgroundColour": "white",
-				"textColor": "red",
-				"borderRadius": "6px",
-				"fontFamily": "VodafoneRegular",
-				"closeButton": "yes"
-			},
-			"subHeading": {
-				"flag": "yes",
-				"subHeading1Text": "Offer 1",
-				"subHeading1Href": "",
-				"subHeading2Text": "Offer 2",
-				"subHeading2Href": "",
-				"subHeading3Text": "Offer 3",
-				"subHeading3Href": "",
-				"fontSize": "15px",
-				"textColor": "white"
-			},
-			"logoImage": {
-				"flag": "",
-				"url": "https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-ghana-14.png",
-				"largeScreenLogoWidth": "134px",
-				"mediumScreenLogoWidth": "70px",
-				"smallScreenLogoWidth": "57px"
-			},
-			"animation": {
-				"flag": "",
-				"animationType": "bounce", //fade/bounce/swing/slide
-				"occurance": "first"
-			}
+		"initialDelay": {
+			"time": 100
 		},
-		maxwidth = "860px";
+		"background": {
+			"imageUrl": "", 
+			"backgroundColour": "red"
+		},
+		"autoHide": {
+			"flag": "", // yes to activate
+			"countDown": "yes", // yes to activate countdown part with autohide
+			"countDownText": "Ends in",
+			"time": 5
+		},
+		"closeButton": {
+			"flag": "", // yes to activate
+			"imageUrl": "https://iili.io/2zu8Zl.md.png"
+		},
+		"collapseAndExpandButton": {
+			"flag": "yes", // yes to activate
+			"imageUrl": "", //"https://i.imgur.com/KqHD37h.png",
+		},
+		"borderStyle": {
+			"width": "2px",
+			"style": "solid",
+			"colour": "white"
+		},
+		"title": {
+			"flag": "yes",
+			"text": "Heading Text", // Char limit 30 char
+			"fontSizeDesktop": "25px",
+			"fontSizeMobile": "20px",
+			"colour": "white",
+			"fontFamily": "Arial, Helvetica, sans-serif"
+		},
+		"message": {
+			"text": "Samsung Galaxy S10 mit dem Red S 10 GB", // char limit 50 char
+			"fontSizeDesktop": "25px",
+			"fontSizeMobile": "20px",
+			"colour": "white",
+			"fontFamily": "Arial, Helvetica, sans-serif"
+		},
+		"ctaCount": {
+			"singleCTA": "none" //type "none" to show 2 buttons
+		},
+		"ctaLink1": {
+			"text": "Check Offer", // char limit 20 char
+			"href": "",
+			"fontSize": "18px",
+			"backgroundColour": "white",
+			"textColor": "black",
+			"borderRadius": "6px",
+			"fontFamily": "Arial, Helvetica, sans-serif"
+		},
+		"ctaLink2": {
+			"text": "Close Offer", // char limit 20 char
+			"href": "",
+			"fontSize": "18px",
+			"backgroundColour": "white",
+			"textColor": "red",
+			"borderRadius": "6px",
+			"fontFamily": "Arial, Helvetica, sans-serif",
+			"closeButton": "yes"
+		},
+		"subHeading": {
+			"flag": "yes",
+			"subHeading1Text": "Offer 1", // char limit 20 char
+			"subHeading1Href": "",
+			"subHeading2Text": "Offer 2", // char limit 20 char
+			"subHeading2Href": "",
+			"subHeading3Text": "Offer 3", // char limit 20 char
+			"subHeading3Href": "",
+			"fontSize": "15px",
+			"textColor": "white",
+			"fontFamily": "inherit"
+		},
+		"logoImage": {
+			"flag": "",
+			"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w",
+			"largeScreenLogoWidth": "134px",
+			"mediumScreenLogoWidth": "70px",
+			"smallScreenLogoWidth": "57px"
+		},
+		"animation": {
+			"flag": "",
+			"animationType": "bounce" //bounce/swing/slide
+		}
+	},
+	maxwidth = "860px";
 	ObjectValues = function(v, k) {
 		if(typeof v == "object") {
 			for(var kp in v) {
@@ -275,7 +274,7 @@ function showBanner() {
 							var E = document.createElement("div");
 							E.id = "tm", E.style.bacgroundColor = "red", E.style.color = "white", E.style.fontSize = "20px", E.style.textAlign = "center";
 							var I = document.createElement("span");
-							I.id = "timer", E.appendChild(I), z(E, document.querySelector(i)), document.querySelector("body").insertAdjacentHTML("beforeend", "<style>#mid_toastr_V1{display: block;bottom: 0px;left: 0px;right: 0px;z-index: 57;position: fixed;}.mod-mph-flex-anchor {z-index: 56;}.dd-button { position: absolute; content: ''; width: 13px; height: 13px; border-top: 3px solid #444; border-right: 3px solid #444; -webkit-transform: rotate(135deg); transform: rotate(135deg); border-radius: 2px; left: 8px; top: 7px; border-color:white;}.dd-main { border: 2px solid #666;width: 34px;height: 34px;position: relative;border-radius: 100%;box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;border-color: white;margin: 0vh auto 0;margin-top: -33px;z-index: 2;background: #464343;transition: 0.5s ease;}.down { -moz-transform:rotate(135deg); -webkit-transform:rotate(135deg); transform:rotate(180deg);} .close_toastr_V1 {float:right;display:inline-block;padding:5px 10px; color:white;}.close_toastr_V1:hover {float:right;display:inline-block;color:#fff; cursor: pointer;}#bannerBtn1{ margin-left: 10px; padding: 0px; display: inline-block; background: none;} .top-text {display: inline-block; margin-right:10px;} @media only screen and (max-width: " + maxwidth + "){ #bannerBtn1{margin-left:0px; max-width:145px; width: 50%;    margin-top: 10px; margin-bottom: 10px;} .top-text{display:block;}}@media only screen and (max-width:1200px ){#lImgId{width:" + t.logoImage.mediumScreenLogoWidth + "; position: absolute; margin-left:0px; margin-top:0px;}}@media only screen and (max-width:814px ){#lImgId{width:" + t.logoImage.smallScreenLogoWidth + "; position: absolute;margin-left:0px; margin-top:0px;}}@media only screen and (min-width:1200px ){#lImgId{width:" + t.logoImage.largeScreenLogoWidth + "; position: absolute; margin-top:14px}}@media only screen and (max-width:600px ){.descriptionText_toastr_V1{font-size:" + t.message.fontSizeMobile + ";}}@media only screen and (min-width:601px ){.descriptionText_toastr_V1{font-size:" + t.message.fontSizeDesktop + ";}}@keyframes bounce {0%, 20%, 50%, 80%, 100% {transform: translateY(0);}40% {transform: translateY(-30px);}60% {transform: translateY(-15px);}}.bounce-in-bottom {-webkit-animation: bounce-in-bottom 1.1s both;animation: bounce-in-bottom 1.1s both;}}@-webkit-keyframes bounce-in-bottom {0% {-webkit-transform: translateY(500px);transform: translateY(500px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;opacity: 0;}38% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;opacity: 1;}55% {-webkit-transform: translateY(65px);transform: translateY(65px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}72% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}81% {-webkit-transform: translateY(28px);transform: translateY(28px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}90% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}95% {-webkit-transform: translateY(8px);transform: translateY(8px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}100% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}}@keyframes bounce-in-bottom {0% {-webkit-transform: translateY(500px);transform: translateY(500px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;opacity: 0;}38% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;opacity: 1;}55% {-webkit-transform: translateY(65px);transform: translateY(65px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}72% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}81% {-webkit-transform: translateY(28px);transform: translateY(28px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}90% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}95% {-webkit-transform: translateY(8px);transform: translateY(8px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}100% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}}.swing-in-top-fwd {-webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;}@-webkit-keyframes swing-in-top-fwd {0% {-webkit-transform: rotateX(-100deg);transform: rotateX(-100deg);-webkit-transform-origin: top;transform-origin: top;opacity: 0;}100% {-webkit-transform: rotateX(0deg);transform: rotateX(0deg);-webkit-transform-origin: top;transform-origin: top;opacity: 1;}}@keyframes swing-in-top-fwd {0% {-webkit-transform: rotateX(-100deg);transform: rotateX(-100deg);-webkit-transform-origin: top;transform-origin: top;opacity: 0;}100% {-webkit-transform: rotateX(0deg);transform: rotateX(0deg);-webkit-transform-origin: top;transform-origin: top;opacity: 1;}}.slide-in-top {-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}@-webkit-keyframes slide-in-top {0% {-webkit-transform: translateY(-1000px);transform: translateY(-1000px);opacity: 0;}100% {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}@keyframes slide-in-top {0% {-webkit-transform: translateY(-1000px);transform: translateY(-1000px);opacity: 0;}100% {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}.slider{position:absolute;width:100%;top:0;height:100%;overflow:hidden;transition:all 1s}.slider.close_toastr_V1{top:100%;height:0}</style>")
+							I.id = "timer", E.appendChild(I), z(E, document.querySelector(i)), document.querySelector("body").insertAdjacentHTML("beforeend", "<style>#mid_toastr_V1{display: block;bottom: 0px;left: 0px;right: 0px;z-index: 57;position: fixed;}.mod-mph-flex-anchor {z-index: 56;}.dd-button { position: absolute; content: ''; width: 13px; height: 13px; border-top: 3px solid #444; border-right: 3px solid #444; -webkit-transform: rotate(135deg); transform: rotate(135deg); border-radius: 2px; left: 8px; top: 7px; border-color:white;}.dd-main { border: 2px solid #666;width: 34px;height: 34px;position: relative;border-radius: 100%;box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;border-color: white;margin: 0vh auto 0;margin-top: -33px;z-index: 2;background: #464343;transition: 0.5s ease;}.down { -moz-transform:rotate(135deg); -webkit-transform:rotate(135deg); transform:rotate(180deg);} .close_toastr_V1 {float:right;display:inline-block;padding:5px 10px; color:white;}.close_toastr_V1:hover {float:right;display:inline-block;color:#fff; cursor: pointer;}#bannerBtn1{ margin-left: 10px; padding: 0px; display: inline-block; background: none;} .top-text {display: inline-block; margin-right:10px;} @media only screen and (max-width: " + maxwidth + "){ #bannerBtn1{margin-left:0px; margin-top: 10px; margin-bottom: 10px;} .top-text{display:block;}}@media only screen and (max-width:1200px ){#lImgId{width:" + t.logoImage.mediumScreenLogoWidth + "; position: absolute; margin-left:0px; margin-top:0px;}}@media only screen and (max-width:814px ){#lImgId{width:" + t.logoImage.smallScreenLogoWidth + "; position: absolute;margin-left:0px; margin-top:0px;}}@media only screen and (min-width:1200px ){#lImgId{width:" + t.logoImage.largeScreenLogoWidth + "; position: absolute; margin-top:14px}}@media only screen and (max-width:600px ){.descriptionText_toastr_V1{font-size:" + t.message.fontSizeMobile + ";}}@media only screen and (min-width:601px ){.descriptionText_toastr_V1{font-size:" + t.message.fontSizeDesktop + ";}}@keyframes bounce {0%, 20%, 50%, 80%, 100% {transform: translateY(0);}40% {transform: translateY(-30px);}60% {transform: translateY(-15px);}}.bounce-in-bottom {-webkit-animation: bounce-in-bottom 1.1s both;animation: bounce-in-bottom 1.1s both;}}@-webkit-keyframes bounce-in-bottom {0% {-webkit-transform: translateY(500px);transform: translateY(500px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;opacity: 0;}38% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;opacity: 1;}55% {-webkit-transform: translateY(65px);transform: translateY(65px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}72% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}81% {-webkit-transform: translateY(28px);transform: translateY(28px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}90% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}95% {-webkit-transform: translateY(8px);transform: translateY(8px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}100% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}}@keyframes bounce-in-bottom {0% {-webkit-transform: translateY(500px);transform: translateY(500px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;opacity: 0;}38% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;opacity: 1;}55% {-webkit-transform: translateY(65px);transform: translateY(65px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}72% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}81% {-webkit-transform: translateY(28px);transform: translateY(28px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}90% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}95% {-webkit-transform: translateY(8px);transform: translateY(8px);-webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}100% {-webkit-transform: translateY(0);transform: translateY(0);-webkit-animation-timing-function: ease-out;animation-timing-function: ease-out;}}.swing-in-top-fwd {-webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;}@-webkit-keyframes swing-in-top-fwd {0% {-webkit-transform: rotateX(-100deg);transform: rotateX(-100deg);-webkit-transform-origin: top;transform-origin: top;opacity: 0;}100% {-webkit-transform: rotateX(0deg);transform: rotateX(0deg);-webkit-transform-origin: top;transform-origin: top;opacity: 1;}}@keyframes swing-in-top-fwd {0% {-webkit-transform: rotateX(-100deg);transform: rotateX(-100deg);-webkit-transform-origin: top;transform-origin: top;opacity: 0;}100% {-webkit-transform: rotateX(0deg);transform: rotateX(0deg);-webkit-transform-origin: top;transform-origin: top;opacity: 1;}}.slide-in-top {-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}@-webkit-keyframes slide-in-top {0% {-webkit-transform: translateY(-1000px);transform: translateY(-1000px);opacity: 0;}100% {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}@keyframes slide-in-top {0% {-webkit-transform: translateY(-1000px);transform: translateY(-1000px);opacity: 0;}100% {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}.slider{position:absolute;width:100%;top:0;height:100%;overflow:hidden;transition:all 1s}.slider.close_toastr_V1{top:100%;height:0}</style>")
 						}(config_toastr_v1, "body"), "" == config_toastr_v1.subHeading.flag && (document.querySelector(".descriptionText_toastr_V1").style.paddingBottom = "30px"), "yes" == config_toastr_v1.autoHide.flag && "yes" == config_toastr_v1.autoHide.countDown) var e = 0,
 						n = setInterval(function() {
 							++e === config_toastr_v1.autoHide.time && (slideToggle(document.getElementById("mid_toastr_V1"), 2000), clearInterval(n));

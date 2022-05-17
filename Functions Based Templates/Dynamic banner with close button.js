@@ -3,7 +3,7 @@ var passed_JSON = {
 		"time": 2000
 	},
 	"bannerPosition": {
-		"selector": "#root > div > div:nth-child(1) > div > div",
+		"selector": "#root > div",
 		"location": "after" //before/after
 	}
 }
@@ -11,91 +11,94 @@ showBanner();
 
 function showBanner() {
 	var config_banner_v1 = {
-			"initialDelay": {
-				"time": 100
-			},
-			"bannerPosition": {
-				"selector": "#root > div.container",
-				"location": "before" //before/after
-			},
-			"background": {
-				"imageUrl": "https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg", //"https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg", // image url of banner  https://cdn.pixabay.com/photo/2015/11/10/08/31/banner-1036483__340.jpg
-				"backgroundColour": "red"
-			},
-			"autoHide": {
-				"flag": "", // yes to activate
-				"countDown": "", // yes to activate countdown part with autohide
-				"countDownText": "Ends in",
-				"time": 10
-			},
-			"closeButton": {
-				"flag": "", // yes to activate
-				"imageUrl": "https://iili.io/2zu8Zl.md.png" //"https://iili.io/2zu8Zl.md.png"
-			},
-			"collapseAndExpandButton": {
-				"flag": "yes", // yes to activate
-				"imageUrl": "", //"https://i.imgur.com/KqHD37h.png"
-			},
-			"borderStyle": {
-				"width": "2px",
-				"style": "solid",
-				"colour": "white"
-			},
-			"title": {
-				"text": "Heading Text",
-				"fontSizeDesktop": "25px",
-				"fontSizeMobile": "20px",
-				"colour": "white"
-			},
-			"message": {
-				"text": "Samsung Galaxy S10 mit dem Red S 10 GB",
-				"fontSizeDesktop": "25px",
-				"fontSizeMobile": "20px",
-				"colour": "yellow"
-			},
-			"ctaCount": {
-				"singleCTA": "none" //type "none" to show 2 buttons
-			},
-			"ctaLink1": {
-				"text": "Check Offer",
-				"href": "",
-				"fontSize": "18px",
-				"backgroundColour": "white",
-				"textColor": "black",
-				"borderRadius": "6px",
-				"fontFamily": "VodafoneRegular"
-			},
-			"ctaLink2": {
-				"text": "Close Offer",
-				"href": "",
-				"fontSize": "18px",
-				"backgroundColour": "white",
-				"textColor": "red",
-				"fontFamily": "VodafoneRegular",
-				"closeButton": "yes"
-			},
-			"subHeading": {
-				"flag": "yes",
-				"subHeading1Text": "Offer 1",
-				"subHeading1Href": "",
-				"subHeading2Text": "Offer 2",
-				"subHeading2Href": "",
-				"subHeading3Text": "Offer 3",
-				"subHeading3Href": "",
-				"fontSize": "15px",
-				"textColor": "white"
-			},
-			"logoImage": {
-				"flag": "yes",
-				"url": "https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-ghana-14.png"
-			},
-			"animation": {
-				"flag": "",
-				"animationType": "bounce", //fade/bounce/swing/slide
-				"occurance": "first"
-			}
+		"initialDelay": {
+			"time": 100
 		},
-		maxwidth = "860px";
+		"bannerPosition": {
+			"selector": "#root > div.container",
+			"location": "before" //before/after
+		},
+		"background": {
+			"imageUrl": "",
+			"backgroundColour": "red"
+		},
+		"autoHide": {
+			"flag": "", // yes to activate
+			"countDown": "", // yes to activate countdown part with autohide
+			"countDownText": "Ends in",
+			"time": 10
+		},
+		"closeButton": {
+			"flag": "", // yes to activate
+			"imageUrl": "https://iili.io/2zu8Zl.md.png" //"https://iili.io/2zu8Zl.md.png"
+		},
+		"collapseAndExpandButton": {
+			"flag": "yes", // yes to activate
+			"imageUrl": "", //"https://i.imgur.com/KqHD37h.png"
+		},
+		"borderStyle": {
+			"width": "2px",
+			"style": "solid",
+			"colour": "white"
+		},
+		"title": {
+			"text": "Heading Text", // char limit 30 char
+			"fontSizeDesktop": "25px",
+			"fontSizeMobile": "20px",
+			"colour": "white",
+			"fontFamily": "inherit"
+		},
+		"message": {
+			"text": "Samsung Galaxy S10 mit dem Red S 10 GB", // char limit 50 char
+			"fontSizeDesktop": "25px",
+			"fontSizeMobile": "20px",
+			"colour": "yellow",
+			"fontFamily": "inherit"
+		},
+		"ctaCount": {
+			"singleCTA": "none" //type "none" to show 2 buttons
+		},
+		"ctaLink1": {
+			"text": "Check Offer", // char limit 20 char
+			"href": "",
+			"fontSize": "18px",
+			"backgroundColour": "white",
+			"textColor": "black",
+			"borderRadius": "6px",
+			"fontFamily": "Arial, Helvetica, sans-serif"
+		},
+		"ctaLink2": {
+			"text": "Close Offer", // char limit 20 char
+			"href": "",
+			"fontSize": "18px",
+			"backgroundColour": "white",
+			"textColor": "red",
+			"fontFamily": "Arial, Helvetica, sans-serif",
+			"closeButton": "yes"
+		},
+		"subHeading": {
+			"flag": "yes",
+			"subHeading1Text": "Offer 1", // char limit 20 char
+			"subHeading1Href": "",
+			"subHeading2Text": "Offer 2", // char limit 20 char
+			"subHeading2Href": "",
+			"subHeading3Text": "Offer 3", // char limit 20 char
+			"subHeading3Href": "",
+			"fontSize": "15px",
+			"textColor": "white",
+			"fontFamily": "inherit"
+		},
+		"logoImage": {
+			"flag": "yes",
+			"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w"
+		},
+		"animation": {
+			"flag": "",
+			"animationType": "bounce", //bounce/swing/slide
+			"occurance": "first"
+		}
+	},
+	maxwidth = "860px";
 	ObjectValues = function(v, k) {
 		if(typeof v == "object") {
 			for(var kp in v) {
