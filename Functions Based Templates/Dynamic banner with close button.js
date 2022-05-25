@@ -73,6 +73,7 @@ function showBanner() {
 			"fontSize": "18px",
 			"backgroundColour": "white",
 			"textColor": "red",
+			"borderRadius": "6px",
 			"fontFamily": "Arial, Helvetica, sans-serif",
 			"closeButton": "yes"
 		},
@@ -135,7 +136,7 @@ function showBanner() {
 							var d = document.createElement("div");
 							d.classList.add("btn_temp1"), d.id = "bannerBtn1_temp1";
 							var m = document.createElement("A");
-							m.setAttribute("href", t.ctaLink2.href), m.setAttribute("id", "closeb_temp1"), m.setAttribute("target", "_blank"), m.innerHTML = t.ctaLink2.text, m.style.borderRadius = "6px", m.style.backgroundColor = t.ctaLink2.backgroundColour, m.style.fontFamily = t.ctaLink2.fontFamily, m.style.padding = "5px 10px", m.style.color = t.ctaLink2.textColor, m.style.textDecoration = "none", m.style.fontSize = t.ctaLink2.fontSize, d.appendChild(m);
+							m.setAttribute("href", t.ctaLink2.href), m.setAttribute("id", "closeb_temp1"), m.setAttribute("target", "_blank"), m.innerHTML = t.ctaLink2.text, m.style.borderRadius = t.ctaLink2.borderRadius, m.style.backgroundColor = t.ctaLink2.backgroundColour, m.style.fontFamily = t.ctaLink2.fontFamily, m.style.padding = "5px 10px", m.style.color = t.ctaLink2.textColor, m.style.textDecoration = "none", m.style.fontSize = t.ctaLink2.fontSize, d.appendChild(m);
 							var c = document.createElement("A");
 							c.setAttribute("href", t.subHeading.subHeading1Href), c.setAttribute("target", "_blank"), c.innerText = t.subHeading.subHeading1Text + " |", c.style.color = t.subHeading.textColor;
 							var p = document.createElement("A");

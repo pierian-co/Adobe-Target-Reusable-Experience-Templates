@@ -7,11 +7,15 @@ var passed_JSON = {
 		"backgroundColour": "grey"
 	},
 	"autoHide": {
-		"flag": "yes", // yes to activate
+		"flag": "no", // yes to activate
 		"countDown": "", // yes to activate countdown part with autohide
 		"countDownText": "Ends in",
 		"time": 5
-	}
+	},
+	"closeButton": {
+		"flag": "", // yes to activate
+		"imageUrl": ""
+	},
 }
 showBanner();
 
@@ -117,7 +121,6 @@ function showBanner() {
 			let str = k;
 			let myArr = str.split(".");
 			config_toastr_v1[myArr[0]][myArr[1]] = v;
-			console.log(config_toastr_v1[myArr[0]][myArr[1]]);
 		}
 	};
 	ObjectValues(passed_JSON);
@@ -149,7 +152,7 @@ function showBanner() {
 							var g = document.createElement("A");
 							g.setAttribute("href", t.subHeading.subHeading3Href), g.setAttribute("target", "_blank"), g.innerHTML = "  " + t.subHeading.subHeading3Text, g.style.color = t.subHeading.textColor;
 							var b = document.createElement("div");
-							b.appendChild(c), b.appendChild(p), b.appendChild(g), b.style.textAlign = "center", b.style.fontSize = t.subHeading.fontSize, b.style.padding = "0px 0px 10px", b.style.color = t.subHeading.textColor;
+							b.appendChild(c), b.appendChild(p), b.appendChild(g), b.style.textAlign = "center", b.style.fontSize = t.subHeading.fontSize, b.style.padding = "0px 0px 10px", b.style.color = t.subHeading.textColor, b.style.fontFamily = t.subHeading.fontFamily;
 							var f = document.createElement("span");
 							f.className = "close_toastr_V1", f.id = "closebtn1_toastr_V1";
 							var u = "#" + f.id;
@@ -192,11 +195,11 @@ function showBanner() {
 							}
 							mid_toastr_V1.appendChild(n);
 							var S = document.querySelector(e);
-
+		
 							function T(t, e) {
 								e.parentNode.insertBefore(t, e.nextSibling)
 							}
-
+		
 							function z(t, e) {
 								e.parentNode.insertBefore(t, e)
 							}
@@ -281,8 +284,8 @@ function showBanner() {
 							var t = config_toastr_v1.autoHide.time - e;
 							document.getElementById("timer").innerHTML = config_toastr_v1.autoHide.countDownText + " " + t + " seconds", document.getElementById("tm").style.backgroundColor = "black"
 						}, 1e3);
-					if(config_toastr_v1.title.flag = "yes") {
-						document.querySelector(".psb_toastr_V1").insertAdjacentHTML('beforebegin', '<style>@media only screen and (max-width:600px ){#heading{font-size:' + config_toastr_v1.title.fontSizeMobile + ';}#lImgId1{width:30px;}}@media only screen and (min-width:601px ){#heading{font-size:' + config_toastr_v1.title.fontSizeDesktop + ';}#lImgId1{width:35px;}}</style><div id="mid1" style="overflow: hidden;z-index: 1010;display: block;"><img src="https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-ghana-14.png" align="left" id="lImgId1" style="position: relative;top: 3px;left: 2px;"><span class="close_toastr_V1" id="closebtn2"><img class="manImg" src="https://iili.io/2zu8Zl.md.png" style="width: 20px; height: 20px;"></span><h1 id="heading" style="text-align: center;color: ' + config_toastr_v1.title.colour + ';font-family: ' + config_toastr_v1.title.fontFamily + ';padding: 5px 0px 5px;margin: 0px;">' + config_toastr_v1.title.text + '</h1></div>')
+					if(config_toastr_v1.title.flag == "yes") {
+						document.querySelector(".psb_toastr_V1").insertAdjacentHTML('beforebegin', '<style>@media only screen and (max-width:600px ){#heading{font-size:' + config_toastr_v1.title.fontSizeMobile + ';}#lImgId1{width:30px;}}@media only screen and (min-width:601px ){#heading{font-size:' + config_toastr_v1.title.fontSizeDesktop + ';}#lImgId1{width:35px;}}</style><div id="mid1" style="overflow: hidden;z-index: 1010;display: block;"><img src="https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w" align="left" id="lImgId1" style="position: relative;top: 3px;left: 2px;"><span class="close_toastr_V1" id="closebtn2"><img class="manImg" src="https://iili.io/2zu8Zl.md.png" style="width: 20px; height: 20px;"></span><h1 id="heading" style="text-align: center;color: ' + config_toastr_v1.title.colour + ';font-family: ' + config_toastr_v1.title.fontFamily + ';padding: 5px 0px 5px;margin: 0px;">' + config_toastr_v1.title.text + '</h1></div>')
 						let slideUp = (target, duration = 500) => {
 							target.style.transitionProperty = 'height, margin, padding';
 							target.style.transitionDuration = duration + 'ms';
@@ -343,14 +346,15 @@ function showBanner() {
 							}
 						}
 						var el = document.getElementById("did1_toastr_V1")
+						document.querySelector("#closebtn2").onclick = function() {
+							slideToggle(document.getElementById("mid_toastr_V1"), 2000)
+						}
+						document.querySelector("#did1_toastr_V1").onclick = function() {
+							document.querySelector("#did1_toastr_V1").classList.toggle("down");
+							slideToggle(document.getElementById("bnr1"), 2000)
+						}
 					}
-					document.querySelector("#did1_toastr_V1").onclick = function() {
-						document.querySelector("#did1_toastr_V1").classList.toggle("down");
-						slideToggle(document.getElementById("bnr1"), 2000)
-					}
-					document.querySelector("#closebtn2").onclick = function() {
-						slideToggle(document.getElementById("mid_toastr_V1"), 2000)
-					}
+					
 					if(config_toastr_v1.ctaCount.singleCTA == "none") {
 						if(config_toastr_v1.ctaLink2.closeButton == "yes") {
 							document.querySelector("#closeb_toastr_V1").setAttribute("href", "javascript:void(0)");
