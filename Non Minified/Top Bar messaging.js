@@ -1,13 +1,13 @@
 var config = {
     message: {
-        'title': 'Check out our new courses on Mobile Testing with BrowserStack App Automate. Login to',
+        'title': 'Check out our new courses on Mobile Testing with BrowserStack App Automate. Login to', // Max Char limit
         'fontSize': '16px',
         'fontFamily': 'sans-serif',
         'color': '#fff'
     },
     cta: {
         'flag': 'true',
-        'copy': 'Test University',
+        'copy': 'Buy now', // Char limit 20
         'link': '#',
         'fontSize': '14px',
         'fontFamily': 'sans-serif',
@@ -21,7 +21,7 @@ var config = {
 };
 
 var init = function() {
-    document.head.insertAdjacentHTML('beforeend', '<style>p.pie-top-bar-messaging { margin: 0; font-size: '+config.message.fontSize+'; font-family: '+config.message.fontFamily+'; color: '+config.message.color+'; padding: 10px; } .pie-top-bar { background: '+config.bar.backgroundColor+'; text-align: center; position: relative; } p.pie-top-bar-messaging a { color: '+config.cta.color+'; text-decoration: none; border: 1px solid #fff; display: inline-block; padding: 5px; border-radius: '+config.cta.borderRadius+'; margin-left: 10px; font-size: '+config.cta.fontSize+'; font-family: '+config.cta.fontFamily+'; } button.pie-close-cta { border: none; background: none; position: absolute; display: inline-block; top: 0; right: 10px; bottom: 0; } button.pie-close-cta svg path { fill: #fff !important; }</style>')
+    document.head.insertAdjacentHTML('beforeend', '<style>p.pie-top-bar-messaging { margin: 0; font-size: '+config.message.fontSize+'; font-family: '+config.message.fontFamily+'; color: '+config.message.color+'; padding: 10px 40px; } .pie-top-bar { background: '+config.bar.backgroundColor+'; text-align: center; position: relative; } p.pie-top-bar-messaging a { color: '+config.cta.color+'; text-decoration: none; border: 1px solid #fff; display: inline-block; padding: 5px; border-radius: '+config.cta.borderRadius+'; margin-left: 10px; font-size: '+config.cta.fontSize+'; font-family: '+config.cta.fontFamily+'; } button.pie-close-cta { border: none; background: none; position: absolute; display: inline-block; top: 0; right: 10px; bottom: 0; } button.pie-close-cta svg path { fill: #fff !important; } @media (max-width: 875px) { p.pie-top-bar-messaging a { margin-top: 5px; } } </style>')
     
     var topBarHTML = ''+
         '   <div class="pie-top-bar">'+

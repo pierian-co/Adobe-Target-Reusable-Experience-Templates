@@ -87,10 +87,10 @@ document.querySelector('.pie-modal-container .pie-close-cta').addEventListener('
 })
 
 function showModalHandler() {
-    // if(!sessionStorage.getItem('pie-overlay')) {
-        // sessionStorage.setItem('pie-overlay', true);
+    if(!sessionStorage.getItem('pie-overlay')) {
+        sessionStorage.setItem('pie-overlay', true);
         document.querySelector('.pie-modal-container').classList.add('pie-show-modal');
-    // }
+    }
 }
 
 function hideModalHandler() {
