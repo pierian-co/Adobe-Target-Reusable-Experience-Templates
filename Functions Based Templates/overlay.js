@@ -301,18 +301,21 @@ var maxwidth = "5000px";
 						document.querySelector(".mainoutercontainer").appendChild(overlay);
 					}
 
-					document.querySelector(closeid).onclick = function() {
-						if(config_overlay.animation.activator == "yes") {
-							//$(".psb").fadeOut(config_overlay.animation.fadeOutTime);
-							fadeOut(document.querySelector('.psb'), config_overlay.animation.fadeOutTime);
-							fadeOut(document.querySelector('.twoutemostsection'), config_overlay.animation.fadeOutTime);
-							// document.querySelector(".psb").style.display = "none";
-						} else {
-							document.querySelector(overlayid).style.display = "none";
-							document.querySelector(".twoutemostsection").style.display = "none";
-							//$(".twoutemostsection").css("display", "none");
+					document.querySelector(closeid) && (function() {
+						document.querySelector(closeid).onclick = function() {
+							if(config_overlay.animation.activator == "yes") {
+								//$(".psb").fadeOut(config_overlay.animation.fadeOutTime);
+								fadeOut(document.querySelector('.psb'), config_overlay.animation.fadeOutTime);
+								fadeOut(document.querySelector('.twoutemostsection'), config_overlay.animation.fadeOutTime);
+								// document.querySelector(".psb").style.display = "none";
+							} else {
+								document.querySelector(overlayid).style.display = "none";
+								document.querySelector(".twoutemostsection").style.display = "none";
+								//$(".twoutemostsection").css("display", "none");
+							}
 						}
-					}
+					}());
+					
 					if(config_overlay.ctaNo.singleCTA == "none") {
 						if(config_overlay.ctaLink2.closeButton == "yes") {
 							document.querySelector("#closeb").setAttribute("href", "javascript:void(0)");
