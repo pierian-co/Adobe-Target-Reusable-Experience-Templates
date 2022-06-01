@@ -219,7 +219,7 @@ try {
 						T(y, B), T(L, B)
 					}
 					"yes" == t.autoHide.flag && "" == t.autoHide.countDown && setTimeout(function() {
-						slideToggle(document.getElementById("mid_toastr_V1"), 2000);
+						slideToggle(document.getElementById("mid_toastr_V1"), 500);
 						if(document.querySelectorAll(h).length > 0) {
 							document.querySelector(h).style.display = "none"
 						}
@@ -297,11 +297,11 @@ try {
 				}
 				var el = document.getElementById("did1_toastr_V1")
 				document.querySelector("#closebtn2").onclick = function() {
-					slideToggle(document.getElementById("mid_toastr_V1"), 2000)
+					slideToggle(document.getElementById("mid_toastr_V1"), 500)
 				}
 				document.querySelector("#did1_toastr_V1").onclick = function() {
 					document.querySelector("#did1_toastr_V1").classList.toggle("down");
-					slideToggle(document.getElementById("bnr1"), 2000)
+					slideToggle(document.getElementById("bnr1"), 500)
 				}
 			}
 			
@@ -310,7 +310,7 @@ try {
 					document.querySelector("#closeb_toastr_V1").setAttribute("href", "javascript:void(0)");
 					document.querySelector("#closeb_toastr_V1").setAttribute("target", "_self");
 					document.querySelectorAll(".btn")[1].onclick = function() {
-						slideToggle(document.getElementById("mid_toastr_V1"), 2000)
+						slideToggle(document.getElementById("mid_toastr_V1"), 500)
 					}
 				}
 			}
