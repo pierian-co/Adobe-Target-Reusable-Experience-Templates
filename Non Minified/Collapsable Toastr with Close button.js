@@ -12,10 +12,6 @@ var config_toastr_v1 = {
 		"countDownText": "Ends in",
 		"time": 5
 	},
-	"closeButton": {
-		"flag": "", // yes to activate
-		"imageUrl": "https://iili.io/2zu8Zl.md.png"
-	},
 	"collapseAndExpandButton": {
 		"flag": "yes", // yes to activate
 		"imageUrl": "", //"https://i.imgur.com/KqHD37h.png",
@@ -75,11 +71,8 @@ var config_toastr_v1 = {
 		"fontFamily": "inherit"
 	},
 	"logoImage": {
-		"flag": "",
+		"flag": "yes",
 		"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w",
-		"largeScreenLogoWidth": "134px",
-		"mediumScreenLogoWidth": "70px",
-		"smallScreenLogoWidth": "57px"
 	},
 	"animation": {
 		"flag": "",
@@ -118,12 +111,6 @@ try {
 					b.appendChild(c), b.appendChild(p), b.appendChild(g), b.style.textAlign = "center", b.style.fontSize = t.subHeading.fontSize, b.style.padding = "0px 0px 10px", b.style.color = t.subHeading.textColor, b.style.fontFamily = t.subHeading.fontFamily;
 					var f = document.createElement("span");
 					f.className = "close_toastr_V1", f.id = "closebtn1_toastr_V1";
-					var u = "#" + f.id;
-					if("" == t.closeButton.imageUrl) f.innerHTML = "x", f.style.fontSize = "25px";
-					else {
-						var x = document.createElement("img");
-						x.className = "manImg", x.setAttribute("src", t.closeButton.imageUrl), x.style.width = "20px", x.style.height = "20px", f.appendChild(x)
-					}
 					var y = document.createElement("div");
 					if("" == t.collapseAndExpandButton.imageUrl) {
 						y.className = "dd-main", y.id = "did1_toastr_V1";
@@ -140,12 +127,12 @@ try {
 						v.setAttribute("src", t.collapseAndExpandButton.imageUrl), v.style.width = "35px", v.style.height = "35px", k.appendChild(v), y.appendChild(k)
 					}
 					var C = document.createElement("img");
-					if(C.setAttribute("src", t.logoImage.url), C.setAttribute("align", "left"), C.id = "lImgId", "yes" == t.animation.flag)
+					if("yes" == t.animation.flag)
 						if("bounce" == t.animation.animationType) {
 							n.className += " bounce-in-bottom";
 							var Y = "bounce-in-bottom"
 						} else "swing" == t.animation.animationType ? (n.className += " swing-in-top-fwd", Y = "swing-in-top-fwd") : "slide" == t.animation.animationType && (n.className += " slide-in-top", Y = "slide-in-top");
-						"yes" == t.logoImage.flag && n.appendChild(C), "yes" == t.closeButton.flag && n.appendChild(f), o.appendChild(s), "none" == t.ctaCount.singleCTA && o.appendChild(d), n.appendChild(o), "yes" == t.subHeading.flag && n.appendChild(b);
+						o.appendChild(s), "none" == t.ctaCount.singleCTA && o.appendChild(d), n.appendChild(o), "yes" == t.subHeading.flag && n.appendChild(b);
 					var mid_toastr_V1 = document.createElement("div");
 					mid_toastr_V1.id = "mid_toastr_V1";
 					mid_toastr_V1.style.borderWidth = t.borderStyle.width;
@@ -248,7 +235,7 @@ try {
 					document.getElementById("timer").innerHTML = config_toastr_v1.autoHide.countDownText + " " + t + " seconds", document.getElementById("tm").style.backgroundColor = "black"
 				}, 1e3);
 			if(config_toastr_v1.title.flag == "yes") {
-				document.querySelector(".psb_toastr_V1").insertAdjacentHTML('beforebegin', '<style>@media only screen and (max-width:600px ){#heading{font-size:' + config_toastr_v1.title.fontSizeMobile + ';}#lImgId1{width:30px;}}@media only screen and (min-width:601px ){#heading{font-size:' + config_toastr_v1.title.fontSizeDesktop + ';}#lImgId1{width:35px;}}</style><div id="mid1" style="overflow: hidden;z-index: 1010;display: block;"><img src="https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w" align="left" id="lImgId1" style="position: relative;top: 3px;left: 2px;"><span class="close_toastr_V1" id="closebtn2"><img class="manImg" src="https://iili.io/2zu8Zl.md.png" style="width: 20px; height: 20px;"></span><h1 id="heading" style="text-align: center;color: ' + config_toastr_v1.title.colour + ';font-family: ' + config_toastr_v1.title.fontFamily + ';padding: 5px 0px 5px;margin: 0px;">' + config_toastr_v1.title.text + '</h1></div>')
+				document.querySelector(".psb_toastr_V1").insertAdjacentHTML('beforebegin', '<style>@media only screen and (max-width:600px ){#heading{font-size:' + config_toastr_v1.title.fontSizeMobile + ';}#lImgId1{width:30px;}}@media only screen and (min-width:601px ){#heading{font-size:' + config_toastr_v1.title.fontSizeDesktop + ';}#lImgId1{width:35px;}}</style><div id="mid1" style="overflow: hidden;z-index: 1010;display: block;">'+(config_toastr_v1.logoImage.flag == 'yes' ? '<img src="'+config_toastr_v1.logoImage.url+'" align="left" id="lImgId1" style="position: relative;top: 3px;left: 2px;">' : '' )+'<span class="close_toastr_V1" id="closebtn2"><img class="manImg" src="https://iili.io/2zu8Zl.md.png" style="width: 20px; height: 20px;"></span><h1 id="heading" style="text-align: center;color: ' + config_toastr_v1.title.colour + ';font-family: ' + config_toastr_v1.title.fontFamily + ';padding: 5px 0px 5px;margin: 0px;">' + config_toastr_v1.title.text + '</h1></div>')
 				let slideUp = (target, duration = 500) => {
 					target.style.transitionProperty = 'height, margin, padding';
 					target.style.transitionDuration = duration + 'ms';
