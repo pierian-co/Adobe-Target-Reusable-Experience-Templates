@@ -7,6 +7,11 @@ var passed_JSON = {
 	},
 	"background": {
 		"backgroundColour": "lightgrey"
+	},
+	"Product1": {
+		"title": {
+			"text": "Product 1 56"
+		},
 	}
 }
 showBanner();
@@ -130,11 +135,9 @@ function showBanner() {
 				}
 			}
 		} else {
-			console.log(k + ":" + v);
 			let str = k;
 			let myArr = str.split(".");
 			config_carousal_v2[myArr[0]][myArr[1]] = v;
-			console.log(config_carousal_v2[myArr[0]][myArr[1]]);
 		}
 	};
 	ObjectValues(passed_JSON);
