@@ -8,11 +8,11 @@ var settings = {
 		"color": "#000",
 		"fontFamily": "Arial, Helvetica, sans-serif",
 	},
-	"message": {
-		"title": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...", // Max Char limit 95
-		"color": "#000",
-		"fontFamily": "Arial, Helvetica, sans-serif"
-	},
+     "message": {
+     	"title": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...", // Max Char limit 95
+     	"color": "#000",
+     	"fontFamily": "Arial, Helvetica, sans-serif"
+     },
     "closeCTA": {
         "backgroundColor": "rgba(0,0,0,0.3)",
         "hoverBackgroundColor": "rgba(0,0,0,0.5)",
@@ -22,7 +22,7 @@ var settings = {
 		"text": "Download Now", // char limit 18
 		"href": "#",
 		"backgroundColor": "#4eb2ed",
-        "hoverbackgroundColor": "#0078be",
+                "hoverbackgroundColor": "#0078be",
 		"textColor": "#fff",
 		"hoverTextColor": "#fff",
 		"borderRadius": "4px",
@@ -33,7 +33,7 @@ var settings = {
 		"text": "Register Now", // char limit 18
 		"href": "#",
 		"backgroundColor": "#4eb2ed",
-        "hoverbackgroundColor": "#0078be",
+                "hoverbackgroundColor": "#0078be",
 		"textColor": "#fff",
 		"hoverTextColor": "#fff",
 		"borderRadius": "4px",
