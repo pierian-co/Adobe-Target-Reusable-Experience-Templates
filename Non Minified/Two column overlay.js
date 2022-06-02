@@ -27,7 +27,7 @@ var settings = {
 		"hoverTextColor": "#fff",
 		"borderRadius": "4px",
 		"fontFamily": "Arial, Helvetica, sans-serif",
-        "fontSize": "16px"
+                "fontSize": "16px"
 	},
 	"ctaLink2": {
 		"text": "Register Now", // char limit 18
@@ -38,7 +38,7 @@ var settings = {
 		"hoverTextColor": "#fff",
 		"borderRadius": "4px",
 		"fontFamily": "Arial, Helvetica, sans-serif",
-        "fontSize": "16px"
+                "fontSize": "16px"
 	},
     "rightColumn": {
         "backgroundImageDesk": "https://cdn.optimizely.com/img/21401470059/f13e42e6a2164d4283b23cf1a2678ec6.jpg", // size 1280 X 1919
