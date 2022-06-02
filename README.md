@@ -61,4 +61,14 @@
 
 ### [More Details]([https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Two%20column%20overlay.md))
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+## 11. Top bar messaging
+<img src="" width="700" height="420">
+
+### [More Details]([https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Two%20column%20overlay.md))
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+## 12. Scroll top arrow
+<img src="" width="700" height="420">
+
+### [More Details]([https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Two%20column%20overlay.md))
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
