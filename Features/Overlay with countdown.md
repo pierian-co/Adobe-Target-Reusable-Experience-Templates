@@ -32,7 +32,8 @@ Following properties of the Overlay with countdown template can be customized as
 
 **heading**- Title text can be added in 'text' field with character limit of 30 characters. Font size of the title in pixels, for desktop and mobile can be specified in 'fontSizeDesktop' and 'fontSizeMobile' fields. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
 
-![image](https://user-images.githubusercontent.com/101316657/165223947-c72162a6-08bd-4341-9039-841e122bd5cd.png)
+![image](https://user-images.githubusercontent.com/101316657/171560142-23f78fcc-b677-495f-ba51-58fd74ee1a73.png)
+
 
 **message** - Message text can be added in 'text' field with character limit of 50 characters. Font size of the title in pixels, for desktop and mobile can be specified in 'fontSizeDesktop' and 'fontSizeMobile' fields. Color can be set in 'color' field and font family can be set in 'fontFamily' field.
 
