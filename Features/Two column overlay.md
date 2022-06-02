@@ -34,6 +34,15 @@ Following properties of the Two column overlay can be customized as per individu
 
 ![image](https://user-images.githubusercontent.com/101316657/171561746-2dbb3a72-c16b-47a9-ac7d-98c13a5e87cb.png)
 
+**rightColumn** - We can change the background image of the template by passing the image url for each mobile view and desktop view in 'backgroundImagemob' and 'backgroundImageDesk' fields.
+
+![image](https://user-images.githubusercontent.com/101316657/171577501-0f309879-0c37-4201-b099-30610135a48e.png)
+
+**trigger** - We can specify how and when the template should be triggers. It can be done in three ways. Either of the ways can be enabled by having their flag as true and rest as flase. First is scroll trigger, in which we can specify at which scroll percentage by user, template should be shown. Depth of the scroll is passed in percentage in 'depth' field. Second is timed trigger, in which can specify the time in miliseconds after which the template should be shown. Third is the exitIntent, turning its flag to true would trigger the template when user moves away from the tab.
+
+![image](https://user-images.githubusercontent.com/101316657/171578381-ac7af887-53c1-47dc-a9b5-b3bc21f13ec5.png)
+
+
 
 
 
