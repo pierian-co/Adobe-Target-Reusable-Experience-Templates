@@ -3,7 +3,7 @@
 <img src="" width="700" height="420">..............<img src="" width="250" height="420">
 
 <p>&nbsp;</p>
-Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Overlay.js
+Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Two%20column%20overlay.js
 <p>&nbsp;</p>
 
 Following properties of the Overlay can be customized as per individual requirements
