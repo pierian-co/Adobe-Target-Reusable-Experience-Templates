@@ -6,7 +6,7 @@
 Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Overlay%20with%20countdown.js
 <p>&nbsp;</p>
 
-Following properties of the Overlay can be customized as per individual requirements
+Following properties of the Overlay with countdown template can be customized as per individual requirements
 
 <p>&nbsp;</p>
 
@@ -46,7 +46,7 @@ Following properties of the Overlay can be customized as per individual requirem
 
 ![image](https://user-images.githubusercontent.com/101316657/165224014-9da81f33-6a8b-4320-bc3b-9a18966bf3f9.png)
 
-**subHeading** - Three subheadings are available which can be enabled by setting the value of 'activator' field to yes and leaving it as blank to disable. CTA text can be added in 'subHeading1Text' field with character limit of 20 characters. The link to navigate when user clicks on the subheading can be provided in 'subHeading1Href' field. Similar for other subHeadings. Font size in pixels can be set in 'fontSize' field. Text color can be set in 'textColor' field and font family can be set in 'fontFamily' field.
+**subHeading** - This can be enabled by setting the value of 'activator' field to yes and leaving it as blank to disable. Three subheadings are available which can be enabled by setting the value of 'activator' field to yes and leaving it as blank to disable. CTA text can be added in 'subHeading1Text' field with character limit of 20 characters. The link to navigate when user clicks on the subheading can be provided in 'subHeading1Href' field. Similar for other subHeadings. Font size in pixels can be set in 'fontSize' field. Text color can be set in 'textColor' field and font family can be set in 'fontFamily' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165918041-16425556-fc5b-4666-bf8c-8b1cf01efffa.png)
 
@@ -58,4 +58,9 @@ Following properties of the Overlay can be customized as per individual requirem
 **animation** - This can be enabled by setting the value of 'activator' field to yes and leaving it as blank to disable. Subtle animations like bounce, fade, swing and slide can be set 'animationType' which will animate the banner to make it bounce, fade, swing  or slide from top. Additionally, fade in and fade out time for fade animation can be set in 'fadeInTime' and 'fadeOutTime' fields by passing values in miliseconds, or simply specifying as 'slow' or 'fast'.
 
 ![image](https://user-images.githubusercontent.com/101316657/165918154-9d740a67-ca65-4c74-99a2-c4119360d88a.png)
+
+**countdown** - This can be enabled by setting the value of 'activator' field to yes and leaving it as blank to disable. Date can be passed in format as shown in image; Month, Day, Year, hours, minutes, seconds. The countdown of the offer would appear on template thus.
+
+![image](https://user-images.githubusercontent.com/101316657/171560014-a4f98fe3-c57d-44f1-8745-a25f389b6951.png)
+
 
