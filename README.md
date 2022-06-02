@@ -53,7 +53,7 @@
 ## 8. Overlay with countdown
 <img src="" width="700" height="420">
 
-### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md)
+### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay%20with%20countdown.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 8. Two column overlay
