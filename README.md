@@ -49,3 +49,16 @@
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 9. Overlay with countdown
+<img src="" width="700" height="420">
+
+### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay%20with%20countdown.md)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 10. Two column overlay
+<img src="" width="700" height="420">
+
+### [More Details]([https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Two%20column%20overlay.md))
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+

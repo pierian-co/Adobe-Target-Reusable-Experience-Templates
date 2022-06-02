@@ -8,11 +8,11 @@ var settings = {
 		"color": "#000",
 		"fontFamily": "Arial, Helvetica, sans-serif",
 	},
-	"message": {
-		"title": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...", // Max Char limit 95
-		"color": "#000",
-		"fontFamily": "Arial, Helvetica, sans-serif"
-	},
+     "message": {
+     	"title": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...", // Max Char limit 95
+     	"color": "#000",
+     	"fontFamily": "Arial, Helvetica, sans-serif"
+     },
     "closeCTA": {
         "backgroundColor": "rgba(0,0,0,0.3)",
         "hoverBackgroundColor": "rgba(0,0,0,0.5)",
@@ -22,23 +22,23 @@ var settings = {
 		"text": "Download Now", // char limit 18
 		"href": "#",
 		"backgroundColor": "#4eb2ed",
-        "hoverbackgroundColor": "#0078be",
+                "hoverbackgroundColor": "#0078be",
 		"textColor": "#fff",
 		"hoverTextColor": "#fff",
 		"borderRadius": "4px",
 		"fontFamily": "Arial, Helvetica, sans-serif",
-        "fontSize": "16px"
+                "fontSize": "16px"
 	},
 	"ctaLink2": {
 		"text": "Register Now", // char limit 18
 		"href": "#",
 		"backgroundColor": "#4eb2ed",
-        "hoverbackgroundColor": "#0078be",
+                "hoverbackgroundColor": "#0078be",
 		"textColor": "#fff",
 		"hoverTextColor": "#fff",
 		"borderRadius": "4px",
 		"fontFamily": "Arial, Helvetica, sans-serif",
-        "fontSize": "16px"
+                "fontSize": "16px"
 	},
     "rightColumn": {
         "backgroundImageDesk": "https://cdn.optimizely.com/img/21401470059/f13e42e6a2164d4283b23cf1a2678ec6.jpg", // size 1280 X 1919
