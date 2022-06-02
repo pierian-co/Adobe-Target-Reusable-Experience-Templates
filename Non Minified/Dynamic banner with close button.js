@@ -22,7 +22,7 @@ var config_banner_v1 = {
 		},
 		"collapseAndExpandButton": {
 			"flag": "yes", // yes to activate
-			"imageUrl": "", //"https://i.imgur.com/KqHD37h.png"
+			"imageUrl": "https://i.imgur.com/KqHD37h.png", //"https://i.imgur.com/KqHD37h.png"
 		},
 		"borderStyle": {
 			"width": "2px",
@@ -133,13 +133,13 @@ var config_banner_v1 = {
 									x = document.createElement("div");
 								x.className = "dd-button_temp1", x.id = "dd-buttonID_temp1", f.appendChild(x)
 							} else {
-								f.className = "dd-main1_temp1", f.id = "did1_temp1", b = "#" + f.id, f.style.width = "34px", f.style.position = "relative", f.style.margin = "0vh auto 0", f.style.marginBottom = "-18px", f.style.marginTop = "-18px", f.style.zIndex = "2";
+								f.className = "dd-main_temp1", f.id = "did1_temp1", b = "#" + f.id;
 								var h = document.createElement("div");
 								h.id = "dbtnid1_temp1", h.id;
 								var w = document.createElement("img");
 								w.className = "downImg_temp1", w.id = "dimageid1_temp1";
 								w.id;
-								w.setAttribute("src", t.collapseAndExpandButton.imageUrl), w.style.width = "35px", w.style.height = "35px", h.appendChild(w), f.appendChild(h)
+								w.setAttribute("src", t.collapseAndExpandButton.imageUrl), w.style.width = "100%", w.style.height = "100%", h.appendChild(w), f.appendChild(h)
 							}
 							var k = document.createElement("img");
 							if(k.setAttribute("src", t.logoImage.url), k.setAttribute("align", "left"), k.id = "2ImgId_temp1", k.style.display = "none", "yes" == t.animation.flag)
@@ -210,7 +210,7 @@ var config_banner_v1 = {
 						document.getElementById("did1_temp1")
 					}
 					"yes" == config_banner_v1.collapseAndExpandButton.flag && (document.querySelector("#did1_temp1").onclick = function() {
-						document.querySelector("#did1_temp1").classList.toggle("down_temp1"), o(document.getElementById("bnr1_temp1"), 2e3)
+						document.querySelector("#did1_temp1").classList.toggle("down_temp1"), o(document.getElementById("bnr1_temp1"), 1000)
 					}), "yes" != config_banner_v1.closeButton.flag && (document.querySelector("#closebtn2_temp1").style.display = "none"), document.querySelector("#closebtn2_temp1").onclick = function() {
 						o(document.getElementById("mid_temp1"), 2e3)
 					}, "none" == config_banner_v1.ctaCount.singleCTA && "yes" == config_banner_v1.ctaLink2.closeButton && (document.querySelector("#closeb_temp1").setAttribute("href", "javascript:void(0)"), document.querySelector("#closeb_temp1").setAttribute("target", "_self"), document.querySelectorAll(".btn_temp1")[1].onclick = function() {
