@@ -6,7 +6,7 @@ var passed_json = {
         position: 'right', // right | left
         offsetRight: '20px',
         offsetBottom: '20px',
-        boxShadow: '',
+        boxShadow: '1px 1px 1px #000',
         borderStyle: '1px solid #3f51b5',
         background: 'transparent',
         width: '50px',
@@ -72,7 +72,7 @@ function triggerScrollTop() {
     }
     
     var init = function() {
-        document.head.insertAdjacentHTML('beforeend', '<style>body .pie-arrow-cta { display: flex; justify-content: center; align-items: center; border: '+config.ctaStyle.borderStyle+'; background: '+config.ctaStyle.background+'; width: '+config.ctaStyle.width+'; height: '+config.ctaStyle.heigth+'; border-radius: '+config.ctaStyle.borderRadius+'; padding: 0; } .pie-arrow-cta svg { fill: '+config.svgStyle.color+'; width: '+config.svgStyle.width+'; height: '+config.svgStyle.height+'; } .pie-sticky-cta { position: fixed; '+(config.ctaStyle.position == 'right' ? config.ctaStyle.position+':'+config.ctaStyle.offsetRight : config.ctaStyle.position+':'+config.ctaStyle.offsetLeft)+'; bottom: 20px; z-index: 9999; opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in-out; } .pie-sticky-cta.pie-show-arrow { opacity: 1; visibility: visible; } </style>')
+        document.head.insertAdjacentHTML('beforeend', '<style>body .pie-arrow-cta { display: flex; justify-content: center; align-items: center; box-shadow: '+config.ctaStyle.boxShadow+';border: '+config.ctaStyle.borderStyle+'; background: '+config.ctaStyle.background+'; width: '+config.ctaStyle.width+'; height: '+config.ctaStyle.heigth+'; border-radius: '+config.ctaStyle.borderRadius+'; padding: 0; } .pie-arrow-cta svg { fill: '+config.svgStyle.color+'; width: '+config.svgStyle.width+'; height: '+config.svgStyle.height+'; } .pie-sticky-cta { position: fixed; '+(config.ctaStyle.position == 'right' ? config.ctaStyle.position+':'+config.ctaStyle.offsetRight : config.ctaStyle.position+':'+config.ctaStyle.offsetLeft)+'; bottom: '+config.ctaStyle.offsetBottom+'; z-index: 9999; opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in-out; } .pie-sticky-cta.pie-show-arrow { opacity: 1; visibility: visible; } </style>')
         
         var topBarHTML = ''+
             '   <div class="pie-sticky-cta">'+

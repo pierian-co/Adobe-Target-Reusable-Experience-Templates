@@ -61,7 +61,7 @@ function triggerTwoColumnOverlay() {
             "fontFamily": "Arial, Helvetica, sans-serif",
             "fontSize": "16px"
         },
-        "rightColumn": {
+        "leftColumn": {
             "backgroundImageDesk": "https://cdn.optimizely.com/img/21401470059/f13e42e6a2164d4283b23cf1a2678ec6.jpg", // size 1280 X 1919
             "backgroundImageMob": "https://cdn.optimizely.com/img/21401470059/d61c54eaf9b246c892cca323e5708295.jpg" // size 1280 X 855
         },
@@ -105,8 +105,8 @@ function triggerTwoColumnOverlay() {
             '<div class="pie-modal-overlay"></div>'+
             '<div class="pie-modal">'+
                 '<div class="pie-left-column">'+
-                    '<img src="'+settings.rightColumn.backgroundImageDesk+'" class="pie-desk" />'+
-                    '<img src="'+settings.rightColumn.backgroundImageMob+'" class="pie-mob"/>'+
+                    '<img src="'+settings.leftColumn.backgroundImageDesk+'" class="pie-desk" />'+
+                    '<img src="'+settings.leftColumn.backgroundImageMob+'" class="pie-mob"/>'+
                 '</div>'+
                 '<div class="pie-right-column">'+
                     '<button class="pie-close-cta"><img src="https://cdn.optimizely.com/img/21401470059/83b7fa49071a48ef95888d5600bc5287.svg" /></button>'+
