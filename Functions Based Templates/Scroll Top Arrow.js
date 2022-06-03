@@ -3,9 +3,10 @@ var passed_json = {
         pageOffset: '10'
     },
     ctaStyle: {
-        position: 'right', // right | left
-        offsetRight: '20px',
-        offsetBottom: '20px',
+        position: 'left', // right | left
+        offsetRight: '',
+        offsetLeft: '100px',
+        offsetBottom: '100px',
         boxShadow: '1px 1px 1px #000',
         borderStyle: '1px solid #3f51b5',
         background: 'transparent',
@@ -29,9 +30,10 @@ function triggerScrollTop() {
             pageOffset: '10'
         },
         ctaStyle: {
-            position: 'right', // right | left
-            offsetRight: '20px',
-            offsetBottom: '20px',
+            position: 'left', // right | left
+            offsetRight: '',
+            offsetLeft: '100px',
+            offsetBottom: '100px',
             boxShadow: '',
             borderStyle: '1px solid #3f51b5',
             background: 'transparent',
