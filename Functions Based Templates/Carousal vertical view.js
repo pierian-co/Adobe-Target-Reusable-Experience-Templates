@@ -138,9 +138,10 @@ function showBanner() {
 			console.log(k + ":" + v);
 			let str = k;
 			let myArr = str.split(".");
-			config_carousal_v2[myArr[0]][myArr[1]] = v;
 			if(myArr[2] != undefined || myArr[2] != null) {
 				config_carousal_v2[myArr[0]][myArr[1]][myArr[2]] = v;
+			} else {
+				config_carousal_v2[myArr[0]][myArr[1]] = v;
 			}
 		}
 	};
