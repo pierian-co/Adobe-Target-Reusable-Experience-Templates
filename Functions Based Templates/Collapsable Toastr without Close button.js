@@ -7,7 +7,7 @@ let passed_JSON = {
 		"backgroundColour": "#efefef"
 	},
 	"autoHide": {
-		"flag": "yes", // yes to activate
+		"flag": "", // yes to activate
 		"time": 10
 	}
 }
@@ -23,7 +23,7 @@ function showBanner() {
 			"backgroundColour": "#efefef"
 		},
 		"autoHide": {
-			"flag": "yes", // yes to activate
+			"flag": "", // yes to activate
 			"time": 100,
 			"countDownText": "Ends in",
 		},

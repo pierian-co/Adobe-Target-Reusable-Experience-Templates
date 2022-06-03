@@ -20,6 +20,7 @@ triggerTwoColumnOverlay();
 function triggerTwoColumnOverlay() {
 
     var settings = {
+        "sessionBased": "true", // true | false
         "overlayStyle": {
             "backgroundColor": "#fff",
             "backdrop": "rgba(0,0,0,0.8)"
@@ -126,8 +127,10 @@ function triggerTwoColumnOverlay() {
     })
 
     var showModalHandler = function() {
-        if(!sessionStorage.getItem('pie-overlay')) {
+        if(!sessionStorage.getItem('pie-overlay') && settings.sessionBased == "true") {
             sessionStorage.setItem('pie-overlay', true);
+            document.querySelector('.pie-modal-container').classList.add('pie-show-modal');
+        } else if(settings.sessionBased == "false") {
             document.querySelector('.pie-modal-container').classList.add('pie-show-modal');
         }
     }

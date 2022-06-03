@@ -1,4 +1,5 @@
 var settings = {
+    "sessionBased": "true", // true | false
     "overlayStyle": {
         "backgroundColor": "#fff",
         "backdrop": "rgba(0,0,0,0.8)"
@@ -87,8 +88,10 @@ document.querySelector('.pie-modal-container .pie-close-cta').addEventListener('
 })
 
 function showModalHandler() {
-    if(!sessionStorage.getItem('pie-overlay')) {
+    if(!sessionStorage.getItem('pie-overlay') && settings.sessionBased == "true") {
         sessionStorage.setItem('pie-overlay', true);
+        document.querySelector('.pie-modal-container').classList.add('pie-show-modal');
+    } else if(settings.sessionBased == "false") {
         document.querySelector('.pie-modal-container').classList.add('pie-show-modal');
     }
 }

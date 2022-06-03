@@ -33,7 +33,7 @@ function showBanner() {
 			"imageUrl": "https://iili.io/2zu8Zl.md.png" //"https://iili.io/2zu8Zl.md.png"
 		},
 		"collapseAndExpandButton": {
-			"flag": "yes", // yes to activate
+			"flag": "", // yes to activate
 			"imageUrl": "", //"https://i.imgur.com/KqHD37h.png"
 		},
 		"borderStyle": {
