@@ -32,7 +32,7 @@ function showBanner() {
 		},
 		"collapseAndExpandButton": {
 			"flag": "yes", // yes to activate
-			"imageUrl": "", //"https://i.imgur.com/KqHD37h.png",
+			"imageUrl": "https://i.imgur.com/KqHD37h.png", //"https://i.imgur.com/KqHD37h.png",
 		},
 		"borderStyle": {
 			"width": "2px",
@@ -40,7 +40,6 @@ function showBanner() {
 			"colour": "white"
 		},
 		"title": {
-			"flag": "yes",
 			"text": "Heading Text", // Char limit 30 char
 			"fontSizeDesktop": "25px",
 			"fontSizeMobile": "20px",
@@ -151,13 +150,12 @@ function showBanner() {
 									w = document.createElement("div");
 								w.className = "dd-button", w.id = "dd-buttonID", y.appendChild(w)
 							} else {
-								y.className = "dd-main1", y.id = "did1_toastr_V1", h = "#" + y.id, y.style.width = "34px", y.style.position = "relative", y.style.margin = "0vh auto 0", y.style.marginBottom = "-18px", y.style.marginTop = "-18px", y.style.zIndex = "2";
+								y.className = "dd-main", y.id = "did1_toastr_V1", h = "#" + y.id;
 								var k = document.createElement("div");
 								k.id = "dbtnid1", k.id;
 								var v = document.createElement("img");
 								v.className = "downImg", v.id = "dimageid1";
-								var H = "#" + v.id;
-								v.setAttribute("src", t.collapseAndExpandButton.imageUrl), v.style.width = "35px", v.style.height = "35px", k.appendChild(v), y.appendChild(k)
+								v.setAttribute("src", t.collapseAndExpandButton.imageUrl), v.style.width = "100%", v.style.height = "100%", k.appendChild(v), y.appendChild(k)
 							}
 							var C = document.createElement("img");
 							if("yes" == t.animation.flag)
@@ -252,7 +250,7 @@ function showBanner() {
 								T(y, B), T(L, B)
 							}
 							"yes" == t.autoHide.flag && "" == t.autoHide.countDown && setTimeout(function() {
-								slideToggle(document.getElementById("mid_toastr_V1"), 2000);
+								slideToggle(document.getElementById("mid_toastr_V1"), 500);
 								if(document.querySelectorAll(h).length > 0) {
 									document.querySelector(h).style.display = "none"
 								}
@@ -267,7 +265,6 @@ function showBanner() {
 							var t = config_toastr_v1.autoHide.time - e;
 							document.getElementById("timer").innerHTML = config_toastr_v1.autoHide.countDownText + " " + t + " seconds", document.getElementById("tm").style.backgroundColor = "black"
 						}, 1e3);
-					if(config_toastr_v1.title.flag == "yes") {
 						document.querySelector(".psb_toastr_V1").insertAdjacentHTML('beforebegin', '<style>@media only screen and (max-width:600px ){#heading{font-size:' + config_toastr_v1.title.fontSizeMobile + ';}#lImgId1{width:30px;}}@media only screen and (min-width:601px ){#heading{font-size:' + config_toastr_v1.title.fontSizeDesktop + ';}#lImgId1{width:35px;}}</style><div id="mid1" style="overflow: hidden;z-index: 1010;display: block;">'+(config_toastr_v1.logoImage.flag == 'yes' ? '<img src="'+config_toastr_v1.logoImage.url+'" align="left" id="lImgId1" style="position: relative;top: 3px;left: 2px;">' : '' )+'<span class="close_toastr_V1" id="closebtn2"><img class="manImg" src="https://iili.io/2zu8Zl.md.png" style="width: 20px; height: 20px;"></span><h1 id="heading" style="text-align: center;color: ' + config_toastr_v1.title.colour + ';font-family: ' + config_toastr_v1.title.fontFamily + ';padding: 5px 0px 5px;margin: 0px;">' + config_toastr_v1.title.text + '</h1></div>')
 						let slideUp = (target, duration = 500) => {
 							target.style.transitionProperty = 'height, margin, padding';
@@ -330,20 +327,19 @@ function showBanner() {
 						}
 						var el = document.getElementById("did1_toastr_V1")
 						document.querySelector("#closebtn2").onclick = function() {
-							slideToggle(document.getElementById("mid_toastr_V1"), 2000)
+							slideToggle(document.getElementById("mid_toastr_V1"), 500)
 						}
 						document.querySelector("#did1_toastr_V1").onclick = function() {
 							document.querySelector("#did1_toastr_V1").classList.toggle("down");
-							slideToggle(document.getElementById("bnr1"), 2000)
+							slideToggle(document.getElementById("bnr1"), 500)
 						}
-					}
 					
 					if(config_toastr_v1.ctaCount.singleCTA == "none") {
 						if(config_toastr_v1.ctaLink2.closeButton == "yes") {
 							document.querySelector("#closeb_toastr_V1").setAttribute("href", "javascript:void(0)");
 							document.querySelector("#closeb_toastr_V1").setAttribute("target", "_self");
 							document.querySelectorAll(".btn")[1].onclick = function() {
-								slideToggle(document.getElementById("mid_toastr_V1"), 2000)
+								slideToggle(document.getElementById("mid_toastr_V1"), 500)
 							}
 						}
 					}

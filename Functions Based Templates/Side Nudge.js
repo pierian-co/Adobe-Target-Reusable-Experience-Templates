@@ -25,7 +25,7 @@ function showBanner() {
             "left": "0px"
         },
         "mainButtonImage": {
-            "flag": "yes",
+            "flag": "no", // yes | no
             "imageURL": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w"
         },
         "SideBannerStyle": {
@@ -37,11 +37,11 @@ function showBanner() {
             "imageUrl": "https://iili.io/2zu8Zl.md.png"
         },
         "title": {
-            "text": "This is Heading Offer",  // char limit 30
+            "text": "This is Heading Offer",  // char limit 25
             "fontSizeDesktop": "25px",
             "fontSizeMobile": "24px",
             "colour": "white",
-            "fontFamily": ""
+            "fontFamily": "inherit"
         },
         "message": {
             "text": "Samsung Galaxy S10 mit dem Red S 10 GB",  // char limit 40
@@ -59,7 +59,7 @@ function showBanner() {
             "fontSize": "18px",
             "backgroundColor": "white",
             "textColor": "black",
-            "borderRadius": "0px",
+            "borderRadius": "8px",
             "fontFamily": "Arial, Helvetica, sans-serif"
         }, 
         "ctaLink2": {
@@ -89,7 +89,7 @@ function showBanner() {
             "url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w"
         },
         "animation": {
-            "flag": "yes"
+            "flag": "no"
         }
     };
 	ObjectValues = function(v, k) {
