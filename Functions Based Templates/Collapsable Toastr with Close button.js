@@ -144,12 +144,12 @@ function showBanner() {
 							var f = document.createElement("span");
 							f.className = "close_toastr_V1", f.id = "closebtn1_toastr_V1";
 							var y = document.createElement("div");
-							if("" == t.collapseAndExpandButton.imageUrl) {
+							if("" == t.collapseAndExpandButton.imageUrl && t.collapseAndExpandButton.flag == 'yes') {
 								y.className = "dd-main", y.id = "did1_toastr_V1";
 								var h = "#" + y.id,
 									w = document.createElement("div");
 								w.className = "dd-button", w.id = "dd-buttonID", y.appendChild(w)
-							} else {
+							} else if(t.collapseAndExpandButton.flag == 'yes') {
 								y.className = "dd-main", y.id = "did1_toastr_V1", h = "#" + y.id;
 								var k = document.createElement("div");
 								k.id = "dbtnid1", k.id;
@@ -344,7 +344,7 @@ function showBanner() {
 						}
 					}
 					let dd = document.querySelector(".dd-main");
-					document.querySelector("#mid_toastr_V1").prepend(dd);
+					dd && document.querySelector("#mid_toastr_V1").prepend(dd);
 					clearInterval(t)
 				}
 			}, config_toastr_v1.initialDelay.time)

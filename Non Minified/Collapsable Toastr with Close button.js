@@ -311,7 +311,7 @@ try {
 				}
 			}
 			let dd = document.querySelector(".dd-main");
-			document.querySelector("#mid_toastr_V1").prepend(dd);
+			dd && document.querySelector("#mid_toastr_V1").prepend(dd);
 			clearInterval(t)
 		}
 	}, config_toastr_v1.initialDelay.time)
