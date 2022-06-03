@@ -296,10 +296,10 @@ try {
 				document.querySelector("#closebtn2").onclick = function() {
 					slideToggle(document.getElementById("mid_toastr_V1"), 500)
 				}
-				document.querySelector("#did1_toastr_V1").onclick = function() {
+				document.querySelector("#did1_toastr_V1") && (document.querySelector("#did1_toastr_V1").onclick = function() {
 					document.querySelector("#did1_toastr_V1").classList.toggle("down");
 					slideToggle(document.getElementById("bnr1"), 500)
-				}
+				})
 			
 			if(config_toastr_v1.ctaCount.singleCTA == "none") {
 				if(config_toastr_v1.ctaLink2.closeButton == "yes") {
