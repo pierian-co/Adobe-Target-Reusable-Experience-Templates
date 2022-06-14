@@ -8,6 +8,8 @@
 
 Link to the Non minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Dynamic%20banner%20with%20close%20button.js
 
+Link to the function based code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Functions%20Based%20Templates/Dynamic%20banner%20with%20close%20button.js
+
 Following properties of the banner can be customized as per individual requirements
 <p>&nbsp;</p>
 
