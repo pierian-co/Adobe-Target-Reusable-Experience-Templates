@@ -6,9 +6,9 @@ var config_banner_v1 = {
 			"selector": "#root > div.container",
 			"location": "before" //before/after
 		},
-		"background": {
+		"backgroundProperty": {
 			"imageUrl": "",
-			"backgroundColour": "red"
+			"background": "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)" // linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) | red
 		},
 		"autoHide": {
 			"flag": "", // yes to activate
@@ -97,7 +97,7 @@ var config_banner_v1 = {
 							var n = document.createElement("div");
 							n.className = "psb_temp1", n.id = "bnr1_temp1";
 							var o = "#" + n.id;
-							n.style.width = "100%", n.style.display = "block", "" != t.background.imgUrl ? n.style.backgroundImage = "url('" + t.background.imgUrl + "')" : n.style.backgroundColor = t.background.backgroundColour;
+							n.style.width = "100%", n.style.display = "block", "" != t.backgroundProperty.imgUrl ? n.style.backgroundImage = "url('" + t.backgroundProperty.imgUrl + "')" : n.style.background = t.backgroundProperty.background;
 							var i = document.createElement("div");
 							i.className = "descriptionText_temp1", i.style.textAlign = "center", i.style.padding = "0px 10px 10px", i.style.color = t.message.colour;
 							var a = document.createElement("span");
@@ -148,7 +148,7 @@ var config_banner_v1 = {
 								} else "swing" == t.animation.animationType ? (n.className += " swing-in-top-fwd", "swing-in-top-fwd") : "slide" == t.animation.animationType && (n.className += " slide-in-top", "slide-in-top");
 								"yes" == t.logoImage.flag && n.appendChild(k), "yes" == t.closeButton.flag && n.appendChild(y), i.appendChild(r), "none" == t.ctaCount.singleCTA && i.appendChild(l), n.appendChild(i), "yes" == t.subHeading.flag && n.appendChild(c);
 							var _ = document.createElement("div");
-							_.id = "mid_temp1", _.style.borderWidth = t.borderStyle.width, _.style.borderStyle = t.borderStyle.style, _.style.borderColor = t.borderStyle.colour, "" != config_banner_v1.background.imageUrl ? _.style.backgroundImage = "url('" + config_banner_v1.background.imageUrl + "')" : _.style.backgroundColor = t.background.backgroundColour, _.appendChild(n);
+							_.id = "mid_temp1", _.style.borderWidth = t.borderStyle.width, _.style.borderStyle = t.borderStyle.style, _.style.borderColor = t.borderStyle.colour, "" != config_banner_v1.backgroundProperty.imageUrl ? _.style.backgroundImage = "url('" + config_banner_v1.backgroundProperty.imageUrl + "')" : _.style.background = t.backgroundProperty.background, _.appendChild(n);
 							var v = document.querySelector(e);
 
 							function H(t, e) {
