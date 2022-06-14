@@ -9,7 +9,7 @@ var config = {
         offsetBottom: '100px',
         boxShadow: '1px 1px 1px #000',
         borderStyle: '1px solid #3f51b5',
-        background: 'transparent',
+        background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,177,136,1) 35%, rgba(0,212,255,1) 100%)', // transparent | red | linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,177,136,1) 35%, rgba(0,212,255,1) 100%)
         width: '50px',
         heigth: '50px',
         borderRadius: '50%'

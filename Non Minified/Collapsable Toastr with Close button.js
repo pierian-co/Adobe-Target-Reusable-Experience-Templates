@@ -2,9 +2,9 @@ var config_toastr_v1 = {
 	"initialDelay": {
 		"time": 100
 	},
-	"background": {
+	"backgroundProperty": {
 		"imageUrl": "", 
-		"backgroundColour": "red"
+		"background": "red" // linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,177,136,1) 35%, rgba(0,212,255,1) 100%)
 	},
 	"autoHide": {
 		"flag": "", // yes to activate
@@ -87,7 +87,7 @@ try {
 					var n = document.createElement("div");
 					n.className = "psb_toastr_V1", n.id = "bnr1";
 					var i = "#" + n.id;
-					n.style.width = "100%", n.style.display = "block", "" != t.background.imgUrl ? n.style.backgroundImage = "url('" + t.background.imgUrl + "')" : n.style.backgroundColor = t.background.backgroundColour;
+					n.style.width = "100%", n.style.display = "block", "" != t.backgroundProperty.imgUrl ? n.style.backgroundImage = "url('" + t.backgroundProperty.imgUrl + "')" : n.style.background = t.backgroundProperty.background;
 					var o = document.createElement("div");
 					o.className = "descriptionText_toastr_V1", o.style.textAlign = "center", o.style.padding = "0px 10px 0px 10px", o.style.color = t.message.colour;
 					var r = document.createElement("span");
@@ -136,10 +136,10 @@ try {
 					mid_toastr_V1.style.borderWidth = t.borderStyle.width;
 					mid_toastr_V1.style.borderStyle = t.borderStyle.style;
 					mid_toastr_V1.style.borderColor = t.borderStyle.colour;
-					if(config_toastr_v1.background.imageUrl != "") {
-						mid_toastr_V1.style.backgroundImage = "url('" + config_toastr_v1.background.imageUrl + "')"
+					if(config_toastr_v1.backgroundProperty.imageUrl != "") {
+						mid_toastr_V1.style.backgroundImage = "url('" + config_toastr_v1.backgroundProperty.imageUrl + "')"
 					} else {
-						mid_toastr_V1.style.backgroundColor = t.background.backgroundColour
+						mid_toastr_V1.style.background = t.backgroundProperty.background
 					}
 					mid_toastr_V1.appendChild(n);
 					var S = document.querySelector(e);

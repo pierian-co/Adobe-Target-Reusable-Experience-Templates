@@ -2,7 +2,7 @@
 var settings = {
 	"overlayStyle": {
 		"imgUrl": "",
-		"backgroundColor": "red"
+		"background": "red"
 	},
 	"autoHide": {
 		"activator": "", // yes to activate
@@ -117,7 +117,7 @@ var maxwidth = "5000px";
 					if(settings.overlayStyle.imgUrl != "") {
 						overlay.style.backgroundImage = "url('" + settings.overlayStyle.imgUrl + "')";
 					} else {
-						overlay.style.backgroundColor = settings.overlayStyle.backgroundColor;
+						overlay.style.background = settings.overlayStyle.background;
 					}
 					overlay.style.borderWidth = settings.borderStyle.width;
 					overlay.style.borderStyle = settings.borderStyle.style;
