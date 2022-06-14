@@ -10,6 +10,10 @@ Following properties of the Scroll top arrow template can be customized as per i
 
 <p>&nbsp;</p>
 
-**overlayStyle** - Background image of the overlay can be changed by passing image URL in the 'imgUrl' field. Background color of the overlay can be changed by passing the color value (rgb, hexadecimal or keyword) in the 'backgroundColor' field.
+1. trigger - The value can be passed in pageOffset field to determine at which percentage of scroll of the page, the template would be visible. 
+2. ctaStyle - position of the arrow can be either left or right, as can be specified in 'position' field. In 'offSetRght' and 'offSetLeft' fields, we can pass the number of pixels the arrow should be from either ends. In 'offSetBottom', the pixels from bottom of screen can be specified. In 'boxShadow' field, we can have shadow to the template. The parameters of this field are as per standard css property, ie first parameter is horizontal offset - horizontal shadow size in pixels, second is vertical offset - vertical shadow size in pixels, third is blur of the shadow, and last one is colour of the shadow. Border of template can be styled by passing values in 'borderStyle' field. background can be either transparent or some color we can pass in background field. width and height of template can be passed in width and height fields in pixesl. borderRadius determine the curve extent of the border.
+3. svgStyle - the 'width' 'height' and 'color' of the inner figure inside template can be specified in the fields. 
 
-![image](https://user-images.githubusercontent.com/101316657/165915798-358673bc-195d-4b36-9973-5c02bdd1a812.png)
+
+![image](https://user-images.githubusercontent.com/101316657/173494099-2f3fe997-8449-4c5b-8849-4c81ca0546aa.png)
+
