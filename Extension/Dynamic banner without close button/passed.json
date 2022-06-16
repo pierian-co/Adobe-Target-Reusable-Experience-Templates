@@ -1,0 +1,17 @@
+{
+	"initialDelay": {
+		"time": 100
+	},
+	"bannerPosition": {
+		"selector": "#vueInstance > div.superContainer > div.stage.u_mb--0",
+		"location": "before"
+	},
+	"background": {
+		"imageUrl": "",
+		"backgroundColour": "#efefef"
+	},
+	"autoHide": {
+		"flag": "yes",
+		"time": 5
+	}
+}

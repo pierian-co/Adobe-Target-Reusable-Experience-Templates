@@ -1,0 +1,16 @@
+{
+	"initialDelay": {
+		"time": 100
+	},
+	"bannerPosition": {
+		"selector": "#root > div:nth-child(3)"
+	},
+	"background": {
+		"backgroundColour": "lightgrey"
+	},
+	"Product1": {
+		"title": {
+			"text": "Product 1 56"
+		}
+	}
+}

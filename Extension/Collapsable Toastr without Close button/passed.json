@@ -1,0 +1,13 @@
+{
+	"initialDelay": {
+		"time": 100
+	},
+	"background": {
+		"imageUrl": "",
+		"backgroundColour": "#efefef"
+	},
+	"autoHide": {
+		"flag": "",
+		"time": 10
+	}
+}

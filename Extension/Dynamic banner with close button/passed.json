@@ -1,0 +1,9 @@
+{
+	"initialDelay": {
+		"time": 2000
+	},
+	"bannerPosition": {
+		"selector": "#root > div",
+		"location": "after"
+	}
+}

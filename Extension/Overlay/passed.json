@@ -1,0 +1,14 @@
+{
+	"borderStyle": {
+		"width": "2px",
+		"style": "solid",
+		"color": "white"
+	},
+	"heading": {
+		"text": "Heading Offer",
+		"fontSizeDesktop": "25px",
+		"fontSizeMobile": "20px",
+		"color": "white",
+		"fontFamily": "VodafoneRegular"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"initialDelay": {
+		"time": 100
+	},
+	"background": {
+		"imageUrl": "https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg",
+		"backgroundColour": "grey"
+	},
+	"autoHide": {
+		"flag": "no",
+		"countDown": "",
+		"countDownText": "Ends in",
+		"time": 5
+	}
+}
