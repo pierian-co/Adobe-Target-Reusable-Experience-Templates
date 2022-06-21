@@ -1,9 +1,10 @@
 {
-    "overlayStyle": {
-        "backgroundColor": "#fff",
-        "backdrop": "rgba(0,0,0,0.8)"
-    },
-    "heading": {
+	"sessionBased": "true",
+	"overlayStyle": {
+		"backgroundColor": "#fff",
+		"backdrop": "rgba(0,0,0,0.8)"
+	},
+	"heading": {
 		"title": "Lorem Ipsum",
 		"color": "#000",
 		"fontFamily": "Arial, Helvetica, sans-serif"
@@ -12,5 +13,49 @@
 		"title": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
 		"color": "#000",
 		"fontFamily": "Arial, Helvetica, sans-serif"
+	},
+	"closeCTA": {
+		"backgroundColor": "rgba(0,0,0,0.3)",
+		"hoverBackgroundColor": "rgba(0,0,0,0.5)",
+		"borderRadius": "50%"
+	},
+	"ctaLink1": {
+		"text": "Download Now",
+		"href": "#",
+		"backgroundColor": "#4eb2ed",
+		"hoverbackgroundColor": "#0078be",
+		"textColor": "#fff",
+		"hoverTextColor": "#fff",
+		"borderRadius": "4px",
+		"fontFamily": "Arial, Helvetica, sans-serif",
+		"fontSize": "16px"
+	},
+	"ctaLink2": {
+		"text": "Register Now",
+		"href": "#",
+		"backgroundColor": "#4eb2ed",
+		"hoverbackgroundColor": "#0078be",
+		"textColor": "#fff",
+		"hoverTextColor": "#fff",
+		"borderRadius": "4px",
+		"fontFamily": "Arial, Helvetica, sans-serif",
+		"fontSize": "16px"
+	},
+	"leftColumn": {
+		"backgroundImageDesk": "https://cdn.optimizely.com/img/21401470059/f13e42e6a2164d4283b23cf1a2678ec6.jpg",
+		"backgroundImageMob": "https://cdn.optimizely.com/img/21401470059/d61c54eaf9b246c892cca323e5708295.jpg"
+	},
+	"trigger": {
+		"scroll": {
+			"flag": "true",
+			"depth": "50"
+		},
+		"timed": {
+			"flag": "false",
+			"time": "0"
+		},
+		"exitIntent": {
+			"flag": "false"
+		}
 	}
 }
