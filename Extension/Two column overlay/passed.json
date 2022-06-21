@@ -1,5 +1,5 @@
 {
-	"sessionBased": "true",
+	"sessionBased": "false",
 	"overlayStyle": {
 		"backgroundColor": "#fff",
 		"backdrop": "rgba(0,0,0,0.8)"

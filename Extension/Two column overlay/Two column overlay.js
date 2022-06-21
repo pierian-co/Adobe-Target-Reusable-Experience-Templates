@@ -20,7 +20,7 @@ triggerTwoColumnOverlay();
 function triggerTwoColumnOverlay() {
 
     var settings = {
-        "sessionBased": "true", // true | false
+        "sessionBased": "false", // true | false
         "overlayStyle": {
             "backgroundColor": "#fff",
             "backdrop": "rgba(0,0,0,0.8)"
