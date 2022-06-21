@@ -3,14 +3,108 @@
 		"time": 100
 	},
 	"bannerPosition": {
-		"selector": "#root > div.container"
+		"selector": "#root"
 	},
 	"background": {
 		"backgroundColour": "lightgrey"
 	},
+	"title": {
+		"fontFamily": "inherit"
+	},
+	"description": {
+		"fontFamily": "inherit"
+	},
+	"message": {
+		"fontFamily": "inherit"
+	},
+	"amount": {
+		"fontFamily": "inherit"
+	},
 	"Product1": {
 		"title": {
-			"text": "Product No.1"
+			"text": "Product 1"
+		},
+		"image": {
+			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
+		},
+		"amount": {
+			"text": "20000"
+		},
+		"description": {
+			"text": "Galaxy S21 Ultra 5G" 
+		},
+		"message": {
+			"text": "Ultra-fast 5G speeds" 
+		},
+		"Cta": {
+			"text": "Buy Now",
+			"url": "https://dwao.in/",
+			"fontFamily": "inherit",
+			"borderRadius": "0px"
+		},
+		"Offer": {
+			"flag": "yes",
+			"text": "Special Offer",
+			"backgroundColor": "red",
+			"fontFamily": "inherit"
+		}
+	},
+	"Product2": {
+		"title": {
+			"text": "Product 2"
+		},
+		"image": {
+			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
+		},
+		"amount": {
+			"text": "10000"
+		},
+		"description": {
+			"text": "iPhone 12 Pro Max"
+		},
+		"message": {
+			"text": "Capture life's moments perfectly"
+		},
+		"Cta": {
+			"text": "Buy Now",
+			"url": "https://dwao.in/",
+			"fontFamily": "inherit",
+			"borderRadius": "0px"
+		},
+		"Offer": {
+			"flag": "yes",
+			"text": "Special Offer",
+			"backgroundColor": "red",
+			"fontFamily": "inherit"
+		}
+	},
+	"Product3": {
+		"title": {
+			"text": "Product 3"
+		},
+		"image": {
+			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
+		},
+		"amount": {
+			"text": "30000"
+		},
+		"description": {
+			"text": "Moto g 5G Plus"
+		},
+		"message": {
+			"text": "Bionic chip and a pro camera"
+		},
+		"Cta": {
+			"text": "Buy Now",
+			"url": "https://dwao.in/",
+			"fontFamily": "inherit",
+			"borderRadius": "0px"
+		},
+		"Offer": {
+			"flag": "",
+			"text": "Special Offer",
+			"backgroundColor": "red",
+			"fontFamily": "inherit"
 		}
 	}
 }

@@ -3,13 +3,78 @@
 		"time": 100
 	},
 	"background": {
-		"imageUrl": "https://www.vodafone.de/media/img/teaser/hero-navigation-bg-2560x432.jpg",
-		"backgroundColour": "grey"
+		"imageUrl": "", 
+		"backgroundColour": "red"
 	},
 	"autoHide": {
-		"flag": "no",
-		"countDown": "",
+		"flag": "yes",
+		"countDown": "yes",
 		"countDownText": "Ends in",
 		"time": 5
+	},
+	"collapseAndExpandButton": {
+		"flag": "yes",
+		"imageUrl": "https://i.imgur.com/KqHD37h.png"
+	},
+	"borderStyle": {
+		"width": "2px",
+		"style": "solid",
+		"colour": "white"
+	},
+	"title": {
+		"text": "Heading Text",
+		"fontSizeDesktop": "25px",
+		"fontSizeMobile": "20px",
+		"colour": "white",
+		"fontFamily": "Arial, Helvetica, sans-serif"
+	},
+	"message": {
+		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",
+		"fontSizeDesktop": "25px",
+		"fontSizeMobile": "20px",
+		"colour": "white",
+		"fontFamily": "Arial, Helvetica, sans-serif"
+	},
+	"ctaCount": {
+		"singleCTA": "none"
+	},
+	"ctaLink1": {
+		"text": "Check Offer",
+		"href": "",
+		"fontSize": "18px",
+		"backgroundColour": "white",
+		"textColor": "black",
+		"borderRadius": "6px",
+		"fontFamily": "Arial, Helvetica, sans-serif"
+	},
+	"ctaLink2": {
+		"text": "Close Offer",
+		"href": "",
+		"fontSize": "18px",
+		"backgroundColour": "white",
+		"textColor": "red",
+		"borderRadius": "6px",
+		"fontFamily": "Arial, Helvetica, sans-serif",
+		"closeButton": "yes"
+	},
+	"subHeading": {
+		"flag": "yes",
+		"subHeading1Text": "Offer 1",
+		"subHeading1Href": "",
+		"subHeading2Text": "Offer 2",
+		"subHeading2Href": "",
+		"subHeading3Text": "Offer 3",
+		"subHeading3Href": "",
+		"fontSize": "15px",
+		"textColor": "white",
+		"fontFamily": "inherit"
+	},
+	"logoImage": {
+		"flag": "yes",
+		"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w"
+	},
+	"animation": {
+		"flag": "",
+		"animationType": "bounce"
 	}
 }

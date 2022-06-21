@@ -1,14 +1,82 @@
 {
+	"overlayStyle": {
+		"imgUrl": "",
+		"backgroundColor": "red"
+	},
+	"autoHide": {
+		"activator": "",
+		"countDown": "yes",
+		"countDownText": "Ends in",
+		"time": 6
+	},
+	"closeButton": {
+		"activator": "yes",
+		"imageUrl": "https://iili.io/2zu8Zl.md.png"
+	},
 	"borderStyle": {
-		"width": "2px",
+		"width": "5px",
 		"style": "solid",
 		"color": "white"
 	},
 	"heading": {
-		"text": "Heading Offer",
+		"text": "This is Heading Offer",
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "20px",
 		"color": "white",
-		"fontFamily": "VodafoneRegular"
+		"fontFamily": "Arial, Helvetica, sans-serif"
+	},
+	"message": {
+		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",
+		"fontSizeDesktop": "25px",
+		"fontSizeMobile": "20px",
+		"color": "white",
+		"fontFamily": "Arial, Helvetica, sans-serif"
+	},
+	"ctaNo": {
+		"singleCTA": "none"
+	},
+	"ctaLink1": {
+		"text": "Check Offer",
+		"href": "",
+		"fontSize": "18px",
+		"backgroundColor": "white",
+		"textColor": "black",
+		"borderRadius": "0px",
+		"fontFamily": "Arial, Helvetica, sans-serif"
+	},
+	"ctaLink2": {
+		"text": "Close Offer",
+		"href": "",
+		"fontSize": "18px",
+		"backgroundColor": "white",
+		"textColor": "red",
+		"borderRadius": "0px",
+		"fontFamily": "Arial, Helvetica, sans-serif",
+		"closeButton": ""
+	},
+	"subHeading": {
+		"activator": "yes",
+		"subHeading1Text": "Offer 1",
+		"subHeading1Href": "",
+		"subHeading2Text": "Offer 2",
+		"subHeading2Href": "",
+		"subHeading3Text": "Offer 3",
+		"subHeading3Href": "",
+		"fontSize": "15px",
+		"textColor": "white",
+		"fontFamily": "inherit"
+	},
+	"logoImage": {
+		"activator": "yes",
+		"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w",
+		"largeScreenLogoWidth": "175px",
+		"mediumScreenLogoWidth": "175px",
+		"smallScreenLogoWidth": "175px"
+	},
+	"animation": {
+		"activator": "",
+		"animationType": "fade",
+		"fadeInTime": 1000,
+		"fadeOutTime": 1000
 	}
 }

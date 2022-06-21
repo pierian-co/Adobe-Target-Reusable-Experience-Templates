@@ -3,11 +3,61 @@
 		"time": 100
 	},
 	"background": {
-		"imageUrl": "",
+		"imageUrl": "", 
 		"backgroundColour": "#efefef"
 	},
 	"autoHide": {
 		"flag": "",
-		"time": 10
+		"time": 100,
+		"countDownText": "Ends in"
+	},
+	"title": {
+		"text": "Heading Text",
+		"colour": "black",
+		"fontFamily": "Arial, Helvetica, sans-serif"
+	},
+	"message": {
+		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",
+		"fontSize": "20px",
+		"colour": "#333",
+		"fontFamily": "Arial, Helvetica, sans-serif"
+	},
+	"ctaCount": {
+		"singleCTA": "none"
+	},
+	"ctaLink1": {
+		"text": "Check Offer",
+		"href": "",
+		"fontSize": "16px",
+		"backgroundColour": "#e60000",
+		"textColour": "white",
+		"fontFamily": "Arial, Helvetica, sans-serif",
+		"borderRadius": "0px"
+	},
+	"ctaLink2": {
+		"text": "Close Offer",
+		"href": "",
+		"fontSize": "16px",
+		"backgroundColour": "#fff",
+		"textColour": "black",
+		"fontFamily": "Arial, Helvetica, sans-serif",
+		"iscloseButton": "yes",
+		"borderRadius": "0px"
+	},
+	"subHeading": {
+		"subHeading1Text": "Offer 1",
+		"subHeading1Href": "",
+		"subHeading2Text": "Offer 2",
+		"subHeading2Href": "",
+		"subHeading3Text": "Offer 3",
+		"subHeading3Href": "",
+		"fontSize": "16px",
+		"textColour": "#000",
+		"fontFamily": "Arial, Helvetica, sans-serif"
+	},
+	"logoImage": {
+		"flag": "yes",
+		"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w",
+		"width": "30px"
 	}
 }

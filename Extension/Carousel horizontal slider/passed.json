@@ -3,14 +3,108 @@
 		"time": 100
 	},
 	"bannerPosition": {
-		"selector": "#root > div:nth-child(3)"
+		"selector": "#root > div.container"
 	},
 	"background": {
 		"backgroundColour": "lightgrey"
 	},
+	"title": {
+		"fontFamily": "sans-serif"
+	},
+	"description": {
+		"fontFamily": "sans-serif"
+	},
+	"message": {
+		"fontFamily": "sans-serif"
+	},
+	"amount": {
+		"fontFamily": "sans-serif"
+	},
 	"Product1": {
 		"title": {
-			"text": "Product 1 56"
+			"text": "Product 1"
+		},
+		"image": {
+			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
+		},
+		"amount": {
+			"text": "20000"
+		},
+		"description": {
+			"text": "Galaxy S21 Ultra 5G Galaxy S21"
+		},
+		"message": {
+			"text": "Ultra-fast 5G speeds Ultra-fast 5G speed  Ultra-fast"
+		},
+		"Cta": {
+			"text": "Buy Now",
+			"url": "google.com",
+			"fontFamily": "inherit",
+			"borderRadius": "0px"
+		},
+		"Offer": {
+			"flag": "yes",
+			"text": "Special Offer",
+			"backgroundColor": "red",
+			"fontFamily": "inherit"
+		}
+	},
+	"Product2": {
+		"title": {
+			"text": "Product 2"
+		},
+		"image": {
+			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
+		},
+		"amount": {
+			"text": "10000"
+		},
+		"description": {
+			"text": "iPhone 12 Pro Max iPhone 12"
+		},
+		"message": {
+			"text": "Capture life's moments perfectly Capture life's moments perfectly"
+		},
+		"Cta": {
+			"text": "Buy Now",
+			"url": "",
+			"fontFamily": "inherit",
+			"borderRadius": "0px"
+		},
+		"Offer": {
+			"flag": "",
+			"text": "Special Offer",
+			"backgroundColor": "green",
+			"fontFamily": "inherit"
+		}
+	},
+	"Product3": {
+		"title": {
+			"text": "Product 3"
+		},
+		"image": {
+			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
+		},
+		"amount": {
+			"text": "30000"
+		},
+		"description": {
+			"text": "Moto g 5G Plus Moto g 5G Plus"
+		},
+		"message": {
+			"text": "Bionic chip and a pro camera Bionic chip and a pro camera"
+		},
+		"Cta": {
+			"text": "Buy Now",
+			"url": "",
+			"fontFamily": "inherit",
+			"borderRadius": "0px"
+		},
+		"Offer": {
+			"flag": "",
+			"text": "Special Offer",
+			"backgroundColor": "yellow",
+			"fontFamily": "inherit"
 		}
 	}
 }
