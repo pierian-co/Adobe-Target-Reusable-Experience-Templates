@@ -2,8 +2,7 @@
 
           
 ## 1. Dynamic banner with close button
-<img src="![image](https://user-images.githubusercontent.com/101316657/175036682-f56803f5-5b42-41f4-a38d-35af2011e406.png)
-" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175036927-3c73db77-fc77-4a94-8ed1-bf85e218d80a.png" width="700" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Dynamic%20banner%20with%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -46,8 +45,8 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 8. Overlay
-<img src="![image](https://user-images.githubusercontent.com/101316657/175036541-1aea1140-5639-4be7-b9a0-19d9d1a82e9f.png)
-" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175037020-e86a89a2-7ba9-441c-b6c1-5f510bcfe95c.png" width="700" height="420">
+
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
