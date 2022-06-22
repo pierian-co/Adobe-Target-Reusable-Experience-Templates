@@ -45,7 +45,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 8. Overlay
-<img src="https://user-images.githubusercontent.com/101316657/175037020-e86a89a2-7ba9-441c-b6c1-5f510bcfe95c.png" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175040075-d98015a9-03d6-4cfd-8254-659450250669.png" width="700" height="420">
 
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay.md)
