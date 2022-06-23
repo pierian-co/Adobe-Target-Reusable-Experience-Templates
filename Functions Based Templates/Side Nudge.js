@@ -1,7 +1,7 @@
 let passed_JSON = {
 	"mainButton": {
         "text": "Your offer",  // char limit 20
-        "backgroundColor": "#e60000",
+        "backgroundColor": "#3fc9bd",
         "textColor": "white",
         "left": "0px"
     },
@@ -20,7 +20,7 @@ function showBanner() {
 	var config_sideNudge = {
         "mainButton": {
             "text": "Your offer",  // char limit 20
-            "backgroundColor": "#e60000",
+            "backgroundColor": "#3fc9bd",
             "textColor": "white",
             "left": "0px"
         },
