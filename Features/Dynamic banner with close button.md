@@ -23,7 +23,7 @@ Following properties of the banner can be customized as per individual requireme
 
 ![image](https://user-images.githubusercontent.com/101316657/165223795-7f9f0c1d-59b8-4a12-ae03-09ab3ff9a770.png)
 
-**backgroundProperty** - Background colour of the template can be changed by passing color in the 'background' field. In addition, linear gradient can be used as well, linear-gradient(angle/direction, color-stop1, color-stop2), the first parameter specifies the angle or direction we want the gradient to be directed to, second and third parameters specify the colours which create the gradient in the specified direction. Percentage of each color can also be mentioned. Alternatively, an image can also be placed in the background by passing its url in 'imageUrl' field.
+**backgroundProperty** - Background colour of the template can be changed by passing color in the 'background' field. In addition, linear gradient can be used as well, To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect. Alternatively, an image can also be placed in the background by passing its url in 'imageUrl' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/175220244-76cbfd9f-e386-471b-8faf-27e399d4f8e1.png)
 
