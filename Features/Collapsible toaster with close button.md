@@ -1,6 +1,6 @@
 # Collapsible toaster with close button
 <pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="" width="700" height="420">..............<img src="" width="250" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175328747-3b9a65f7-0877-4fae-8350-cbefa4b63177.png" width="700" height="420">..............<img src="https://user-images.githubusercontent.com/101316657/175328936-6ff9375f-65e3-4d41-b578-977f575088e2.png" width="250" height="420">
 
 <p>&nbsp;</p>
 
