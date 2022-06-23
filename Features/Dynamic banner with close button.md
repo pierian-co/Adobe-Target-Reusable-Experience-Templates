@@ -23,14 +23,13 @@ Following properties of the banner can be customized as per individual requireme
 
 ![image](https://user-images.githubusercontent.com/101316657/165223795-7f9f0c1d-59b8-4a12-ae03-09ab3ff9a770.png)
 
-**background** - Background colour of the template can be changed by passing color in the 'backgroundColor' field. Colors can be either in rgb format, hexadecimal or  keyword. Alternatively, an image can also be placed in the background by passing its url in 'imageUrl' field.
+**backgroundProperty** - Background colour of the template can be changed by passing color in the 'background' field. In addition, linear gradient can be used as well, linear-gradient(angle/direction, color-stop1, color-stop2). Alternatively, an image can also be placed in the background by passing its url in 'imageUrl' field.
 
-![image](https://user-images.githubusercontent.com/101316657/165223735-0fbee6e4-1368-4059-9967-7da004c26438.png)
+![image](https://user-images.githubusercontent.com/101316657/175220244-76cbfd9f-e386-471b-8faf-27e399d4f8e1.png)
 
 **autohide** - This property lets us enable or disable whether to auto hide the template after certain time period. This can be done by passing in "yes" in the 'flag' field to enable and leaving it as blank to disable. 'countDown' can be set to "yes" and text can be added in the 'countDownText' field, as can be seen in above image. The time can be set in seconds in 'time' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223833-4dfb6790-3a3a-47bf-b7bf-54c2887a4719.png)
-
 
 **closeButton** - Close button to close the banner can be enabled by setting the value to 'yes' in the 'flag' field and leaving it as blank to disable. An image can be used as close button icon by passing its url in 'imageUrl field'.
 
