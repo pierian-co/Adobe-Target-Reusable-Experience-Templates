@@ -3,12 +3,12 @@ var config_banner_v1 = {
 			"time": 100
 		},
 		"bannerPosition": {
-			"selector": "#root > div.container",
+			"selector": "#featured-work-2 .Index-page-content",
 			"location": "before" //before/after
 		},
 		"backgroundProperty": {
 			"imageUrl": "",
-			"background": "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)" // linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) | red
+			"background": "linear-gradient(321deg, rgba(35,90,110,1) 41%, rgba(63,201,188,1) 100%)" // linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) | red
 		},
 		"autoHide": {
 			"flag": "", // yes to activate
@@ -30,17 +30,17 @@ var config_banner_v1 = {
 			"colour": "white"
 		},
 		"title": {
-			"text": "Heading Text", // char limit 30 char
+			"text": "Interested in our ideas?", // char limit 30 char
 			"fontSizeDesktop": "25px",
 			"fontSizeMobile": "20px",
-			"colour": "white",
+			"colour": "#b4e1dc",
 			"fontFamily": "inherit"
 		},
 		"message": {
-			"text": "Samsung Galaxy S10 mit dem Red S 10 GB", // char limit 50 char
+			"text": "High performing digital solutions by bringing data, design and technology together", // char limit 50 char
 			"fontSizeDesktop": "25px",
 			"fontSizeMobile": "20px",
-			"colour": "yellow",
+			"colour": "#b4e1dc",
 			"fontFamily": "inherit"
 		},
 		"ctaCount": {
@@ -50,19 +50,19 @@ var config_banner_v1 = {
 			"text": "Check Offer", // char limit 20 char
 			"href": "",
 			"fontSize": "18px",
-			"backgroundColour": "white",
-			"textColor": "black",
-			"borderRadius": "6px",
-			"fontFamily": "Arial, Helvetica, sans-serif"
+			"backgroundColour": "#5fd2c8",
+			"textColor": "#235a6e",
+			"borderRadius": "300px",
+			"fontFamily": "inherit"
 		},
 		"ctaLink2": {
 			"text": "Close Offer", // char limit 20 char
 			"href": "",
 			"fontSize": "18px",
-			"backgroundColour": "white",
-			"textColor": "red",
-			"fontFamily": "Arial, Helvetica, sans-serif",
-			"borderRadius": "6px",
+			"backgroundColour": "rgb(240,240,240)",
+			"textColor": "#235a6e",
+			"fontFamily": "inherit",
+			"borderRadius": "300px",
 			"closeButton": "yes"
 		},
 		"subHeading": {
@@ -79,7 +79,7 @@ var config_banner_v1 = {
 		},
 		"logoImage": {
 			"flag": "yes",
-			"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w"
+			"url": "https://cdn.optimizely.com/img/21401470059/3dfcd6c145be4ac39e482cf823f31bac.png"
 		},
 		"animation": {
 			"flag": "",
@@ -150,11 +150,9 @@ var config_banner_v1 = {
 							var _ = document.createElement("div");
 							_.id = "mid_temp1", _.style.borderWidth = t.borderStyle.width, _.style.borderStyle = t.borderStyle.style, _.style.borderColor = t.borderStyle.colour, "" != config_banner_v1.backgroundProperty.imageUrl ? _.style.backgroundImage = "url('" + config_banner_v1.backgroundProperty.imageUrl + "')" : _.style.background = t.backgroundProperty.background, _.appendChild(n);
 							var v = document.querySelector(e);
-
 							function H(t, e) {
 								e.parentNode.insertBefore(t, e.nextSibling)
 							}
-
 							function S(t, e) {
 								e.parentNode.insertBefore(t, e)
 							}
