@@ -42,7 +42,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 7. Collapsible toaster without close button
-<img src="" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175335988-86138f3c-c20e-42ae-8152-3be0b4b5ec9e.png" width="700" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Collapsible%20toaster%20without%20close%20button.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
