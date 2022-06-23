@@ -1,15 +1,83 @@
 var passed_json = {
+	"overlayStyle": {
+		"imgUrl": "",
+		"background": "linear-gradient(321deg, rgba(35,90,110,1) 25%, rgba(63,201,188,1) 100%)"
+	},
+	"autoHide": {
+		"activator": "", // yes to activate
+		"countDown": "yes", // yes to activate countdown part with autohide
+		"countDownText": "Ends in",
+		"time": 6
+	},
+	"closeButton": {
+		"activator": "", // yes to activate
+		"imageUrl": "https://iili.io/2zu8Zl.md.png"
+	},
 	"borderStyle": {
-		"width": "2px",
+		"width": "5px",
 		"style": "solid",
 		"color": "white"
 	},
 	"heading": {
-		"text": "Heading Offer",
+		"text": "Interested in our ideas?",  // char limit 30
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "20px",
 		"color": "white",
-		"fontFamily": "VodafoneRegular"
+		"fontFamily": "inherit"
+	},
+	"message": {
+		"text": "High performing digital solutions by bringing data, design and technology together", // char limit 50
+		"fontSizeDesktop": "25px",
+		"fontSizeMobile": "20px",
+		"color": "white",
+		"fontFamily": "inherit"
+	},
+	"ctaNo": {
+		"singleCTA": "none" //type "none" to show 2 buttons
+	},
+	"ctaLink1": {
+		"text": "Contact Us", // char limit 20
+		"href": "",
+		"fontSize": "18px",
+		"backgroundColor": "#5fd2c8",
+		"textColor": "#235a6e",
+		"borderRadius": "4px",
+		"fontFamily": "inherit"
+	},
+	"ctaLink2": {
+		"text": "Learn More", // char limit 20
+		"href": "",
+		"fontSize": "18px",
+		"backgroundColor": "#5fd2c8",
+		"textColor": "#235a6e",
+		"borderRadius": "4px",
+		"fontFamily": "inherit",
+		"closeButton": ""
+	},
+	"subHeading": {
+		"activator": "no",
+		"subHeading1Text": "Offer 1", // char limit 20
+		"subHeading1Href": "",
+		"subHeading2Text": "Offer 2", // char limit 20
+		"subHeading2Href": "",
+		"subHeading3Text": "Offer 3", // char limit 20
+		"subHeading3Href": "",
+		"fontSize": "15px",
+		"textColor": "white",
+		"fontFamily": "inherit"
+	},
+	"logoImage": {
+		"activator": "yes",
+		"url": "https://cdn.optimizely.com/img/21401470059/3dfcd6c145be4ac39e482cf823f31bac.png",
+		"largeScreenLogoWidth": "175px",
+		"mediumScreenLogoWidth": "175px",
+		"smallScreenLogoWidth": "175px"
+	},
+	"animation": {
+		"activator": "",
+		"animationType": "fade", //fade/bounce/swing/slide
+		"fadeInTime": 1000, //milisecond/"slow"/"fast" if selected "fade" in animationType
+		"fadeOutTime": 1000 //milisecond/"slow"/"fast" if selected "fade" in animationType
 	}
 }
 ShowOverlay(passed_json)
