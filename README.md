@@ -13,7 +13,8 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 3. Side Nudge
-<img src="https://user-images.githubusercontent.com/101316657/175211482-e318c248-ebf4-4a47-99f8-915c8c0f7a28.png" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175212250-6212d52f-aa1f-4f57-bcc2-e6a63eed3fa2.png" width="700" height="420">
+
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Side%20Nudge.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
