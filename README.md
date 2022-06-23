@@ -35,9 +35,9 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 6. Collapsible toaster with close button
-<img src="" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175328747-3b9a65f7-0877-4fae-8350-cbefa4b63177.png" width="700" height="420">
 
-### [More Details](https://user-images.githubusercontent.com/101316657/175328419-dac87be1-c7b8-406f-94af-aa371a3b54c5.png)
+### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Collapsible%20toaster%20with%20close%20button.md)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
