@@ -15,7 +15,7 @@ Following properties of the toaster can be customized as per individual requirem
 
 ![image](https://user-images.githubusercontent.com/101316657/165224163-ef29e793-ea81-407d-a620-61d525d1cbda.png)
 
-**background** - Background colour of the template can be changed by passing color in the 'backgroundColor' field. Colors can be either in rgb format, hexadecimal or  keyword. Alternatively, an image can also be placed in the background by passing its url in 'imageUrl' field.
+**background** - Background colour of the template can be changed by passing color in the 'backgroundColor' field. Colors can be either in rgb format, hexadecimal or  keyword. In addition, linear gradient can be used as well, To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect. Alternatively, an image can also be placed in the background by passing its url in 'imageUrl' field.
 
 ![image](https://user-images.githubusercontent.com/101316657/165223735-0fbee6e4-1368-4059-9967-7da004c26438.png)
 
