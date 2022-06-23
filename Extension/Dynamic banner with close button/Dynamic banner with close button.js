@@ -1,21 +1,22 @@
-var passed_JSON = {
+var passed_json = {
 	"initialDelay": {
 		"time": 2000
 	},
 	"bannerPosition": {
-		"selector": "#root > div",
+		"selector": "body",
 		"location": "after" //before/after
 	}
 }
-showBanner();
 
-function showBanner() {
+showBanner(passed_json);
+
+function showBanner(passed_json) {
 	var config_banner_v1 = {
 		"initialDelay": {
 			"time": 100
 		},
 		"bannerPosition": {
-			"selector": "#featured-work-2 .Index-page-content",
+			"selector": "body",
 			"location": "before" //before/after
 		},
 		"backgroundProperty": {
@@ -99,6 +100,24 @@ function showBanner() {
 			"occurance": "first"
 		}
 	},
+	ObjectValues = function(v, k) {
+		if(typeof v == "object") {
+			for(var kp in v) {
+				if(Object.hasOwnProperty.call(v, kp)) {
+					ObjectValues(v[kp], k != undefined ? k + "." + kp : kp);
+				}
+			}
+		} else {
+			let str = k;
+			let myArr = str.split(".");
+			if(myArr[2] != undefined || myArr[2] != null) {
+				config_banner_v1[myArr[0]][myArr[1]][myArr[2]] = v;
+			} else {
+				config_banner_v1[myArr[0]][myArr[1]] = v;
+			}
+		}
+	};
+	ObjectValues(passed_json);
 	maxwidth = "860px";
 	! function() {
 	try {
