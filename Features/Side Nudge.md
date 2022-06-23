@@ -13,7 +13,7 @@ Following properties of the side nudge can be customized as per individual requi
 ![image](https://user-images.githubusercontent.com/101316657/165905644-8b920d7f-4891-42ac-ae4f-1ad5b161e531.png)
 
 
-**mainButtonImage** - Image for main button can be enabled by passing 'yes' in the 'flag' field and disabled by keeping it blacnk. An image can be set for main button of side nudge by passing image URL in the 'imageURL' field. 
+**mainButtonImage** - Image for main button can be enabled by passing 'yes' in the 'flag' field and disabled by keeping it blacnk. An image can be set for main button of side nudge by passing image URL in the 'imageURL' field.  In addition, linear gradient can be used as well. To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
 
 ![image](https://user-images.githubusercontent.com/101316657/165905908-15d3480a-8a9e-4aed-a55f-596ad78ac91f.png)
 
