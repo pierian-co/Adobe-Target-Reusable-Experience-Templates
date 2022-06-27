@@ -24,7 +24,7 @@
 ## 4. Carousal horizontal slider
 <img src="https://user-images.githubusercontent.com/101316657/175935978-821ecbb6-1d55-4bc1-8798-61dfaa184d36.png" width="700" height="420">
 
-### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v1.md)
+### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousel%20horizontal%20slider%20.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
