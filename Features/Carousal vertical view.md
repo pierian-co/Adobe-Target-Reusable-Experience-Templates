@@ -1,6 +1,6 @@
 # Carousel vertical view
 <pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="" width="700" height="420">..............<img src="" width="250" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175960191-7926b411-573a-4d71-8bb8-f73e123669e4.png" width="700" height="420">..............<img src="https://user-images.githubusercontent.com/101316657/175960602-dd62c88d-a1da-49b6-bf1c-b99f597aec8c.png" width="250" height="420">
 
 <p>&nbsp;</p>
 
@@ -8,6 +8,7 @@
 
 Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Carousal%20vertical%20view.js
 
+Link to the Function based code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Functions%20Based%20Templates/Carousal%20vertical%20view.js
 
 Following properties of the carousel can be customized as per individual requirements
 
