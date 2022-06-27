@@ -1,6 +1,7 @@
 # Overlay with countdown
 <pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="" width="700" height="420">..............<img src="" width="250" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175928884-bfddc79d-cbb8-41cd-a2f8-e7d685d9f7bf.png" width="700" height="420">..............<img src="https://user-images.githubusercontent.com/101316657/175929103-cc79e74d-691b-4349-9b66-0c7c83e5b05b.png" width="250" height="420">
+
 
 <p>&nbsp;</p>
 Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Overlay%20with%20countdown.js
