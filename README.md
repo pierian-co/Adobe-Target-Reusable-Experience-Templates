@@ -29,7 +29,7 @@
 
 
 ## 5. Carousal vertical view
-<img src="![image](https://user-images.githubusercontent.com/101316657/175941123-eae32327-c942-4528-b582-0faf1ca9b787.png)
+<img src="https://user-images.githubusercontent.com/101316657/175941123-eae32327-c942-4528-b582-0faf1ca9b787.png
 " width="700" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Carousal%20v2.md)
