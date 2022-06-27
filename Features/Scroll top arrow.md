@@ -1,6 +1,6 @@
 # Scroll top arrow
 <pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="" width="700" height="420">..............<img src="" width="250" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175920390-a319b5c7-a9c8-43e5-b5ea-539c194eca8e.png" width="700" height="420">..............<img src="https://user-images.githubusercontent.com/101316657/175920653-8cea14a1-4dc2-43b1-8614-7b7eda339aeb.png" width="250" height="420">
 
 <p>&nbsp;</p>
 Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Scroll%20Top%20Arrow.js
