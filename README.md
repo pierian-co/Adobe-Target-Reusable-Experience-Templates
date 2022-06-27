@@ -66,7 +66,7 @@
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Two%20column%20overlay.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 11. Top bar messaging
-<img src="" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175921506-09ac89cc-eea6-44c5-a2f4-189bd83cf439.png" width="700" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Top%20bar%20messaging.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
