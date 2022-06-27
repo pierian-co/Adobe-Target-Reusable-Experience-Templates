@@ -21,6 +21,6 @@ Following properties of the Top bar messaging template can be customized as per 
 
 ![image](https://user-images.githubusercontent.com/101316657/171601910-e7b37c7e-619c-4b53-8664-4e19242c7104.png)
 
-**bar** - background color of the bar can be set in 'backgroundColor' field. 'sessionBased' can be set to true or false.
+**bar** - background color of the bar can be set in 'backgroundColor' field. In addition, background color be set to linear gradient as well. To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect 'sessionBased' can be set to true or false.
 
 ![image](https://user-images.githubusercontent.com/101316657/171602105-6902ce2f-e47f-4bab-a370-874a746b074e.png)
