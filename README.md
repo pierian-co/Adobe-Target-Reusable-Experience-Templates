@@ -76,7 +76,7 @@
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Scroll%20top%20arrow.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 13. Quick link banner
-<img src="https://user-images.githubusercontent.com/101316657/175919333-8358d290-f072-4a23-9a14-3e7afc8dc185.png" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175919908-b15b506c-c7b3-4ba5-9f61-1b3dc518dc16.png" width="700" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Quick%20link%20%20banner.md)
 
