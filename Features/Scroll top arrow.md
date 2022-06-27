@@ -4,8 +4,8 @@
 
 <p>&nbsp;</p>
 Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Scroll%20Top%20Arrow.js
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
+
 Link to the Function based code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Functions%20Based%20Templates/Scroll%20Top%20Arrow.js
 <p>&nbsp;</p>
 
