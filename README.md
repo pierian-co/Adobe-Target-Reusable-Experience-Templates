@@ -55,7 +55,8 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 9. Overlay with countdown
-<img src="" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175928884-bfddc79d-cbb8-41cd-a2f8-e7d685d9f7bf.png" width="700" height="420">
+
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Overlay%20with%20countdown.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
