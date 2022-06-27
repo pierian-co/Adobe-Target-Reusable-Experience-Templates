@@ -7,6 +7,8 @@
 Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Overlay%20with%20countdown.js
 <p>&nbsp;</p>
 
+Link to the Function based  code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Functions%20Based%20Templates/Overlay%20with%20countdown.js
+
 Following properties of the Overlay with countdown template can be customized as per individual requirements
 
 <p>&nbsp;</p>
