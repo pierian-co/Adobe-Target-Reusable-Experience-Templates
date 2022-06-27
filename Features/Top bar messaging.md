@@ -1,9 +1,11 @@
 # Top bar messaging
 <pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="" width="700" height="420">..............<img src="" width="250" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175921506-09ac89cc-eea6-44c5-a2f4-189bd83cf439.png" width="700" height="420">..............<img src="https://user-images.githubusercontent.com/101316657/175921656-f0e7eade-2643-4ec5-a25b-c1d59d211447.png" width="250" height="420">
 
 <p>&nbsp;</p>
 Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Top%20Bar%20messaging.js
+
+Link to the Function based code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Functions%20Based%20Templates/Top%20Bar%20messaging.js
 <p>&nbsp;</p>
 
 Following properties of the Top bar messaging template can be customized as per individual requirements
