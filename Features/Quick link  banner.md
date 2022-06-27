@@ -1,6 +1,7 @@
 # Quick link banner
 <pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="" width="700" height="420">..............<img src="" width="250" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175919908-b15b506c-c7b3-4ba5-9f61-1b3dc518dc16.png" width="700" height="420">..............<img src="https://user-images.githubusercontent.com/101316657/175919843-66f419e2-13c6-4cb4-8896-cbd559f34743.png" width="250" height="420">
+
 
 <p>&nbsp;</p>
 Link to the Non Minified Code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Quick%20link%20banner.js
