@@ -71,7 +71,7 @@
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Top%20bar%20messaging.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 12. Scroll top arrow
-<img src="" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175920390-a319b5c7-a9c8-43e5-b5ea-539c194eca8e.png" width="700" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Scroll%20top%20arrow.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
