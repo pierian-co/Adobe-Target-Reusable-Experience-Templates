@@ -1,6 +1,6 @@
 # Carousel horizontal slider
 <pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="" width="700" height="420">..............<img src="" width="250" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175935978-821ecbb6-1d55-4bc1-8798-61dfaa184d36.png" width="700" height="420">..............<img src="https://user-images.githubusercontent.com/101316657/175937256-cbef4e3d-9720-4a61-ba57-0bb8549e6729.png" width="250" height="420">
 
 <p>&nbsp;</p>
 
