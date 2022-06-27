@@ -8,6 +8,8 @@
 
 Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Carousal%20horizontal%20slider.js
 
+Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Functions%20Based%20Templates/Carousal%20horizontal%20slider.js
+
 Following properties of the carousel can be customized as per individual requirements
 
 <p>&nbsp;</p>
