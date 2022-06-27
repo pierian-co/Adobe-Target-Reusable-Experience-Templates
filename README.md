@@ -61,7 +61,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 10. Two column overlay
-<img src="" width="700" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175926830-5e5f7ca0-5d26-4e76-a6f9-84f94e3ba03c.png" width="700" height="420">
 
 ### [More Details](https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Features/Two%20column%20overlay.md)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
