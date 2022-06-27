@@ -1,6 +1,6 @@
 # Two column overlay
 <pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="" width="700" height="420">..............<img src="" width="250" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/175926830-5e5f7ca0-5d26-4e76-a6f9-84f94e3ba03c.png" width="700" height="420">..............<img src="https://user-images.githubusercontent.com/101316657/175927292-09c61f98-83c0-4ace-b9f7-208f8a6bc3d2.png" width="250" height="420">
 
 <p>&nbsp;</p>
 Link to the Non Minified code: https://github.com/pierian-co/Adobe-Target-Reusable-Experience-Templates/blob/main/Non%20Minified/Two%20column%20overlay.js
