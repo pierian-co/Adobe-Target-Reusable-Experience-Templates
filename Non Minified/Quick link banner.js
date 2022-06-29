@@ -18,33 +18,33 @@ var config = {
     'items': [
         {
             href: '#',
-            image: 'https://cdn.optimizely.com/img/21401470059/6cafd690f8f5483ab685a8633032b0c5.svg',
-            title: 'Fibra y Móvil'
+            image: 'https://i.imgur.com/GxPLq3W.png',
+            title: 'Know More'
         },
         {
             href: '#',
-            image: 'https://cdn.optimizely.com/img/21401470059/6cafd690f8f5483ab685a8633032b0c5.svg',
-            title: 'Fibra y Móvil'
+            image: 'https://i.imgur.com/GxPLq3W.png',
+            title: 'Know More'
         },
         {
             href: '#',
-            image: 'https://cdn.optimizely.com/img/21401470059/6cafd690f8f5483ab685a8633032b0c5.svg',
-            title: 'Fibra y Móvil'
+            image: 'https://i.imgur.com/GxPLq3W.png',
+            title: 'Know More'
         },
         {
             href: '#',
-            image: 'https://cdn.optimizely.com/img/21401470059/6cafd690f8f5483ab685a8633032b0c5.svg',
-            title: 'Fibra y Móvil'
+            image: 'https://i.imgur.com/GxPLq3W.png',
+            title: 'Know More'
         },
         {
             href: '#',
-            image: 'https://cdn.optimizely.com/img/21401470059/6cafd690f8f5483ab685a8633032b0c5.svg',
-            title: 'Fibra y Móvil'
+            image: 'https://i.imgur.com/GxPLq3W.png',
+            title: 'Know More'
         },
         {
             href: '#',
-            image: 'https://cdn.optimizely.com/img/21401470059/6cafd690f8f5483ab685a8633032b0c5.svg',
-            title: 'Fibra y Móvil'
+            image: 'https://i.imgur.com/GxPLq3W.png',
+            title: 'Know More'
         },
     ]
 };
