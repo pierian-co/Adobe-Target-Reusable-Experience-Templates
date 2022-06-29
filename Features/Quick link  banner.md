@@ -1,6 +1,6 @@
 # Quick link banner
 <pre>                                   Desktop View                                                            Mobile View             </pre>
-<img src="https://user-images.githubusercontent.com/101316657/176439666-3654cf7e-a04b-4bc3-9666-047f5efde446.png" width="700" height="420">..............<img src="" width="250" height="420">
+<img src="https://user-images.githubusercontent.com/101316657/176439666-3654cf7e-a04b-4bc3-9666-047f5efde446.png" width="700" height="420">..............<img src="https://user-images.githubusercontent.com/101316657/176440295-f9c12135-bd99-4a03-bcd2-02bd1b5b0017.png" width="250" height="420">
 
 
 <p>&nbsp;</p>
