@@ -25,16 +25,16 @@ var config_carousal_v1 = {
 			"text": "Product 1"
 		},
 		"image": {
-			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
+			"imageUrl": "https://cdn.optimizely.com/img/21401470059/3dfcd6c145be4ac39e482cf823f31bac.png"
 		},
 		"amount": {
 			"text": "20000"
 		},
 		"description": {
-			"text": "Galaxy S21 Ultra 5G Galaxy S21" // Not more than 40 char
+			"text": "Interested in our ideas?" // Not more than 40 char
 		},
 		"message": {
-			"text": "Ultra-fast 5G speeds Ultra-fast 5G speed  Ultra-fast" // Not more than 60 char
+			"text": "High performing digital solutions by bringing data, design and technology together" // Not more than 60 char
 		},
 		"Cta": {
 			"text": "Buy Now", // Not more than 20 char
@@ -54,16 +54,16 @@ var config_carousal_v1 = {
 			"text": "Product 2"
 		},
 		"image": {
-			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
+			"imageUrl": "https://cdn.optimizely.com/img/21401470059/3dfcd6c145be4ac39e482cf823f31bac.png"
 		},
 		"amount": {
 			"text": "10000"
 		},
 		"description": {
-			"text": "iPhone 12 Pro Max iPhone 12" // Not more than 40 char
+			"text": "Interested in our ideas?" // Not more than 40 char
 		},
 		"message": {
-			"text": "Capture life's moments perfectly Capture life's moments perfectly"  // Not more than 60 char
+			"text": "High performing digital solutions by bringing data, design and technology together"  // Not more than 60 char
 		},
 		"Cta": {
 			"text": "Buy Now", // Not more than 20 char
@@ -83,16 +83,16 @@ var config_carousal_v1 = {
 			"text": "Product 3"
 		},
 		"image": {
-			"imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-product-red-witb-2021_FMT_WHH?wid=560&hei=744&fmt=png-alpha&.v=1638579082000"
+			"imageUrl": "https://cdn.optimizely.com/img/21401470059/3dfcd6c145be4ac39e482cf823f31bac.png"
 		},
 		"amount": {
 			"text": "30000"
 		},
 		"description": {
-			"text": "Moto g 5G Plus Moto g 5G Plus" // Not more than 40 char
+			"text": "Interested in our ideas?" // Not more than 40 char
 		},
 		"message": {
-			"text": "Bionic chip and a pro camera Bionic chip and a pro camera" // Not more than 60 char
+			"text": "High performing digital solutions by bringing data, design and technology together" // Not more than 60 char
 		},
 		"Cta": {
 			"text": "Buy Now", // Not more than 20 char
