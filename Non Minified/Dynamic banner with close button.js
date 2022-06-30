@@ -3,7 +3,7 @@ var config_banner_v1 = {
 			"time": 100
 		},
 		"bannerPosition": {
-			"selector": "#featured-work-2 .Index-page-content",
+			"selector": "#root",
 			"location": "before" //before/after
 		},
 		"backgroundProperty": {
