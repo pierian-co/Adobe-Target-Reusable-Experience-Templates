@@ -8,7 +8,7 @@ let config_banner_v2 = {
 	},
 	"backgroundProperty": {
 		"imageUrl": "",
-		"background": "#efefef" // linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) | red
+		"background": "linear-gradient(321deg, rgba(35,90,110,1) 41%, rgba(63,201,188,1) 100%)" // linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) | red
 	},
 	"autoHide": {
 		"flag": "yes", // yes to activate
@@ -16,15 +16,15 @@ let config_banner_v2 = {
 		"time": 100
 	},
 	"title": {
-		"text": "Heading Text", // char limit 30
-		"colour": "black",
-		"fontFamily": "Arial, Helvetica, sans-serif"
+		"text": "Interested in our ideas?", // char limit 30
+		"colour": "#b4e1dc",
+		"fontFamily": "inherit"
 	},
 	"message": {
-		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",  // char limit 50
+		"text": "High performing digital solutions",  // char limit 50
 		"fontSize": "20px",
-		"colour": "#333",
-		"fontFamily": "Arial, Helvetica, sans-serif"
+		"colour": "#b4e1dc",
+		"fontFamily": "inherit"
 	},
 	"ctaCount": {
 		"singleCTA": "none" //type "none" to show 2 buttons
@@ -33,20 +33,20 @@ let config_banner_v2 = {
 		"text": "Check Offer",  // char limit 20
 		"href": "",
 		"fontSize": "16px",
-		"backgroundColour": "#e60000",
-		"textColour": "white",
-		"fontFamily":"Arial, Helvetica, sans-serif",
-		"borderRadius": "0px"
+		"backgroundColour": "#5fd2c8",
+		"textColour": "#235a6e",
+		"fontFamily":"inherit",
+		"borderRadius": "10px"
 	},
 	"ctaLink2": {
 		"text": "Close Offer", // char limit 20
 		"href": "",
 		"fontSize": "16px",
-		"backgroundColour": "#fff",
-		"textColour": "black",
-		"fontFamily": "Arial, Helvetica, sans-serif",
+		"backgroundColour": "white",
+		"textColour": "#235a6e",
+		"fontFamily": "inherit",
 		"closeButton": "yes",
-		"borderRadius": "0px"
+		"borderRadius": "10px"
 	},
 	"subHeading": {
 		"subHeading1Text": "Offer 1", // char limit 20
@@ -61,7 +61,7 @@ let config_banner_v2 = {
 	},
 	"logoImage": {
 		"flag": "yes",
-		"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w",
+		"url": "https://cdn.optimizely.com/img/21401470059/3dfcd6c145be4ac39e482cf823f31bac.png",
 		"width": "30px",
 	}
 };
