@@ -2,7 +2,7 @@
 var config_sideNudge = {
 	"mainButton": {
 		"text": "Your offer",  // char limit 20
-		"background": "red", // linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,177,136,1) 35%, rgba(0,212,255,1) 100%) | red
+		"background": "linear-gradient(321deg, rgba(35,90,110,1) 41%, rgba(63,201,188,1) 100%)", // linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,177,136,1) 35%, rgba(0,212,255,1) 100%) | red
 		"textColor": "white",
 		"left": "0px"
 	},
@@ -12,25 +12,25 @@ var config_sideNudge = {
 	},
 	"SideBannerStyle": {
 		"backgroundImage": "", // image url of side nudge  
-		"background": "red" // #464343 | linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,177,136,1) 35%, rgba(0,212,255,1) 100%)
+		"background": "linear-gradient(321deg, rgba(35,90,110,1) 41%, rgba(63,201,188,1) 100%)" // #464343 | linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,177,136,1) 35%, rgba(0,212,255,1) 100%)
 	},
 	"closeButton": {
 		"flag": "yes", // yes to activate
 		"imageUrl": "https://iili.io/2zu8Zl.md.png"
 	},
 	"title": {
-		"text": "This is Heading Offer",  // char limit 25
+		"text": "Interested in our ideas?",  // char limit 25
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "24px",
-		"colour": "white",
+		"colour": "#b4e1dc",
 		"fontFamily": "inherit"
 	},
 	"message": {
-		"text": "Samsung Galaxy S10 mit dem Red S 10 GB",  // char limit 40
+		"text": "High performing digital solutions",  // char limit 40
 		"fontSizeDesktop": "25px",
 		"fontSizeMobile": "20px",
-		"colour": "white",
-		"fontFamily": ""
+		"colour": "#b4e1dc",
+		"fontFamily": "inherit"
 	},
 	"ctaNo": {
 		"singleCTA": "none" //type "none" to show 2 buttons
@@ -39,19 +39,19 @@ var config_sideNudge = {
 		"text": "Check Offer", // char limit 15
 		"href": "",
 		"fontSize": "18px",
-		"backgroundColor": "white",
-		"textColor": "black",
+		"backgroundColor": "#5fd2c8",
+		"textColor": "#235a6e",
 		"borderRadius": "8px",
-		"fontFamily": "Arial, Helvetica, sans-serif"
+		"fontFamily": "inherit"
 	}, 
 	"ctaLink2": {
 		"text": "Close Offer", // char limit 15
 		"href": "",
 		"fontSize": "18px",
 		"backgroundColor": "white",
-		"textColor": "red",
+		"textColor": "#235a6e",
 		"borderRadius": "8px",
-		"fontFamily": "Arial, Helvetica, sans-serif",
+		"fontFamily": "inherit",
 		"iscloseButton": "yes"
 	},
 	"subHeading": {
@@ -68,7 +68,7 @@ var config_sideNudge = {
 	},
 	"logoImage": {
 		"flag": "yes",
-		"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w"
+		"url": "https://cdn.optimizely.com/img/21401470059/3dfcd6c145be4ac39e482cf823f31bac.png"
 	},
 	"animation": {
 		"flag": "no"
