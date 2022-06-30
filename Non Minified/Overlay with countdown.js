@@ -1,8 +1,8 @@
-//Overlay
+//Overlay with countdown
 var settings = {
 	"overlayStyle": {
 		"imgUrl": "",
-		"background": "red"
+		"background": "linear-gradient(321deg, rgba(35,90,110,1) 41%, rgba(63,201,188,1) 100%)"
 	},
 	"autoHide": {
 		"activator": "", // yes to activate
@@ -20,18 +20,18 @@ var settings = {
 		"color": "white"
 	},
 	"heading": {
-		"text": "This is Heading Offer",  // char limit 30
-		"fontSizeDesktop": "25px",
+		"text": "Interested in our ideas?",  // char limit 30
+		"fontSizeDesktop": "20px",
 		"fontSizeMobile": "20px",
-		"color": "white",
-		"fontFamily": "Arial, Helvetica, sans-serif"
+		"color": "#b4e1dc",
+		"fontFamily": "inherit"
 	},
 	"message": {
-		"text": "Samsung Galaxy S10 mit dem Red S 10 GB", // char limit 50
-		"fontSizeDesktop": "25px",
+		"text": "High performing digital solutions by bringing data, design and technology together", // char limit 50
+		"fontSizeDesktop": "20px",
 		"fontSizeMobile": "20px",
-		"color": "white",
-		"fontFamily": "Arial, Helvetica, sans-serif"
+		"color": "#b4e1dc",
+		"fontFamily": "inherit"
 	},
 	"ctaNo": {
 		"singleCTA": "none" //type "none" to show 2 buttons
@@ -40,19 +40,19 @@ var settings = {
 		"text": "Check Offer", // char limit 20
 		"href": "",
 		"fontSize": "18px",
-		"backgroundColor": "white",
-		"textColor": "black",
-		"borderRadius": "0px",
-		"fontFamily": "Arial, Helvetica, sans-serif"
+		"backgroundColor": "#c4e0e5",
+		"textColor": "#235a6e",
+		"borderRadius": "20px",
+		"fontFamily": "inherit"
 	},
 	"ctaLink2": {
 		"text": "Close Offer", // char limit 20
 		"href": "",
 		"fontSize": "18px",
 		"backgroundColor": "white",
-		"textColor": "red",
-		"borderRadius": "0px",
-		"fontFamily": "Arial, Helvetica, sans-serif",
+		"textColor": "#235a6e",
+		"borderRadius": "20px",
+		"fontFamily": "inherit",
 		"closeButton": ""
 	},
 	"subHeading": {
@@ -69,10 +69,10 @@ var settings = {
 	},
 	"logoImage": {
 		"activator": "yes",
-		"url": "https://images.squarespace-cdn.com/content/v1/5b8ce9038ab7225fc2c98c25/1543833481328-3JHHF3WR6TP4I5BVL5J2/Pierian-logo-icon1-darkgreen.jpg?format=1500w",
-		"largeScreenLogoWidth": "175px",
-		"mediumScreenLogoWidth": "175px",
-		"smallScreenLogoWidth": "175px"
+		"url": "https://cdn.optimizely.com/img/21401470059/3dfcd6c145be4ac39e482cf823f31bac.png",
+		"largeScreenLogoWidth": "50px",
+		"mediumScreenLogoWidth": "50px",
+		"smallScreenLogoWidth": "50px"
 	},
 	"animation": {
 		"activator": "",
