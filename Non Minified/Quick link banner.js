@@ -1,6 +1,6 @@
 var config = {
     'quickBanner': {
-        'background': 'linear-gradient(to right, #e60000 0%, #820000 100%)',
+        'background': 'linear-gradient(321deg, rgba(35,90,110,1) 41%, rgba(63,201,188,1) 100%)',
         'position': 'before', // before | after
         'selector': 'body .container'
     },
