@@ -1,5 +1,4 @@
-{
-    func: function () {
+function () {
         var config_sideNudge = {
             "mainButton": {
                 "text": "Your offer",
@@ -157,6 +156,3 @@
             document.querySelector("#subHeading_nudge").style.display = "none";
         }
     }
-}
-
-
